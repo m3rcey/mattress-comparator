@@ -1,237 +1,189 @@
-export interface Product {
+export interface Model {
   id: string;
   name: string;
-  brand: string;
-  price: number;
-  financingAPR: number;
-  financingTerm: number;
-  warrantyYears: number;
-  deliveryDays: number;
-  type: 'memory-foam' | 'hybrid' | 'innerspring' | 'latex';
+  sizes: string[];
+}
+
+export interface Brand {
+  id: string;
+  name: string;
+  models: Model[];
 }
 
 export interface Competitor {
   id: string;
   name: string;
-  logo: string;
-  products: Product[];
 }
 
-// Lifetime warranty constant
-const lifetime = 999;
+export interface CompetitorData {
+  brand: string;
+  model: string;
+  size: string;
+  competitors: {
+    [competitorId: string]: {
+      price?: number;
+      financingAPR?: number;
+      financingTerm?: number;
+      warrantyYears?: number;
+      deliveryDays?: number;
+      notAvailable?: boolean;
+    };
+  };
+}
 
-// Mock Mattress Firm Products
-export const mattressFirmProducts: Product[] = [
+export const brands: Brand[] = [
   {
-    id: 'mf-1',
-    name: 'Tempur-Pedic ProAdapt',
-    brand: 'Tempur-Pedic',
-    price: 3499,
-    financingAPR: 0,
-    financingTerm: 48,
-    warrantyYears: 10,
-    deliveryDays: 7,
-    type: 'memory-foam'
-  },
-  {
-    id: 'mf-2',
-    name: 'Serta iComfort Hybrid',
-    brand: 'Serta',
-    price: 1899,
-    financingAPR: 0,
-    financingTerm: 36,
-    warrantyYears: 10,
-    deliveryDays: 5,
-    type: 'hybrid'
-  },
-  {
-    id: 'mf-3',
-    name: 'Beautyrest Black Hybrid',
-    brand: 'Beautyrest',
-    price: 2799,
-    financingAPR: 0,
-    financingTerm: 48,
-    warrantyYears: 10,
-    deliveryDays: 7,
-    type: 'hybrid'
-  },
-  {
-    id: 'mf-4',
-    name: 'Purple Plus',
-    brand: 'Purple',
-    price: 1599,
-    financingAPR: 0,
-    financingTerm: 24,
-    warrantyYears: 10,
-    deliveryDays: 3,
-    type: 'memory-foam'
-  },
-  {
-    id: 'mf-5',
-    name: 'Nectar Premier Copper',
-    brand: 'Nectar',
-    price: 1299,
-    financingAPR: 0,
-    financingTerm: 24,
-    warrantyYears: lifetime,
-    deliveryDays: 3,
-    type: 'memory-foam'
-  }
-];
-
-// Mock Competitors
-export const competitors: Competitor[] = [
-  {
-    id: 'carol-house',
-    name: 'Carol House Furniture',
-    logo: '🏠',
-    products: [
-      {
-        id: 'ch-1',
-        name: 'Sleep Essentials Hybrid',
-        brand: 'Sleep Essentials',
-        price: 2199,
-        financingAPR: 9.99,
-        financingTerm: 36,
-        warrantyYears: 5,
-        deliveryDays: 14,
-        type: 'hybrid'
-      },
-      {
-        id: 'ch-2',
-        name: 'Classic Innerspring',
-        brand: 'Sleep Essentials',
-        price: 899,
-        financingAPR: 14.99,
-        financingTerm: 24,
-        warrantyYears: 1,
-        deliveryDays: 10,
-        type: 'innerspring'
-      }
+    id: "sleepys",
+    name: "Sleepy's",
+    models: [
+      { id: "basic-foam", name: "Basic Foam", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "basic-innerspring", name: "Basic Innerspring", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "rest-2-0-firm", name: "Rest 2.0 9.5\" Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "rest-2-0-medium", name: "Rest 9.5\" Medium", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "basic-hybrid", name: "Basic Hybrid", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "by-sealy-foam-firm", name: "By Sealy 8\" Mem Foam Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "by-sealy-foam-medium", name: "By Sealy 10\" Mem Foam Medium", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "by-sealy-foam-plush", name: "By Sealy 12\" Mem Foam Plush", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "by-sealy-spring-medium", name: "By Sealy Spring Medium 12\"", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "by-sealy-spring-firm", name: "By Sealy Spring Firm 12\"", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "by-sealy-spring-plush", name: "By Sealy Spring Plush 13\"", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "by-sealy-spring-ppt", name: "By Sealy Spring Prem PPT 14\"", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "by-sealy-hybrid-firm", name: "By Sealy Hybrid HD Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "by-sealy-hybrid-premium", name: "By Sealy Hybrid HD Premium", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] }
     ]
   },
   {
-    id: 'mattress-warehouse',
-    name: 'Mattress Warehouse',
-    logo: '🏭',
-    products: [
-      {
-        id: 'mw-1',
-        name: 'TEMPUR-ProMedium',
-        brand: 'TEMPUR-Pedic',
-        price: 3799,
-        financingAPR: 4.99,
-        financingTerm: 48,
-        warrantyYears: 10,
-        deliveryDays: 10,
-        type: 'memory-foam'
-      },
-      {
-        id: 'mw-2',
-        name: 'Serta Perfect Sleeper',
-        brand: 'Serta',
-        price: 1699,
-        financingAPR: 7.99,
-        financingTerm: 36,
-        warrantyYears: 5,
-        deliveryDays: 7,
-        type: 'innerspring'
-      }
+    id: "serta",
+    name: "Serta",
+    models: [
+      { id: "ps-excellence-extra-firm", name: "PS Sleep Excellence Extra Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "ps-excellence-medium-pt", name: "PS Sleep Excellence Medium PT", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] }
     ]
   },
   {
-    id: 'sleep-number',
-    name: 'Sleep Number',
-    logo: '💤',
-    products: [
-      {
-        id: 'sn-1',
-        name: 'c4 Hybrid',
-        brand: 'Sleep Number',
-        price: 2299,
-        financingAPR: 0,
-        financingTerm: 36,
-        warrantyYears: 15,
-        deliveryDays: 21,
-        type: 'hybrid'
-      },
-      {
-        id: 'sn-2',
-        name: 'p6 Smart Bed',
-        brand: 'Sleep Number',
-        price: 3499,
-        financingAPR: 0,
-        financingTerm: 48,
-        warrantyYears: 15,
-        deliveryDays: 21,
-        type: 'hybrid'
-      }
+    id: "beautyrest",
+    name: "Beautyrest",
+    models: [
+      { id: "greenwood-firm", name: "Greenwood 9.5\" Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pressuresmart-firm", name: "PressureSmart 2.0 Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pressuresmart-plush", name: "PressureSmart 2.0 Plush", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pressuresmart-plush-pt", name: "PressureSmart 2.0 Plush PT", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pressuresmart-ex-firm", name: "PressureSmart 2.0 Ex Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pressuresmart-lux-plush-pt", name: "PressureSmart 2.0 Lux PLSH PT", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pressuresmart-lux-firm-pt", name: "PressureSmart 2.0 Lux Firm PT", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pressuresmart-hybrid-firm", name: "PressureSmart 2.0 Hybrid Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pressuresmart-hybrid-medium", name: "PressureSmart 2.0 Hybrid Med", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] }
     ]
   },
   {
-    id: 'wayfair',
-    name: 'Wayfair',
-    logo: '🛋️',
-    products: [
-      {
-        id: 'wf-1',
-        name: 'Allswell Hybrid',
-        brand: 'Allswell',
-        price: 799,
-        financingAPR: 0,
-        financingTerm: 12,
-        warrantyYears: 10,
-        deliveryDays: 5,
-        type: 'hybrid'
-      },
-      {
-        id: 'wf-2',
-        name: 'Brooklyn Bedding Aurora',
-        brand: 'Brooklyn Bedding',
-        price: 1499,
-        financingAPR: 0,
-        financingTerm: 24,
-        warrantyYears: 10,
-        deliveryDays: 7,
-        type: 'hybrid'
-      }
+    id: "beautyrest-black",
+    name: "Beautyrest Black",
+    models: [
+      { id: "series-three-medium", name: "Series Three Medium", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "series-three-firm", name: "Series Three Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "series-three-plush-ppt", name: "Series Three Plush Pillow Top", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "series-four-medium-summit", name: "Series Four Medium Summit PT", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "black-hybrid-cx-med", name: "Black Hybrid CX-Class 13.5\" Med", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "black-hybrid-cx-plush", name: "Black Hybrid CX-Class 15\" Plush", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] }
     ]
   },
   {
-    id: 'amazon',
-    name: 'Amazon',
-    logo: '📦',
-    products: [
-      {
-        id: 'az-1',
-        name: 'Zinus Green Tea',
-        brand: 'Zinus',
-        price: 349,
-        financingAPR: 0,
-        financingTerm: 0,
-        warrantyYears: 10,
-        deliveryDays: 2,
-        type: 'memory-foam'
-      },
-      {
-        id: 'az-2',
-        name: 'Lucid 12" Hybrid',
-        brand: 'Lucid',
-        price: 599,
-        financingAPR: 0,
-        financingTerm: 0,
-        warrantyYears: 10,
-        deliveryDays: 2,
-        type: 'hybrid'
-      }
+    id: "stearns-foster",
+    name: "Stearns & Foster",
+    models: [
+      { id: "studio-medium", name: "Studio 14\" Med", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "estate-firm", name: "Estate 14.5\" Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "estate-plush", name: "Estate 14.5\" Plush", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "estate-firm-euro-pt", name: "Estate 15\" Firm Euro PT", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "estate-plush-euro-pt", name: "Estate 15\" Plush Euro PT", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "lux-estate-medium-euro-pt", name: "Lux Estate 16\" Med Euro PT", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "lux-estate-elite-medium-pt", name: "Lux Estate Elite Med PT", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "reserve-plush-euro-pt", name: "Reserve 17\" Plush Euro PT", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "reserve-firm-euro-pt", name: "Reserve 17\" Firm Euro PT", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] }
+    ]
+  },
+  {
+    id: "tempur-pedic",
+    name: "Tempur-Pedic",
+    models: [
+      { id: "adapt-medium", name: "Adapt 11\" Med", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "adapt-medium-hybrid", name: "Adapt 11\" Med Hybrid", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "proadapt-firm", name: "ProAdapt 12\" Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "proadapt-medium", name: "ProAdapt 12\" Med", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "proadapt-medium-hybrid", name: "ProAdapt 12\" Med Hybrid", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "proadapt-soft", name: "ProAdapt 12\" Soft", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "luxeadapt-firm", name: "LuxeAdapt 13\" Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "luxeadapt-medium-hybrid", name: "LuxeAdapt 13\" Med Hybrid", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "luxeadapt-soft", name: "LuxeAdapt 13\" Soft", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "probreeze-medium", name: "ProBreeze 12\" Med", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "probreeze-medium-hybrid", name: "ProBreeze 12\" Med Hybrid 2.0", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "luxebreeze-firm", name: "LuxeBreeze 13\" Firm 2.0", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "luxebreeze-soft", name: "LuxeBreeze 13\" Soft 2.0", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "luxebreeze-medium-hybrid", name: "LuxeBreeze 13\" Med Hybrid", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] }
+    ]
+  },
+  {
+    id: "sealy-pp-innerspring",
+    name: "Sealy PP Innerspring",
+    models: [
+      { id: "essentials-sudley-firm", name: "Essentials Sudley 8.5\" Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "sealy-frisco-medium-et", name: "Sealy Frisco 2.0 Medium ET", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "sealy-frisco-medium-et-1", name: "Sealy Frisco 1.0 Medium ET", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "sealy-ashurst-medium", name: "Sealy Ashurst II Med", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pp-plus-norman-medium", name: "PP Plus Norman II Medium ET", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pp-pro-lacey-medium", name: "PP Pro Lacey II Medium ET", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pp-elite-albany-firm", name: "PP Elite Albany II Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pp-elite-brenham-medium", name: "PP Elite Brenham II Medium", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pp-elite-brenham-medium-ept", name: "PP Elite Brenham II Med EPT", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] }
+    ]
+  },
+  {
+    id: "sealy-pp-hybrid",
+    name: "Sealy PP Hybrid",
+    models: [
+      { id: "plus-hybrid-norman-medium", name: "Plus Hybrid Norman II Medium", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "pro-hybrid-lacey-firm", name: "Pro Hybrid Lacey II Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "elite-hybrid-albany-medium", name: "Elite Hybrid Albany II Medium", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "elite-hybrid-high-point-firm", name: "Elite Hybrid High Point II Firm", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "elite-hybrid-high-point-medium", name: "Elite Hybrid High Point II Medium", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "elite-hybrid-high-point-soft", name: "Elite Hybrid High Point II Soft", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] }
+    ]
+  },
+  {
+    id: "purple",
+    name: "Purple",
+    models: [
+      { id: "purple-original", name: "Purple Original", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "purple-plus", name: "Purple Plus", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "restore-cooltouch", name: "Restore Cooltouch", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "restore-plus-cooltouch", name: "Restore Plus Cooltouch", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "restore-premier-cooltouch", name: "Restore Premier Cooltouch", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "rejuvenate", name: "Rejuvenate", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "rejuvenate-plus", name: "Rejuvenate Plus", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "rejuvenate-premier", name: "Rejuvenate Premier", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] }
+    ]
+  },
+  {
+    id: "nectar",
+    name: "Nectar",
+    models: [
+      { id: "classic-firm", name: "Classic 12\" Firm Mem Foam", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "premier-medium", name: "Premier 13\" Med Mem Foam", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "luxe-medium", name: "Luxe 14\" Med Mem Foam", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] },
+      { id: "luxe-medium-hybrid", name: "Luxe 14\" Med Hybrid", sizes: ["King", "Queen", "Full", "Twin XL", "Twin"] }
     ]
   }
 ];
 
-export const comparisonCategories = [
-  { id: 'price', label: 'Price', icon: '💰', lowerIsBetter: true },
-  { id: 'financingAPR', label: 'Financing APR', icon: '💳', lowerIsBetter: true },
-  { id: 'financingTerm', label: 'Financing Term (months)', icon: '📅', lowerIsBetter: false },
-  { id: 'warrantyYears', label: 'Warranty (years)', icon: '🛡️', lowerIsBetter: false },
-  { id: 'deliveryDays', label: 'Delivery (days)', icon: '🚚', lowerIsBetter: true },
+export const competitors = [
+  { id: "carol-house", name: "Carol House Furniture" },
+  { id: "mattress-warehouse", name: "Mattress Warehouse" },
+  { id: "sleep-number", name: "Sleep Number" },
+  { id: "wayfair", name: "Wayfair" },
+  { id: "amazon", name: "Amazon" }
 ];
+
+// Mock competitor data - will be replaced by daily price updates
+export const competitorData: { [key: string]: any } = {};
+
+export let lastUpdated: Date | null = null;
