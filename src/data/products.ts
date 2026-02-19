@@ -17,6 +17,9 @@ export interface Competitor {
   products: Product[];
 }
 
+// Lifetime warranty constant
+const lifetime = 999;
+
 // Mock Mattress Firm Products
 export const mattressFirmProducts: Product[] = [
   {
@@ -75,9 +78,6 @@ export const mattressFirmProducts: Product[] = [
     type: 'memory-foam'
   }
 ];
-
-// Lifetime warranty constant
-const lifetime = 999;
 
 // Mock Competitors
 export const competitors: Competitor[] = [
