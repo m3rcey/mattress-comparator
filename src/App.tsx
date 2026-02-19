@@ -1,8 +1,31 @@
 import { useState, useMemo } from 'react';
 import { Check, X, ChevronDown, Clock, RefreshCw } from 'lucide-react';
-import { brands, competitors, type Brand, type Model } from './data/products';
+import { brands } from './data/products';
 
-// Updated competitors list
+// Import competitor data
+import competitorDataRaw from './data/competitor-data.json';
+
+// Type definitions
+interface CompetitorResult {
+  price?: number;
+  url?: string;
+  found?: boolean;
+  notAvailable?: boolean;
+  reason?: string;
+}
+
+interface ProductCompetitors {
+  [competitorId: string]: CompetitorResult;
+}
+
+interface ProductData {
+  brand: string;
+  model: string;
+  size: string;
+  competitors: ProductCompetitors;
+}
+
+// Competitor info
 const competitorInfo: { [key: string]: { name: string } } = {
   'ashley': { name: 'Ashley Furniture' },
   'macys': { name: "Macy's" },
@@ -14,26 +37,55 @@ const competitorInfo: { [key: string]: { name: string } } = {
   'jcpenney': { name: 'JCPenney' }
 };
 
-// Mock MF baseline (in production, this comes from product data)
-const getMFBaseline = (brand: string) => {
-  const baselines: { [key: string]: any } = {
-    'Tempur-Pedic': { price: 2499, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
-    'Purple': { price: 1599, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
-    'Nectar': { price: 998, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
-    'Beautyrest': { price: 1099, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
-    'Serta': { price: 899, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
-    'Stearns & Foster': { price: 1999, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
-    'Sealy': { price: 1199, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 }
+// Mattress Firm baseline prices (these should come from actual product data)
+// Using realistic MF prices for each brand/model
+const getMFBaseline = (brand: string, model: string): { price: number; financingAPR: number; financingTerm: number; warrantyYears: number; deliveryDays: number } => {
+  const baselines: { [key: string]: { price: number; financingAPR: number; financingTerm: number; warrantyYears: number; deliveryDays: number } } = {
+    // Tempur-Pedic
+    'Tempur-Pedic_ProAdapt': { price: 2499, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
+    // Purple
+    'Purple_Purple Plus': { price: 1599, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
+    // Nectar
+    'Nectar_Premier': { price: 998, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
+    // Beautyrest
+    'Beautyrest_PressureSmart': { price: 1199, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
+    // Serta
+    'Serta_Sleep Excellence': { price: 899, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
+    // Stearns & Foster
+    'Stearns & Foster_Estate': { price: 1999, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
+    // Sealy
+    'Sealy_Hybrid High Point': { price: 1299, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 }
   };
-  return baselines[brand] || { price: 1299, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 };
+  
+  const key = `${brand}_${model}`;
+  return baselines[key] || { price: 1299, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 };
 };
 
 // Filter out Sleepy's from brands
 const filteredBrands = brands.filter(b => b.id !== 'sleepys');
 
+// Parse competitor data
+const competitorData = competitorDataRaw as { timestamp: string; products: ProductData[] };
+
+// Get competitor data for selected product
+const getCompetitorDataForProduct = (brand: string, model: string): ProductCompetitors | null => {
+  // Find matching product in data
+  const product = competitorData.products.find(p => 
+    p.brand === brand && p.model.toLowerCase().includes(model.toLowerCase().split(' ')[0])
+  );
+  return product?.competitors || null;
+};
+
+// Format timestamp
+const formatTimestamp = (ts: string) => {
+  const date = new Date(ts);
+  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) + 
+    ' at ' + date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+};
+
 function App() {
-  const [selectedBrand, setSelectedBrand] = useState<Brand | null>(null);
-  const [selectedModel, setSelectedModel] = useState<Model | null>(null);
+  const [selectedBrand, setSelectedBrand] = useState<any>(null);
+  const [selectedModel, setSelectedModel] = useState<any>(null);
   const [selectedSize, setSelectedSize] = useState<string>('');
   
   const [dropdowns, setDropdowns] = useState({
@@ -102,19 +154,9 @@ function App() {
     </div>
   );
 
-  // Mock competitor data for demo (in production, load from competitor-data.json)
-  const mockCompetitorData = {
-    'ashley': { price: 1599, found: true },
-    'macys': { price: 1899, found: true },
-    'costco': { notAvailable: true, reason: "doesn't carry this model", found: false },
-    'muellers': { price: 1449, found: true },
-    'carol-house': { notAvailable: true, reason: "doesn't carry this model", found: false },
-    'wayfair': { price: 1299, found: true },
-    'bbb': { notAvailable: true, reason: "doesn't carry this model", found: false },
-    'jcpenney': { price: 1199, found: true }
-  };
-
-  const mfBaseline = selectedBrand ? getMFBaseline(selectedBrand.name) : null;
+  // Get data for selected product
+  const mfBaseline = selectedBrand && selectedModel ? getMFBaseline(selectedBrand.name, selectedModel.name) : null;
+  const compData = selectedBrand && selectedModel ? getCompetitorDataForProduct(selectedBrand.name, selectedModel.name) : null;
 
   return (
     <div className="min-h-screen pb-8">
@@ -126,7 +168,7 @@ function App() {
           </h1>
           <p className="text-gray-400 text-sm mt-1 flex items-center gap-2">
             <Clock size={14} />
-            Last updated: Today at 6:00 AM
+            Last updated: {formatTimestamp(competitorData.timestamp)}
           </p>
         </div>
       </header>
@@ -181,11 +223,27 @@ function App() {
 
             {/* Competitors */}
             <div className="space-y-4">
-              {Object.entries(mockCompetitorData).map(([compId, compData]: [string, any]) => {
-                const compName = competitorInfo[compId]?.name || compId;
-                const isWin = compData.found && compData.price > mfBaseline.price;
-                const isTie = compData.found && compData.price === mfBaseline.price;
-                const notAvailable = compData.notAvailable;
+              {Object.entries(competitorInfo).map(([compId, info]) => {
+                const compDataItem = compData?.[compId];
+                const compName = info.name;
+                
+                if (!compDataItem) {
+                  // No data for this competitor
+                  return (
+                    <div key={compId} className="bg-white/5 rounded-xl overflow-hidden border border-white/10">
+                      <div className="bg-white/10 px-4 py-3 flex items-center gap-3">
+                        <span className="font-semibold">{compName}</span>
+                        <span className="px-2 py-1 bg-gray-500/20 text-gray-400 text-xs font-bold rounded-full">
+                          No data available
+                        </span>
+                      </div>
+                    </div>
+                  );
+                }
+                
+                const isWin = compDataItem.found && compDataItem.price && compDataItem.price > mfBaseline.price;
+                const isTie = compDataItem.found && compDataItem.price && compDataItem.price === mfBaseline.price;
+                const notAvailable = compDataItem.notAvailable;
 
                 return (
                   <div key={compId} className="bg-white/5 rounded-xl overflow-hidden border border-white/10">
@@ -193,18 +251,18 @@ function App() {
                       <span className="font-semibold">{compName}</span>
                       {notAvailable && (
                         <span className="px-2 py-1 bg-red-500/20 text-red-400 text-xs font-bold rounded-full flex items-center gap-1">
-                          <X size={12} /> {compData.reason || "DOESN'T CARRY THIS MODEL"}
+                          <X size={12} /> {compDataItem.reason || "DOESN'T CARRY THIS MODEL"}
                         </span>
                       )}
                     </div>
                     
-                    {compData.found ? (
+                    {compDataItem.found && compDataItem.price !== undefined ? (
                       <div className="p-4">
                         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
                           {/* Price */}
                           <div className={`p-3 rounded-lg ${isWin ? 'bg-green-500/10 border border-green-500/30' : isTie ? 'bg-blue-500/10 border border-blue-500/30' : 'bg-white/5'}`}>
                             <div className="text-gray-400 text-xs mb-1">💰 Price</div>
-                            <div className="font-bold">${compData.price?.toLocaleString()}</div>
+                            <div className="font-bold">${compDataItem.price.toLocaleString()}</div>
                             {isWin && (
                               <span className="text-green-400 text-xs font-bold flex items-center gap-1 mt-1">
                                 <Check size={12} /> WE BEAT THEM
@@ -215,30 +273,33 @@ function App() {
                                 <Check size={12} /> WE MATCH THEM
                               </span>
                             )}
+                            {!isWin && !isTie && (
+                              <span className="text-red-400 text-xs mt-1">Higher price</span>
+                            )}
                           </div>
 
                           {/* Financing APR */}
                           <div className="p-3 rounded-lg bg-white/5">
                             <div className="text-gray-400 text-xs mb-1">💳 Financing APR</div>
-                            <div className="font-bold">Varies</div>
+                            <div className="font-bold text-gray-300">Varies</div>
                           </div>
 
                           {/* Financing Term */}
                           <div className="p-3 rounded-lg bg-white/5">
                             <div className="text-gray-400 text-xs mb-1">📅 Term</div>
-                            <div className="font-bold">Varies</div>
+                            <div className="font-bold text-gray-300">Varies</div>
                           </div>
 
                           {/* Warranty */}
                           <div className="p-3 rounded-lg bg-white/5">
                             <div className="text-gray-400 text-xs mb-1">🛡️ Warranty</div>
-                            <div className="font-bold">Varies</div>
+                            <div className="font-bold text-gray-300">Varies</div>
                           </div>
 
                           {/* Delivery */}
                           <div className="p-3 rounded-lg bg-white/5">
                             <div className="text-gray-400 text-xs mb-1">🚚 Delivery</div>
-                            <div className="font-bold">Varies</div>
+                            <div className="font-bold text-gray-300">Varies</div>
                           </div>
                         </div>
                       </div>
