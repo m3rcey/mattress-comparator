@@ -1,0 +1,261 @@
+{
+  "timestamp": "2026-02-19T16:56:43.287Z",
+  "products": [
+    {
+      "brand": "Tempur-Pedic",
+      "model": "ProAdapt",
+      "size": "Queen",
+      "competitors": {
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "doesn't carry this brand",
+          "found": false
+        },
+        "mattress-warehouse": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "sleep-number": {
+          "notAvailable": true,
+          "reason": "doesn't carry this brand",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "amazon": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Purple",
+      "model": "Purple Plus",
+      "size": "Queen",
+      "competitors": {
+        "carol-house": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "mattress-warehouse": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "sleep-number": {
+          "notAvailable": true,
+          "reason": "doesn't carry this brand",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "amazon": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Nectar",
+      "model": "Premier",
+      "size": "Queen",
+      "competitors": {
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "doesn't carry this brand",
+          "found": false
+        },
+        "mattress-warehouse": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "sleep-number": {
+          "notAvailable": true,
+          "reason": "doesn't carry this brand",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "amazon": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Beautyrest",
+      "model": "PressureSmart",
+      "size": "Queen",
+      "competitors": {
+        "carol-house": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "mattress-warehouse": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "sleep-number": {
+          "notAvailable": true,
+          "reason": "doesn't carry this brand",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "amazon": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Serta",
+      "model": "Sleep Excellence",
+      "size": "Queen",
+      "competitors": {
+        "carol-house": {
+          "price": 997,
+          "url": "https://www.carolhouse.com/perfect-sleeper-by-serta/bedding/brand-type.aspx",
+          "found": true
+        },
+        "mattress-warehouse": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "sleep-number": {
+          "notAvailable": true,
+          "reason": "doesn't carry this brand",
+          "found": false
+        },
+        "wayfair": {
+          "price": 499.99,
+          "url": "https://www.wayfair.com/brand/sb0/serta-mattresses-c1869769.html",
+          "found": true
+        },
+        "amazon": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate",
+      "size": "Queen",
+      "competitors": {
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "doesn't carry this brand",
+          "found": false
+        },
+        "mattress-warehouse": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "sleep-number": {
+          "notAvailable": true,
+          "reason": "doesn't carry this brand",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "amazon": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Sleepy's",
+      "model": "Rest",
+      "size": "Queen",
+      "competitors": {
+        "carol-house": {
+          "price": 397,
+          "url": "https://www.carolhouse.com/bedroom/room-type.aspx",
+          "found": true
+        },
+        "mattress-warehouse": {
+          "notAvailable": true,
+          "reason": "doesn't carry this brand",
+          "found": false
+        },
+        "sleep-number": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "amazon": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Sealy",
+      "model": "Hybrid High Point",
+      "size": "Queen",
+      "competitors": {
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "doesn't carry this brand",
+          "found": false
+        },
+        "mattress-warehouse": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        },
+        "sleep-number": {
+          "notAvailable": true,
+          "reason": "doesn't carry this brand",
+          "found": false
+        },
+        "wayfair": {
+          "price": 409.99,
+          "url": "https://www.wayfair.com/bed-bath/pdp/sealy-high-point-14-firm-hybrid-mattress-scm10177.html",
+          "found": true
+        },
+        "amazon": {
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
+        }
+      }
+    }
+  ]
+}
