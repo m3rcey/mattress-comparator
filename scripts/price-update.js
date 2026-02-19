@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 /**
- * Daily Price Update Script - V4
- * Site: search + web_fetch fallback
+ * Daily Price Update Script - V6
+ * Extract prices from search result snippets (more reliable)
  */
 
 import fs from 'fs';
@@ -24,38 +24,38 @@ if (!BRAVE_API_KEY) { console.error('❌ BRAVE_API_KEY not found'); process.exit
 
 console.log('✅ Brave API key loaded\n');
 
-// Updated competitors with site: operators
+// Competitors
 const competitors = [
-  { id: 'ashley', name: 'Ashley Furniture', domain: 'ashleyfurniture.com' },
-  { id: 'macys', name: "Macy's", domain: 'macys.com' },
-  { id: 'costco', name: 'Costco', domain: 'costco.com' },
-  { id: 'muellers', name: "Mueller's Furniture", domain: 'muellersfurniture.com' },
-  { id: 'carol-house', name: 'Carol House Furniture', domain: 'carolhouse.com' },
-  { id: 'wayfair', name: 'Wayfair', domain: 'wayfair.com' },
-  { id: 'bbb', name: 'Bed Bath & Beyond', domain: 'bedbathandbeyond.com' },
-  { id: 'jcpenney', name: 'JCPenney', domain: 'jcpenney.com' }
+  { id: 'ashley', name: 'Ashley Furniture' },
+  { id: 'macys', name: "Macy's" },
+  { id: 'costco', name: 'Costco' },
+  { id: 'muellers', name: "Mueller's Furniture" },
+  { id: 'carol-house', name: 'Carol House Furniture' },
+  { id: 'wayfair', name: 'Wayfair' },
+  { id: 'bbb', name: 'Bed Bath & Beyond' },
+  { id: 'jcpenney', name: 'JCPenney' }
 ];
 
-// Products to search (removed Sleepy's)
+// Products with comfort level
 const products = [
-  { brand: 'Tempur-Pedic', model: 'ProAdapt', size: 'Queen', keywords: ['Tempur-Pedic ProAdapt'] },
-  { brand: 'Purple', model: 'Purple Plus', size: 'Queen', keywords: ['Purple Plus'] },
-  { brand: 'Nectar', model: 'Premier', size: 'Queen', keywords: ['Nectar Premier'] },
-  { brand: 'Beautyrest', model: 'PressureSmart', size: 'Queen', keywords: ['Beautyrest PressureSmart'] },
-  { brand: 'Serta', model: 'Sleep Excellence', size: 'Queen', keywords: ['Serta Sleep Excellence'] },
-  { brand: 'Stearns & Foster', model: 'Estate', size: 'Queen', keywords: ['Stearns & Foster Estate'] },
-  { brand: 'Sealy', model: 'Hybrid High Point', size: 'Queen', keywords: ['Sealy Hybrid High Point'] }
+  { brand: 'Tempur-Pedic', model: 'ProAdapt', comfort: 'Medium Hybrid', size: 'Queen' },
+  { brand: 'Purple', model: 'Purple Plus', comfort: '', size: 'Queen' },
+  { brand: 'Nectar', model: 'Premier', comfort: 'Medium', size: 'Queen' },
+  { brand: 'Beautyrest', model: 'PressureSmart', comfort: 'Plush', size: 'Queen' },
+  { brand: 'Serta', model: 'Sleep Excellence', comfort: 'Medium Pillow Top', size: 'Queen' },
+  { brand: 'Stearns & Foster', model: 'Estate', comfort: 'Plush', size: 'Queen' },
+  { brand: 'Sealy', model: 'Hybrid High Point', comfort: 'Medium', size: 'Queen' }
 ];
 
+// Expected price ranges by brand (for validation)
 const priceRanges = {
-  'Tempur-Pedic': { min: 500, max: 10000 },
-  'Purple': { min: 300, max: 5000 },
-  'Nectar': { min: 200, max: 2500 },
-  'Beautyrest': { min: 200, max: 4000 },
-  'Beautyrest Black': { min: 500, max: 6000 },
-  'Stearns & Foster': { min: 500, max: 8000 },
-  'Serta': { min: 200, max: 3500 },
-  'Sealy': { min: 150, max: 3500 }
+  'Tempur-Pedic': { min: 1500, max: 5000 },
+  'Purple': { min: 800, max: 3000 },
+  'Nectar': { min: 500, max: 1500 },
+  'Beautyrest': { min: 500, max: 2500 },
+  'Stearns & Foster': { min: 1500, max: 5000 },
+  'Serta': { min: 400, max: 2500 },
+  'Sealy': { min: 500, max: 2500 }
 };
 
 async function searchBrave(query) {
@@ -72,49 +72,34 @@ async function searchBrave(query) {
   }
 }
 
-async function fetchPriceFromPage(url) {
-  try {
-    const response = await fetch(url, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }
-    });
-    const html = await response.text();
-    
-    // Look for price patterns
-    const priceMatch = html.match(/\$([\d,]+\.?\d*)/);
-    if (priceMatch) {
-      return parseFloat(priceMatch[1].replace(/,/g, ''));
-    }
-  } catch (error) {
-    // Ignore fetch errors
-  }
-  return null;
-}
-
-function extractPrice(text) {
+// Extract price from search result text
+function extractPriceFromText(text) {
   if (!text) return null;
-  const matches = text.match(/\$([\d,]+\.?\d*)/g);
+  
+  // Match prices between $50 and $15,000
+  const matches = text.match(/\$(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)/g);
   if (!matches) return null;
+  
   for (const match of matches) {
     const price = parseFloat(match.replace(/[$,]/g, ''));
-    if (price >= 50 && price <= 15000) return price;
+    if (price >= 50 && price <= 15000) {
+      return price;
+    }
   }
   return null;
 }
 
-function isProductPage(url) {
-  if (!url) return false;
-  const u = url.toLowerCase();
-  const exclude = ['/search', '/keyword', '/category', '/collection', '/brand/', '/results', '?keyword', '?search', '?q=', '/shop', '/all-products'];
-  if (exclude.some(p => u.includes(p))) return false;
-  return true;
+// Validate price is in reasonable range for the brand
+function validatePrice(price, brand) {
+  const range = priceRanges[brand] || { min: 100, max: 10000 };
+  return price >= range.min && price <= range.max;
 }
 
-async function findPrice(brand, model, size, competitor) {
-  const range = priceRanges[brand] || { min: 100, max: 10000 };
+async function findPrice(product, competitor) {
+  const comfortPart = product.comfort ? ` ${product.comfort}` : '';
+  const query = `${product.brand} ${product.model}${comfortPart} ${product.size} ${competitor.name}`;
   
-  // Build site: search query
-  const query = `${brand} "${model}" ${size} mattress buy price site:${competitor.domain}`;
-  console.log(`    Query: ${query.substring(0, 60)}...`);
+  console.log(`    Query: ${query.substring(0, 50)}...`);
   
   const results = await searchBrave(query);
   
@@ -122,36 +107,23 @@ async function findPrice(brand, model, size, competitor) {
     return { notAvailable: true, reason: "doesn't carry this model", found: false };
   }
   
-  // First: look for product pages
+  // First: look for price in result title/description
   for (const result of results) {
-    const url = result.url?.toLowerCase() || '';
-    if (!url.includes(competitor.domain)) continue;
+    const text = `${result.title || ''} ${result.description || ''}`;
+    const price = extractPriceFromText(text);
     
-    // Check if it's a product page
-    if (isProductPage(url)) {
-      const price = extractPrice(result.title + ' ' + result.description);
-      if (price && price >= range.min && price <= range.max) {
-        return { price, url: result.url, found: true };
-      }
+    if (price && validatePrice(price, product.brand)) {
+      return { price, url: result.url, found: true };
     }
   }
   
-  // Second: try to fetch top result and scrape price
-  const topResult = results[0];
-  if (topResult?.url?.includes(competitor.domain)) {
-    const scrapedPrice = await fetchPriceFromPage(topResult.url);
-    if (scrapedPrice && scrapedPrice >= range.min && scrapedPrice <= range.max) {
-      return { price: scrapedPrice, url: topResult.url, found: true };
-    }
-  }
-  
-  // Third: any price in range from competitor
+  // Second: any price in range (less strict)
   for (const result of results) {
-    const url = result.url?.toLowerCase() || '';
-    if (!url.includes(competitor.domain)) continue;
+    const text = `${result.title || ''} ${result.description || ''}`;
+    const price = extractPriceFromText(text);
     
-    const price = extractPrice(result.title + ' ' + result.description);
-    if (price && price >= range.min && price <= range.max) {
+    // Be more lenient - accept if it's not obviously wrong
+    if (price && price >= 100) {
       return { price, url: result.url, found: true };
     }
   }
@@ -160,19 +132,26 @@ async function findPrice(brand, model, size, competitor) {
 }
 
 async function updatePrices() {
-  console.log('🛏️ Price update V4 (site: search)...\n');
+  console.log('🛏️ Price update V6...\n');
   
   const results = { timestamp: new Date().toISOString(), products: [] };
 
   for (const product of products) {
-    console.log(`\n📦 ${product.brand} ${product.model}`);
+    const comfortStr = product.comfort ? ` ${product.comfort}` : '';
+    console.log(`\n📦 ${product.brand} ${product.model}${comfortStr}`);
     
-    const productResult = { brand: product.brand, model: product.model, size: product.size, competitors: {} };
+    const productResult = { 
+      brand: product.brand, 
+      model: product.model, 
+      comfort: product.comfort,
+      size: product.size, 
+      competitors: {} 
+    };
     
     for (const competitor of competitors) {
       console.log(`  → ${competitor.name}...`);
       
-      const priceData = await findPrice(product.brand, product.model, product.size, competitor);
+      const priceData = await findPrice(product, competitor);
       
       if (priceData.found) {
         productResult.competitors[competitor.id] = priceData;

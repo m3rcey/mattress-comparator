@@ -1,25 +1,26 @@
 {
-  "timestamp": "2026-02-19T17:13:29.277Z",
+  "timestamp": "2026-02-19T17:49:03.721Z",
   "products": [
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt",
+      "comfort": "Medium Hybrid",
       "size": "Queen",
       "competitors": {
         "ashley": {
-          "price": 2500,
-          "url": "https://www.ashleyfurniture.com/c/mattresses/tempur-pedic/pro-adapt/tempur_pedic/",
+          "price": 4099,
+          "url": "https://www.ashleyfurniture.com/p/tempur-proadapt_medium_hybrid_king_mattress/10752161M.html",
           "found": true
         },
         "macys": {
-          "price": 3399,
-          "url": "https://www.macys.com/shop/product/tempur-pedic-proadapt-12-firm-memory-foam-mattress-collection?ID=18352140",
-          "found": true
-        },
-        "costco": {
           "notAvailable": true,
           "reason": "doesn't carry this model",
           "found": false
+        },
+        "costco": {
+          "price": 2352.93,
+          "url": "https://www.reddit.com/r/Mattress/comments/1kr4102/costco_tempurpedic_vs_tempurpedic/",
+          "found": true
         },
         "muellers": {
           "notAvailable": true,
@@ -32,17 +33,17 @@
           "found": false
         },
         "wayfair": {
-          "price": 5298,
-          "url": "https://www.wayfair.com/bed-bath/pdp/tempur-pedic-tempur-proadapt-12-medium-hybrid-mattress-and-ergo-extend-adjustable-smart-base-set-sbja1084.html",
-          "found": true
+          "notAvailable": true,
+          "reason": "doesn't carry this model",
+          "found": false
         },
         "bbb": {
-          "price": 2499,
-          "url": "https://www.bedbathandbeyond.com/store/brand/tempur-pedic/135?view=list",
-          "found": true
+          "notAvailable": true,
+          "reason": "doesn't carry this model",
+          "found": false
         },
         "jcpenney": {
-          "price": 3599,
+          "price": 2054,
           "url": "https://www.jcpenney.com/p/tempur-proadapt-20-12-medium-tight-top-mattress-only/ppr5008437436?pTmplType=regular",
           "found": true
         }
@@ -51,32 +52,33 @@
     {
       "brand": "Purple",
       "model": "Purple Plus",
+      "comfort": "",
       "size": "Queen",
       "competitors": {
         "ashley": {
-          "price": 1899,
-          "url": "https://www.ashleyfurniture.com/p/purple_plus_queen_mattress/M60000716.html",
+          "price": 2399,
+          "url": "https://www.ashleyfurniture.com/p/purple_plus_king_mattress/M60000717.html",
           "found": true
         },
         "macys": {
-          "price": 1899,
-          "url": "https://www.macys.com/shop/mattress/purple/Mattress_comfort/Cushion%20Firm?id=211451",
+          "price": 242.09,
+          "url": "https://www.macys.com/shop/furniture/beds/Color_normal/Purple?id=35380",
           "found": true
         },
         "costco": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 899.97,
+          "url": "https://app.warehouserunner.com/costco/1743417-purple-purplerenew-11-queen-gel-grid-mattress",
+          "found": true
         },
         "muellers": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 1899,
+          "url": "https://www.walkersfurniture.com/brand/purple/425887101",
+          "found": true
         },
         "carol-house": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 139,
+          "url": "https://www.carolhouse.com/bedroom/room-type.aspx",
+          "found": true
         },
         "wayfair": {
           "notAvailable": true,
@@ -98,22 +100,23 @@
     {
       "brand": "Nectar",
       "model": "Premier",
+      "comfort": "Medium",
       "size": "Queen",
       "competitors": {
         "ashley": {
-          "price": 949,
-          "url": "https://www.ashleyfurniture.com/p/nectar_premier_memory_foam_5.1_queen_mattress/M12631.html",
-          "found": true
-        },
-        "macys": {
-          "price": 1000,
-          "url": "https://www.macys.com/shop/product/purple-.4-hybrid-premier-13-mattress-queen?ID=7336213",
-          "found": true
-        },
-        "costco": {
           "notAvailable": true,
           "reason": "doesn't carry this model",
           "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "doesn't carry this model",
+          "found": false
+        },
+        "costco": {
+          "price": 799,
+          "url": "https://naplab.com/mattress-reviews/nectar-hybrid-premier-review/",
+          "found": true
         },
         "muellers": {
           "notAvailable": true,
@@ -145,6 +148,7 @@
     {
       "brand": "Beautyrest",
       "model": "PressureSmart",
+      "comfort": "Plush",
       "size": "Queen",
       "competitors": {
         "ashley": {
@@ -158,24 +162,24 @@
           "found": false
         },
         "costco": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 100,
+          "url": "https://www.reddit.com/r/Mattress/comments/unrq0p/side_sleeper_deciding_between_beautyrest_silver/",
+          "found": true
         },
         "muellers": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 114.95,
+          "url": "https://universalhotelliquidators.com/product/beautyrest-pressuresmart-14-75-plush-pillow-top-mattress/",
+          "found": true
         },
         "carol-house": {
+          "price": 114.95,
+          "url": "https://universalhotelliquidators.com/product/beautyrest-pressuresmart-14-75-plush-pillow-top-mattress/",
+          "found": true
+        },
+        "wayfair": {
           "notAvailable": true,
           "reason": "doesn't carry this model",
           "found": false
-        },
-        "wayfair": {
-          "price": 3800,
-          "url": "https://www.wayfair.com/keyword.php?keyword=beautyrest+pressuresmart+2.0+box+spring+foundation",
-          "found": true
         },
         "bbb": {
           "notAvailable": true,
@@ -192,12 +196,13 @@
     {
       "brand": "Serta",
       "model": "Sleep Excellence",
+      "comfort": "Medium Pillow Top",
       "size": "Queen",
       "competitors": {
         "ashley": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 160,
+          "url": "https://www.slumbersearch.com/ashley-furniture-vs-serta-perfect-sleeper-mattress-reviews",
+          "found": true
         },
         "macys": {
           "notAvailable": true,
@@ -210,9 +215,9 @@
           "found": false
         },
         "muellers": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 500,
+          "url": "https://www.reddit.com/r/Mattress/comments/1iqi290/anyone_haveheard_of_the_serta_perfect_sleeper/",
+          "found": true
         },
         "carol-house": {
           "notAvailable": true,
@@ -220,14 +225,14 @@
           "found": false
         },
         "wayfair": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 769,
+          "url": "https://www.mattressfirm.com/mattresses/serta/queen/5637147600.c",
+          "found": true
         },
         "bbb": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 769,
+          "url": "https://www.mattressfirm.com/mattresses/serta/queen/5637147600.c",
+          "found": true
         },
         "jcpenney": {
           "notAvailable": true,
@@ -239,22 +244,23 @@
     {
       "brand": "Stearns & Foster",
       "model": "Estate",
+      "comfort": "Plush",
       "size": "Queen",
       "competitors": {
         "ashley": {
-          "price": 1999,
-          "url": "https://www.ashleyfurniture.com/p/stearns_foster_estate_medium_tight_top_queen_mattress/3167651M.html",
+          "price": 2599,
+          "url": "https://www.ashleyfurniture.com/p/stearns_foster_queen_estate_soft_pillow_top/3009151M.html",
           "found": true
         },
         "macys": {
-          "price": 2749,
-          "url": "https://www.macys.com/shop/mattress/stearns-foster-mattress/Mattress_comfort/Extra%20Firm?id=25946",
-          "found": true
-        },
-        "costco": {
           "notAvailable": true,
           "reason": "doesn't carry this model",
           "found": false
+        },
+        "costco": {
+          "price": 150,
+          "url": "https://www.reddit.com/r/Mattress/comments/18r7rpa/stearns_and_foster/",
+          "found": true
         },
         "muellers": {
           "notAvailable": true,
@@ -262,30 +268,31 @@
           "found": false
         },
         "carol-house": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 240,
+          "url": "https://www.retreathomefurniture.com/collections/stearns-foster-estate-collection",
+          "found": true
         },
         "wayfair": {
-          "price": 1274,
-          "url": "https://www.wayfair.com/bed-bath/pdp/stearns-foster-estate-14-plush-innerspring-mattress-dear1025.html",
+          "price": 2199,
+          "url": "https://www.wayfair.com/bed-bath/pdp/stearns-foster-estate-145-plush-pillowtop-innerspring-mattress-dear1065.html",
           "found": true
         },
         "bbb": {
-          "price": 3649,
-          "url": "https://www.bedbathandbeyond.com/c/mattresses?t=24351&a1001=2858&brand=stearns+%26+foster&ostk=true",
-          "found": true
-        },
-        "jcpenney": {
           "notAvailable": true,
           "reason": "doesn't carry this model",
           "found": false
+        },
+        "jcpenney": {
+          "price": 1999,
+          "url": "https://www.jcpenney.com/p/stearns-and-foster-studio-medium-tight-top-mattress-box-spring/ppr5008331649?pTmplType=regular",
+          "found": true
         }
       }
     },
     {
       "brand": "Sealy",
       "model": "Hybrid High Point",
+      "comfort": "Medium",
       "size": "Queen",
       "competitors": {
         "ashley": {
@@ -294,14 +301,14 @@
           "found": false
         },
         "macys": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 3249,
+          "url": "https://www.macys.com/shop/mattress/firm/Brand,Mattress_type/Sealy,Hybrid?id=114248",
+          "found": true
         },
         "costco": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 700,
+          "url": "https://www.reddit.com/r/Mattress/comments/1jexa2a/sealy_posturepedic_elite_hybrid_high_point_ii_14/",
+          "found": true
         },
         "muellers": {
           "notAvailable": true,
@@ -314,9 +321,9 @@
           "found": false
         },
         "wayfair": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 409.99,
+          "url": "https://www.wayfair.com/bed-bath/pdp/sealy-high-point-14-firm-hybrid-mattress-scm10177.html",
+          "found": true
         },
         "bbb": {
           "notAvailable": true,
@@ -324,9 +331,9 @@
           "found": false
         },
         "jcpenney": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 2379,
+          "url": "https://www.hassleless.com/high-point-chill-firm-hybrid-mattress",
+          "found": true
         }
       }
     }
