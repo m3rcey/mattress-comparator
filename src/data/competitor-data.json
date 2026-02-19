@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-19T16:56:43.287Z",
+  "timestamp": "2026-02-19T17:02:43.485Z",
   "products": [
     {
       "brand": "Tempur-Pedic",
@@ -17,8 +17,8 @@
           "found": false
         },
         "sleep-number": {
-          "notAvailable": true,
-          "reason": "doesn't carry this brand",
+          "notAvailable": false,
+          "reason": "model not found",
           "found": false
         },
         "wayfair": {
@@ -39,9 +39,9 @@
       "size": "Queen",
       "competitors": {
         "carol-house": {
-          "notAvailable": false,
-          "reason": "model not found",
-          "found": false
+          "price": 1397,
+          "url": "https://www.carolhouse.com/bedroom/room-type.aspx",
+          "found": true
         },
         "mattress-warehouse": {
           "notAvailable": false,
@@ -49,8 +49,8 @@
           "found": false
         },
         "sleep-number": {
-          "notAvailable": true,
-          "reason": "doesn't carry this brand",
+          "notAvailable": false,
+          "reason": "model not found",
           "found": false
         },
         "wayfair": {
@@ -71,8 +71,8 @@
       "size": "Queen",
       "competitors": {
         "carol-house": {
-          "notAvailable": true,
-          "reason": "doesn't carry this brand",
+          "notAvailable": false,
+          "reason": "model not found",
           "found": false
         },
         "mattress-warehouse": {
@@ -113,8 +113,8 @@
           "found": false
         },
         "sleep-number": {
-          "notAvailable": true,
-          "reason": "doesn't carry this brand",
+          "notAvailable": false,
+          "reason": "model not found",
           "found": false
         },
         "wayfair": {
@@ -135,9 +135,9 @@
       "size": "Queen",
       "competitors": {
         "carol-house": {
-          "price": 997,
-          "url": "https://www.carolhouse.com/perfect-sleeper-by-serta/bedding/brand-type.aspx",
-          "found": true
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
         },
         "mattress-warehouse": {
           "notAvailable": false,
@@ -145,14 +145,14 @@
           "found": false
         },
         "sleep-number": {
-          "notAvailable": true,
-          "reason": "doesn't carry this brand",
+          "notAvailable": false,
+          "reason": "model not found",
           "found": false
         },
         "wayfair": {
-          "price": 499.99,
-          "url": "https://www.wayfair.com/brand/sb0/serta-mattresses-c1869769.html",
-          "found": true
+          "notAvailable": false,
+          "reason": "model not found",
+          "found": false
         },
         "amazon": {
           "notAvailable": false,
@@ -199,7 +199,7 @@
       "size": "Queen",
       "competitors": {
         "carol-house": {
-          "price": 397,
+          "price": 1027,
           "url": "https://www.carolhouse.com/bedroom/room-type.aspx",
           "found": true
         },
@@ -209,9 +209,9 @@
           "found": false
         },
         "sleep-number": {
-          "notAvailable": false,
-          "reason": "model not found",
-          "found": false
+          "price": 449,
+          "url": "https://www.sleepnumber.com/products/c2",
+          "found": true
         },
         "wayfair": {
           "notAvailable": false,
@@ -231,8 +231,8 @@
       "size": "Queen",
       "competitors": {
         "carol-house": {
-          "notAvailable": true,
-          "reason": "doesn't carry this brand",
+          "notAvailable": false,
+          "reason": "model not found",
           "found": false
         },
         "mattress-warehouse": {
@@ -241,8 +241,8 @@
           "found": false
         },
         "sleep-number": {
-          "notAvailable": true,
-          "reason": "doesn't carry this brand",
+          "notAvailable": false,
+          "reason": "model not found",
           "found": false
         },
         "wayfair": {
