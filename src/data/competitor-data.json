@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-19T18:00:05.666Z",
+  "timestamp": "2026-02-20T18:00:16.349Z",
   "products": [
     {
       "brand": "Tempur-Pedic",
@@ -66,8 +66,8 @@
           "found": true
         },
         "costco": {
-          "price": 899.97,
-          "url": "https://app.warehouserunner.com/costco/1743417-purple-purplerenew-11-queen-gel-grid-mattress",
+          "price": 800,
+          "url": "https://slickdeals.net/f/19215835-costco-in-store-purple-renew-11-gel-grid-mattress-queen-800-king-1000-select-locations",
           "found": true
         },
         "muellers": {
@@ -306,9 +306,9 @@
           "found": true
         },
         "costco": {
-          "price": 700,
-          "url": "https://www.reddit.com/r/Mattress/comments/1jexa2a/sealy_posturepedic_elite_hybrid_high_point_ii_14/",
-          "found": true
+          "notAvailable": true,
+          "reason": "doesn't carry this model",
+          "found": false
         },
         "muellers": {
           "notAvailable": true,
