@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-20T18:00:16.349Z",
+  "timestamp": "2026-02-21T18:00:07.107Z",
   "products": [
     {
       "brand": "Tempur-Pedic",
@@ -18,8 +18,8 @@
           "found": false
         },
         "costco": {
-          "price": 2352.93,
-          "url": "https://www.reddit.com/r/Mattress/comments/1kr4102/costco_tempurpedic_vs_tempurpedic/",
+          "price": 300,
+          "url": "https://www.reddit.com/r/Mattress/comments/13cgtpj/anybody_have_thoughts_to_share_about_the/",
           "found": true
         },
         "muellers": {
@@ -114,9 +114,9 @@
           "found": false
         },
         "costco": {
-          "price": 799,
-          "url": "https://naplab.com/mattress-reviews/nectar-hybrid-premier-review/",
-          "found": true
+          "notAvailable": true,
+          "reason": "doesn't carry this model",
+          "found": false
         },
         "muellers": {
           "notAvailable": true,
@@ -152,9 +152,9 @@
       "size": "Queen",
       "competitors": {
         "ashley": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 1599,
+          "url": "https://www.mattressfirm.com/pressuresmart-20-plush-1175-mattress/5637368830.p?variantid=5637369600",
+          "found": true
         },
         "macys": {
           "notAvailable": true,
@@ -172,8 +172,8 @@
           "found": true
         },
         "carol-house": {
-          "price": 114.95,
-          "url": "https://universalhotelliquidators.com/product/beautyrest-pressuresmart-14-75-plush-pillow-top-mattress/",
+          "price": 1599,
+          "url": "https://www.mattressfirm.com/pressuresmart-20-plush-1175-mattress/5637368830.p?variantid=5637369600",
           "found": true
         },
         "wayfair": {
@@ -182,9 +182,9 @@
           "found": false
         },
         "bbb": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 1599,
+          "url": "https://www.mattressfirm.com/pressuresmart-20-plush-1175-mattress/5637368830.p?variantid=5637369600",
+          "found": true
         },
         "jcpenney": {
           "notAvailable": true,
@@ -200,8 +200,8 @@
       "size": "Queen",
       "competitors": {
         "ashley": {
-          "price": 160,
-          "url": "https://www.slumbersearch.com/ashley-furniture-vs-serta-perfect-sleeper-mattress-reviews",
+          "price": 110,
+          "url": "https://www.reddit.com/r/Mattress/comments/oo123g/has_anyone_has_any_experience_with_the_ashley/",
           "found": true
         },
         "macys": {
@@ -301,7 +301,7 @@
           "found": false
         },
         "macys": {
-          "price": 3249,
+          "price": 2399,
           "url": "https://www.macys.com/shop/mattress/firm/Brand,Mattress_type/Sealy,Hybrid?id=114248",
           "found": true
         },
@@ -321,9 +321,9 @@
           "found": false
         },
         "wayfair": {
-          "price": 409.99,
-          "url": "https://www.wayfair.com/bed-bath/pdp/sealy-high-point-14-firm-hybrid-mattress-scm10177.html",
-          "found": true
+          "notAvailable": true,
+          "reason": "doesn't carry this model",
+          "found": false
         },
         "bbb": {
           "notAvailable": true,
