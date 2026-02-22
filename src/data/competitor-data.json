@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-21T18:00:07.107Z",
+  "timestamp": "2026-02-22T18:00:16.686Z",
   "products": [
     {
       "brand": "Tempur-Pedic",
@@ -18,8 +18,8 @@
           "found": false
         },
         "costco": {
-          "price": 300,
-          "url": "https://www.reddit.com/r/Mattress/comments/13cgtpj/anybody_have_thoughts_to_share_about_the/",
+          "price": 2352.93,
+          "url": "https://www.reddit.com/r/Mattress/comments/1kr4102/costco_tempurpedic_vs_tempurpedic/",
           "found": true
         },
         "muellers": {
@@ -76,8 +76,8 @@
           "found": true
         },
         "carol-house": {
-          "price": 139,
-          "url": "https://www.carolhouse.com/bedroom/room-type.aspx",
+          "price": 1899,
+          "url": "https://www.walkersfurniture.com/brand/purple/425887101",
           "found": true
         },
         "wayfair": {
@@ -119,14 +119,14 @@
           "found": false
         },
         "muellers": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 1099.99,
+          "url": "https://www.fischerfurniture.com/catalog/mattress-brands-nectar",
+          "found": true
         },
         "carol-house": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 599,
+          "url": "https://www.oldbrickfurniture.com/shop-mattresses/nectar",
+          "found": true
         },
         "wayfair": {
           "notAvailable": true,
@@ -200,8 +200,8 @@
       "size": "Queen",
       "competitors": {
         "ashley": {
-          "price": 110,
-          "url": "https://www.reddit.com/r/Mattress/comments/oo123g/has_anyone_has_any_experience_with_the_ashley/",
+          "price": 160,
+          "url": "https://www.slumbersearch.com/ashley-furniture-vs-serta-perfect-sleeper-mattress-reviews",
           "found": true
         },
         "macys": {
@@ -210,9 +210,9 @@
           "found": false
         },
         "costco": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 600,
+          "url": "https://www.slumbersearch.com/serta-perfect-sleeper-mattress-reviews",
+          "found": true
         },
         "muellers": {
           "price": 500,
@@ -301,14 +301,14 @@
           "found": false
         },
         "macys": {
-          "price": 2399,
+          "price": 3249,
           "url": "https://www.macys.com/shop/mattress/firm/Brand,Mattress_type/Sealy,Hybrid?id=114248",
           "found": true
         },
         "costco": {
-          "notAvailable": true,
-          "reason": "doesn't carry this model",
-          "found": false
+          "price": 1799.99,
+          "url": "https://www.valuecityfurniture.com/product/group/mattresses/mattresses-by-size/queen/sealy/sealy-posturepedic-elite-high-point-queen-mattress-medium/2958415/2942822",
+          "found": true
         },
         "muellers": {
           "notAvailable": true,
