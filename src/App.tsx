@@ -303,7 +303,7 @@ function App() {
                 <div className="space-y-4 mb-8">
                   <h3 className="text-lg font-bold text-gray-600 uppercase tracking-wider mb-4">Price Comparison</h3>
                   {retailerPrices.map((retailer, idx) => {
-                    const policy = policies[retailer.name];
+                    const policy = policies[retailer.name] || policies[retailer.name.replace(' Furniture', '')];
                     const isLowest = retailer.price !== null && retailer.price === lowestPrice && !retailer.notAvailable;
                     const priceDiff = retailer.price !== null && lowestPrice !== null ? retailer.price - lowestPrice : 0;
 
