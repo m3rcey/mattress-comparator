@@ -288,14 +288,12 @@ function App() {
                           isLowest ? 'border-red-400 bg-red-50/50' : 'border-gray-200 hover:border-gray-300'
                         }`}
                       >
-                        {renderDropdownOverlay()}
-
       {/* Header */}
                         <div className="bg-gray-50 px-6 py-4 flex items-center justify-between border-b border-gray-100">
                           <div className="flex items-center gap-3">
                             <span className="text-lg font-bold text-gray-900">{retailer.name}</span>
                             {isLowest && (
-                              <span className="px-3 py-1 bg-cyan-500/20 text-red-500 text-sm font-bold rounded-full border border-cyan-500/40">
+                              <span className="px-3 py-1 bg-red-50 text-red-600 text-sm font-bold rounded-full border border-red-200">
                                 Lowest Price
                               </span>
                             )}
