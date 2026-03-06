@@ -151,7 +151,7 @@ function App() {
             <button
               key={key === 'brand' ? option.id : key === 'model' ? option.id : option}
               onClick={() => selectOption(key, option)}
-              className="w-full p-4 text-left text-lg font-medium text-gray-200 hover:bg-red-50 active:bg-red-100 transition-colors border-b border-gray-100 last:border-0"
+              className="w-full p-4 text-left text-lg font-medium text-white hover:bg-red-500/20 active:bg-red-500/30 transition-colors border-b border-neutral-800 last:border-0"
             >
               {key === 'brand' || key === 'model' ? option.name : option}
             </button>
@@ -171,14 +171,14 @@ function App() {
     return (
       <div className="fixed inset-0 z-[100]" onClick={() => closeAllDropdowns()}>
         <div className="absolute inset-0 bg-black/40" />
-        <div className="absolute bottom-0 left-0 right-0 max-h-[60vh] bg-white rounded-t-2xl shadow-2xl overflow-hidden" onClick={(e: any) => e.stopPropagation()}>
-          <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between">
+        <div className="absolute bottom-0 left-0 right-0 max-h-[60vh] bg-neutral-900 rounded-t-2xl shadow-2xl overflow-hidden" onClick={(e: any) => e.stopPropagation()}>
+          <div className="sticky top-0 bg-neutral-900 border-b border-neutral-700 px-6 py-4 flex items-center justify-between">
             <h3 className="text-lg font-bold text-white">Select {label}</h3>
             <button onClick={() => closeAllDropdowns()} className="text-gray-400 hover:text-gray-600 p-1"><X size={20} /></button>
           </div>
           <div className="overflow-y-auto max-h-[calc(60vh-60px)]">
             {options.map((option: any) => (
-              <button key={openKey === 'size' ? option : option.id} onClick={() => selectOption(openKey, option)} className="w-full p-5 text-left text-lg font-medium text-gray-200 hover:bg-red-50 active:bg-red-100 transition-colors border-b border-gray-100 last:border-0">
+              <button key={openKey === 'size' ? option : option.id} onClick={() => selectOption(openKey, option)} className="w-full p-5 text-left text-lg font-medium text-white hover:bg-red-500/20 active:bg-red-500/30 transition-colors border-b border-neutral-800 last:border-0">
                 {openKey === 'size' ? option : option.name}
               </button>
             ))}
