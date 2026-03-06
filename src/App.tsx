@@ -133,13 +133,13 @@ function App() {
       </label>
       <button
         onClick={() => toggleDropdown(key)}
-        className={`w-full min-h-[56px] p-4 bg-white border-2 rounded-xl text-left flex items-center justify-between transition-all duration-200 hover:bg-gray-750 ${
+        className={`w-full min-h-[56px] p-4 bg-gray-800 border-2 rounded-xl text-left flex items-center justify-between transition-all duration-200 hover:bg-gray-750 ${
           dropdowns[key] 
             ? 'border-red-500 ring-2 ring-red-500/20' 
-            : 'border-gray-200 hover:border-gray-300'
+            : 'border-gray-700 hover:border-gray-600'
         }`}
       >
-        <span className={`text-lg font-medium ${selected ? 'text-gray-900' : 'text-gray-500'}`}>
+        <span className={`text-lg font-medium ${selected ? 'text-white' : 'text-gray-500'}`}>
           {selected?.name || selected || `Select ${label}`}
         </span>
         <ChevronDown className={`w-5 h-5 text-gray-400 transition-transform duration-200 ${dropdowns[key] ? 'rotate-180' : ''}`} />
@@ -151,7 +151,7 @@ function App() {
             <button
               key={key === 'brand' ? option.id : key === 'model' ? option.id : option}
               onClick={() => selectOption(key, option)}
-              className="w-full p-4 text-left text-lg font-medium text-gray-800 hover:bg-red-50 active:bg-red-100 transition-colors border-b border-gray-100 last:border-0"
+              className="w-full p-4 text-left text-lg font-medium text-gray-200 hover:bg-red-50 active:bg-red-100 transition-colors border-b border-gray-100 last:border-0"
             >
               {key === 'brand' || key === 'model' ? option.name : option}
             </button>
@@ -173,12 +173,12 @@ function App() {
         <div className="absolute inset-0 bg-black/40" />
         <div className="absolute bottom-0 left-0 right-0 max-h-[60vh] bg-white rounded-t-2xl shadow-2xl overflow-hidden" onClick={(e: any) => e.stopPropagation()}>
           <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between">
-            <h3 className="text-lg font-bold text-gray-900">Select {label}</h3>
+            <h3 className="text-lg font-bold text-white">Select {label}</h3>
             <button onClick={() => closeAllDropdowns()} className="text-gray-400 hover:text-gray-600 p-1"><X size={20} /></button>
           </div>
           <div className="overflow-y-auto max-h-[calc(60vh-60px)]">
             {options.map((option: any) => (
-              <button key={openKey === 'size' ? option : option.id} onClick={() => selectOption(openKey, option)} className="w-full p-5 text-left text-lg font-medium text-gray-800 hover:bg-red-50 active:bg-red-100 transition-colors border-b border-gray-100 last:border-0">
+              <button key={openKey === 'size' ? option : option.id} onClick={() => selectOption(openKey, option)} className="w-full p-5 text-left text-lg font-medium text-gray-200 hover:bg-red-50 active:bg-red-100 transition-colors border-b border-gray-100 last:border-0">
                 {openKey === 'size' ? option : option.name}
               </button>
             ))}
@@ -240,7 +240,7 @@ function App() {
   }, [retailerPrices]);
 
   return (
-    <div className="min-h-screen pb-8 bg-gray-50">
+    <div className="min-h-screen pb-8 bg-gray-950">
       {/* Background pattern */}
       <div className="fixed inset-0 opacity-[0.03] pointer-events-none" 
         style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")` }}>
@@ -249,18 +249,18 @@ function App() {
       {renderDropdownOverlay()}
 
       {/* Header */}
-      <header className="relative bg-white border-b border-gray-200 sticky top-0 z-40 shadow-sm">
+      <header className="relative bg-gray-900 border-b border-gray-800 sticky top-0 z-40">
         <div className="max-w-5xl mx-auto px-4 py-5">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-3xl md:text-4xl font-black text-gray-900 tracking-tight">
-                🛏️ Mattress Price Comparator
+              <h1 className="text-3xl md:text-4xl font-black text-white tracking-tight">
+                RestRadar
               </h1>
               <p className="text-gray-500 text-sm mt-1 font-medium">
                 Compare prices across retailers instantly
               </p>
             </div>
-            <div className="flex items-center gap-2 px-3 py-2 bg-gray-100 rounded-lg border border-gray-200">
+            <div className="flex items-center gap-2 px-3 py-2 bg-gray-800 rounded-lg border border-gray-700">
               <Clock size={14} className="text-red-500" />
               <span className="text-gray-400 text-xs font-medium">
                 {formatTimestamp(competitorData.timestamp)}
@@ -273,8 +273,8 @@ function App() {
       <main className="relative max-w-5xl mx-auto px-4 py-8">
         {/* Selection Panel */}
         <section className={`mb-10 transition-all duration-500 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-          <div className="bg-white rounded-2xl p-6 md:p-8 border border-gray-200 shadow-sm">
-            <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+          <div className="bg-gray-900 rounded-2xl p-6 md:p-8 border border-gray-800">
+            <h2 className="text-xl md:text-2xl font-bold text-white mb-6 flex items-center gap-3">
               <DollarSign className="w-6 h-6 text-red-500" />
               Select Your Mattress
             </h2>
@@ -291,7 +291,7 @@ function App() {
         {selectedBrand && selectedModel && selectedSize && (
           <section className="animate-in fade-in slide-in-from-bottom-4 duration-500">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+              <h2 className="text-2xl md:text-3xl font-bold text-white">
                 {selectedBrand.name} <span className="text-red-500">{selectedModel.name}</span>
                 <span className="text-gray-500 text-lg font-normal ml-2">— {selectedSize}</span>
               </h2>
@@ -303,29 +303,29 @@ function App() {
                 <div className="space-y-4 mb-8">
                   <h3 className="text-lg font-bold text-gray-600 uppercase tracking-wider mb-4">Price Comparison</h3>
                   {retailerPrices.map((retailer, idx) => {
-                    const policy = policies[retailer.name] || policies[retailer.name.replace(' Furniture', '')];
+                    const policy = policies[retailer.name] || policies[retailer.name.replace(' Furniture', '')] || policies[retailer.name.replace(' Furniture', '')];
                     const isLowest = retailer.price !== null && retailer.price === lowestPrice && !retailer.notAvailable;
                     const priceDiff = retailer.price !== null && lowestPrice !== null ? retailer.price - lowestPrice : 0;
 
                     return (
                       <div 
                         key={retailer.id} 
-                        className={`bg-white rounded-xl overflow-hidden border-2 shadow-sm transition-all duration-300 ${
-                          isLowest ? 'border-red-400 bg-red-50/50' : 'border-gray-200 hover:border-gray-300'
+                        className={`bg-gray-900 rounded-xl overflow-hidden border-2 transition-all duration-300 ${
+                          isLowest ? 'border-red-500 bg-red-950/30' : 'border-gray-700 hover:border-gray-600'
                         }`}
                       >
 
-                        <div className="bg-gray-50 px-6 py-4 flex items-center justify-between border-b border-gray-100">
+                        <div className="bg-gray-800 px-6 py-4 flex items-center justify-between border-b border-gray-700">
                           <div className="flex items-center gap-3">
-                            <span className="text-lg font-bold text-gray-900">{retailer.name}</span>
+                            <span className="text-lg font-bold text-white">{retailer.name}</span>
                             {isLowest && (
-                              <span className="px-3 py-1 bg-red-50 text-red-600 text-sm font-bold rounded-full border border-red-200">
+                              <span className="px-3 py-1 bg-red-500/20 text-red-400 text-sm font-bold rounded-full border border-red-500/40">
                                 Lowest Price
                               </span>
                             )}
                           </div>
                           {retailer.notAvailable && (
-                            <span className="px-3 py-1 bg-gray-100 text-gray-500 text-sm font-bold rounded-full flex items-center gap-1">
+                            <span className="px-3 py-1 bg-gray-700 text-gray-400 text-sm font-bold rounded-full flex items-center gap-1">
                               <X size={12} /> {retailer.reason || "Unavailable"}
                             </span>
                           )}
@@ -338,7 +338,7 @@ function App() {
                               {/* Price */}
                               <div>
                                 <div className="text-gray-500 text-sm mb-1">Price</div>
-                                <div className="text-3xl font-black text-gray-900">
+                                <div className="text-3xl font-black text-white">
                                   ${retailer.price.toLocaleString()}
                                 </div>
                                 {priceDiff > 0 && (
@@ -356,25 +356,25 @@ function App() {
                               {/* Delivery Time */}
                               <div>
                                 <div className="text-gray-500 text-sm mb-1">Delivery</div>
-                                <div className="text-gray-700 font-medium text-sm">{policy?.deliveryTime || 'N/A'}</div>
+                                <div className="text-gray-300 font-medium text-sm">{policy?.deliveryTime || 'N/A'}</div>
                               </div>
 
                               {/* Delivery Fee */}
                               <div>
                                 <div className="text-gray-500 text-sm mb-1">Delivery Fee</div>
-                                <div className="text-gray-700 font-medium text-sm">{policy?.deliveryFee || 'N/A'}</div>
+                                <div className="text-gray-300 font-medium text-sm">{policy?.deliveryFee || 'N/A'}</div>
                               </div>
 
                               {/* Trial */}
                               <div>
                                 <div className="text-gray-500 text-sm mb-1">Trial</div>
-                                <div className="text-gray-700 font-medium text-sm">{policy?.trialPeriod || 'N/A'}</div>
+                                <div className="text-gray-300 font-medium text-sm">{policy?.trialPeriod || 'N/A'}</div>
                               </div>
 
                               {/* Warranty */}
                               <div>
                                 <div className="text-gray-500 text-sm mb-1">Warranty</div>
-                                <div className="text-gray-700 font-medium text-sm">{policy?.warranty || 'N/A'}</div>
+                                <div className="text-gray-300 font-medium text-sm">{policy?.warranty || 'N/A'}</div>
                               </div>
                             </div>
                           </div>
@@ -389,11 +389,11 @@ function App() {
                 </div>
               </>
             ) : (
-              <div className="bg-white rounded-2xl p-8 border border-gray-200 text-center shadow-sm">
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-100 flex items-center justify-center">
+              <div className="bg-gray-900 rounded-2xl p-8 border border-gray-800 text-center">
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-800 flex items-center justify-center">
                   <X className="w-8 h-8 text-gray-500" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">No Data Available</h3>
+                <h3 className="text-xl font-bold text-white mb-2">No Data Available</h3>
                 <p className="text-gray-400">This product/size combination data not found.</p>
               </div>
             )}
@@ -402,7 +402,7 @@ function App() {
 
         {!productData && !(selectedBrand && selectedModel && selectedSize) && (
           <div className="text-center py-20">
-            <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gray-100 flex items-center justify-center">
+            <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gray-800 flex items-center justify-center">
               <Bed className="w-10 h-10 text-gray-300" />
             </div>
             <p className="text-xl text-gray-500 font-medium">Select a brand, model, and size above to compare prices</p>
@@ -411,16 +411,16 @@ function App() {
 
         {/* Policy Comparison Table */}
         <section className="mt-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+          <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
             <DollarSign className="w-6 h-6 text-red-500" />
             Retailer Policies Comparison
           </h2>
           
-          <div className="bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm">
+          <div className="bg-gray-900 rounded-2xl overflow-hidden border border-gray-800">
             <div className="overflow-x-auto">
               <table className="w-full text-sm md:text-base">
                 <thead>
-                  <tr className="bg-gray-50 border-b border-gray-200">
+                  <tr className="bg-gray-800 border-b border-gray-700">
                     <th className="text-left py-4 px-6 text-gray-500 text-xs font-bold uppercase tracking-wider">Retailer</th>
                     <th className="text-left py-4 px-6 text-gray-500 text-xs font-bold uppercase tracking-wider">Delivery</th>
                     <th className="text-left py-4 px-6 text-gray-500 text-xs font-bold uppercase tracking-wider">Delivery Fee</th>
@@ -432,17 +432,17 @@ function App() {
                   {Object.entries(policies).map(([retailer, policy], index) => (
                     <tr 
                       key={retailer} 
-                      className={`border-b border-gray-100 transition-colors hover:bg-gray-50 ${
+                      className={`border-b border-gray-800 transition-colors hover:bg-gray-800/50 ${
                         ''
                       }`}
                     >
-                      <td className="py-4 px-6 font-bold text-gray-900">
+                      <td className="py-4 px-6 font-bold text-white">
                         {retailer}
                       </td>
-                      <td className="py-4 px-6 text-gray-600 text-sm">{policy.deliveryTime}</td>
-                      <td className="py-4 px-6 text-gray-600 text-sm">{policy.deliveryFee}</td>
-                      <td className="py-4 px-6 text-gray-600 text-sm">{policy.trialPeriod}</td>
-                      <td className="py-4 px-6 text-gray-600 text-sm">{policy.warranty}</td>
+                      <td className="py-4 px-6 text-gray-400 text-sm">{policy.deliveryTime}</td>
+                      <td className="py-4 px-6 text-gray-400 text-sm">{policy.deliveryFee}</td>
+                      <td className="py-4 px-6 text-gray-400 text-sm">{policy.trialPeriod}</td>
+                      <td className="py-4 px-6 text-gray-400 text-sm">{policy.warranty}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -453,13 +453,13 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="relative mt-16 py-8 border-t border-gray-200">
+      <footer className="relative mt-16 py-8 border-t border-gray-800">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 text-gray-500">
             <RefreshCw size={14} />
             <p className="font-medium">Data refreshes daily at 6:00 AM CT</p>
           </div>
-          <p className="text-gray-600 text-sm mt-2">© 2026 Mattress Price Comparator</p>
+          <p className="text-gray-400 text-sm mt-2">© 2026 RestRadar</p>
         </div>
       </footer>
     </div>
