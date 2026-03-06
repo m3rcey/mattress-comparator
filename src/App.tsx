@@ -106,7 +106,8 @@ function App() {
     return selectedModel?.sizes || [];
   }, [selectedModel]);
 
-  const toggleDropdown = (key: 'brand' | 'model' | 'size') => {
+  const toggleDropdown = (key: 'brand' | 'model' | 'size', e: React.MouseEvent) => {
+    e.stopPropagation();
     setDropdowns(prev => ({
       brand: key === 'brand' ? !prev.brand : false,
       model: key === 'model' ? !prev.model : false,
@@ -118,7 +119,8 @@ function App() {
     setDropdowns({ brand: false, model: false, size: false });
   };
 
-  const selectOption = (key: 'brand' | 'model' | 'size', value: any) => {
+  const selectOption = (key: 'brand' | 'model' | 'size', value: any, e: React.MouseEvent) => {
+    e.stopPropagation();
     if (key === 'brand') {
       setSelectedBrand(value);
       setSelectedModel(null);
@@ -145,7 +147,7 @@ function App() {
         {label}
       </label>
       <button
-        onClick={() => toggleDropdown(key)}
+        onClick={(e) => toggleDropdown(key, e)}
         className={`w-full min-h-[56px] p-4 bg-gray-800 border-2 rounded-xl text-left flex items-center justify-between transition-all duration-200 hover:bg-gray-750 ${
           dropdowns[key] 
             ? 'border-cyan-400/50 bg-gray-750' 
@@ -171,7 +173,7 @@ function App() {
             {options.map((option, idx) => (
               <button
                 key={key === 'brand' ? option.id : key === 'model' ? option.id : option}
-                onClick={() => selectOption(key, option)}
+                onClick={(e) => selectOption(key, option, e)}
                 className="w-full p-4 text-left text-lg font-medium text-gray-200 hover:bg-cyan-500/20 hover:text-white transition-colors border-b border-gray-700 last:border-0"
               >
                 {key === 'brand' || key === 'model' ? option.name : option}
