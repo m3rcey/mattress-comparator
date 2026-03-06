@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
-import { Check, X, ChevronDown, Clock, RefreshCw, Bed, Tag, Ruler, Crown, TrendingDown, TrendingUp, Minus } from 'lucide-react';
+import { Check, X, ChevronDown, Clock, RefreshCw, Bed, Tag, Ruler, TrendingDown, TrendingUp, Minus, DollarSign } from 'lucide-react';
 import { brands } from './data/products';
 
 // Import competitor data
@@ -36,16 +36,17 @@ interface PolicyData {
   warranty: string;
 }
 
-// Competitor info
-const competitorInfo: { [key: string]: { name: string } } = {
-  'ashley': { name: 'Ashley Furniture' },
-  'macys': { name: "Macy's" },
-  'costco': { name: 'Costco' },
-  'muellers': { name: "Mueller's Furniture" },
-  'carol-house': { name: 'Carol House Furniture' },
-  'wayfair': { name: 'Wayfair' },
-  'jcpenney': { name: 'JCPenney' }
-};
+// All competitor IDs including Mattress Firm
+const allRetailers = [
+  { id: 'mf', name: 'Mattress Firm' },
+  { id: 'ashley', name: 'Ashley Furniture' },
+  { id: 'macys', name: "Macy's" },
+  { id: 'costco', name: 'Costco' },
+  { id: 'muellers', name: "Mueller's Furniture" },
+  { id: 'carol-house', name: 'Carol House Furniture' },
+  { id: 'wayfair', name: 'Wayfair' },
+  { id: 'jcpenney', name: 'JCPenney' }
+];
 
 // Parse competitor data
 const competitorData = competitorDataRaw as { timestamp: string; products: ProductData[] };
@@ -67,45 +68,6 @@ const formatTimestamp = (ts: string) => {
     ' at ' + date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
 };
 
-// Animated counter
-function AnimatedPrice({ value, prefix = '$' }: { value: number; prefix?: string }) {
-  const [displayValue, setDisplayValue] = useState(0);
-  const ref = useRef<HTMLSpanElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-        }
-      },
-      { threshold: 0.5 }
-    );
-    if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
-  }, []);
-
-  useEffect(() => {
-    if (!isVisible) return;
-    let start = 0;
-    const end = value;
-    const duration = 800;
-    const startTime = performance.now();
-
-    const animate = (currentTime: number) => {
-      const elapsed = currentTime - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3); // ease-out cubic
-      setDisplayValue(Math.round(eased * end));
-      if (progress < 1) requestAnimationFrame(animate);
-    };
-    requestAnimationFrame(animate);
-  }, [isVisible, value]);
-
-  return <span ref={ref}>{prefix}{displayValue.toLocaleString()}</span>;
-}
-
 function App() {
   const [selectedBrand, setSelectedBrand] = useState<any>(null);
   const [selectedModel, setSelectedModel] = useState<any>(null);
@@ -118,8 +80,22 @@ function App() {
     size: false
   });
 
+  // Refs for dropdown containers
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     setIsLoaded(true);
+  }, []);
+
+  // Close dropdowns when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setDropdowns({ brand: false, model: false, size: false });
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
   const availableModels = useMemo(() => {
@@ -163,17 +139,17 @@ function App() {
     selected: any,
     icon: React.ReactNode
   ) => (
-    <div className="relative">
+    <div className="relative" ref={dropdownRef}>
       <label className="block text-sm font-medium text-gray-300 mb-2 flex items-center gap-2">
         {icon}
         {label}
       </label>
       <button
         onClick={() => toggleDropdown(key)}
-        className={`w-full min-h-[56px] p-4 bg-gradient-to-b from-white/10 to-white/5 border-2 rounded-xl text-left flex items-center justify-between transition-all duration-200 hover:from-white/15 hover:to-white/10 ${
+        className={`w-full min-h-[56px] p-4 bg-gray-800 border-2 rounded-xl text-left flex items-center justify-between transition-all duration-200 hover:bg-gray-750 ${
           dropdowns[key] 
-            ? 'border-amber-400/50 shadow-[0_0_20px_rgba(251,191,36,0.15)]' 
-            : 'border-white/20 hover:border-white/30'
+            ? 'border-cyan-400/50 bg-gray-750' 
+            : 'border-gray-600 hover:border-gray-500'
         }`}
       >
         <span className={`text-lg font-medium ${selected ? 'text-white' : 'text-gray-500'}`}>
@@ -190,14 +166,13 @@ function App() {
             className="fixed inset-0 z-40" 
             onClick={closeAllDropdowns}
           />
-          {/* Dropdown options */}
-          <div className="absolute z-50 w-full mt-2 bg-gradient-to-b from-gray-900 to-gray-800 border-2 border-amber-400/30 rounded-xl shadow-2xl max-h-72 overflow-y-auto animate-in fade-in slide-in-from-top-2 duration-200">
+          {/* Dropdown options - solid opaque background */}
+          <div className="absolute z-50 w-full mt-2 bg-gray-900 border-2 border-gray-600 rounded-xl shadow-2xl max-h-72 overflow-y-auto">
             {options.map((option, idx) => (
               <button
                 key={key === 'brand' ? option.id : key === 'model' ? option.id : option}
                 onClick={() => selectOption(key, option)}
-                className="w-full p-4 text-left text-lg font-medium text-gray-200 hover:bg-amber-500/20 hover:text-white transition-colors border-b border-white/5 last:border-0"
-                style={{ animationDelay: `${idx * 30}ms` }}
+                className="w-full p-4 text-left text-lg font-medium text-gray-200 hover:bg-cyan-500/20 hover:text-white transition-colors border-b border-gray-700 last:border-0"
               >
                 {key === 'brand' || key === 'model' ? option.name : option}
               </button>
@@ -213,6 +188,53 @@ function App() {
     ? getProductData(selectedBrand.name, selectedModel.name, selectedSize) 
     : null;
 
+  // Build retailer list with prices for comparison
+  const retailerPrices = useMemo(() => {
+    if (!productData) return [];
+    
+    const prices: { id: string; name: string; price: number | null; found: boolean; notAvailable: boolean; reason?: string }[] = [];
+    
+    // Add Mattress Firm
+    prices.push({
+      id: 'mf',
+      name: 'Mattress Firm',
+      price: productData.mfPrice,
+      found: true,
+      notAvailable: false
+    });
+    
+    // Add other retailers
+    Object.entries(productData.competitors).forEach(([compId, compData]) => {
+      const retailer = allRetailers.find(r => r.id === compId);
+      if (retailer) {
+        prices.push({
+          id: compId,
+          name: retailer.name,
+          price: compData.price ?? null,
+          found: compData.found ?? false,
+          notAvailable: compData.notAvailable ?? false,
+          reason: compData.reason
+        });
+      }
+    });
+    
+    // Sort by price (lowest first), unavailable at end
+    return prices.sort((a, b) => {
+      if (a.notAvailable && !b.notAvailable) return 1;
+      if (!a.notAvailable && b.notAvailable) return -1;
+      if (a.price === null && b.price !== null) return 1;
+      if (a.price !== null && b.price === null) return -1;
+      if (a.price === null && b.price === null) return 0;
+      return (a.price ?? 0) - (b.price ?? 0);
+    });
+  }, [productData]);
+
+  // Find lowest price
+  const lowestPrice = useMemo(() => {
+    const available = retailerPrices.filter(r => !r.notAvailable && r.price !== null);
+    return available.length > 0 ? Math.min(...available.map(r => r.price as number)) : null;
+  }, [retailerPrices]);
+
   return (
     <div className="min-h-screen pb-8 bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950">
       {/* Background pattern */}
@@ -221,19 +243,19 @@ function App() {
       </div>
 
       {/* Header */}
-      <header className="relative bg-gradient-to-r from-gray-900/95 via-gray-900/90 to-gray-900/95 backdrop-blur-xl border-b border-amber-500/20 sticky top-0 z-40">
+      <header className="relative bg-gray-900/95 backdrop-blur-xl border-b border-gray-700 sticky top-0 z-40">
         <div className="max-w-5xl mx-auto px-4 py-5">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-3xl md:text-4xl font-black bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 bg-clip-text text-transparent tracking-tight">
+              <h1 className="text-3xl md:text-4xl font-black text-white tracking-tight">
                 🛏️ Mattress Price Comparator
               </h1>
               <p className="text-gray-400 text-sm mt-1 font-medium">
-                Compare prices across 8 retailers instantly
+                Compare prices across retailers instantly
               </p>
             </div>
-            <div className="flex items-center gap-2 px-3 py-2 bg-white/5 rounded-lg border border-white/10">
-              <Clock size={14} className="text-amber-400" />
+            <div className="flex items-center gap-2 px-3 py-2 bg-gray-800 rounded-lg border border-gray-700">
+              <Clock size={14} className="text-cyan-400" />
               <span className="text-gray-400 text-xs font-medium">
                 {formatTimestamp(competitorData.timestamp)}
               </span>
@@ -245,16 +267,16 @@ function App() {
       <main className="relative max-w-5xl mx-auto px-4 py-8">
         {/* Selection Panel */}
         <section className={`mb-10 transition-all duration-500 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-          <div className="neu-raised rounded-2xl p-6 md:p-8 border border-amber-500/20">
+          <div className="bg-gray-900 rounded-2xl p-6 md:p-8 border border-gray-700">
             <h2 className="text-xl md:text-2xl font-bold text-white mb-6 flex items-center gap-3">
-              <Crown className="w-6 h-6 text-amber-400" />
+              <DollarSign className="w-6 h-6 text-cyan-400" />
               Select Your Mattress
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {renderDropdown('brand', 'Brand', brands, selectedBrand, <Bed className="w-4 h-4 text-amber-400" />)}
-              {renderDropdown('model', 'Model', availableModels, selectedModel, <Tag className="w-4 h-4 text-amber-400" />)}
-              {renderDropdown('size', 'Size', availableSizes, selectedSize, <Ruler className="w-4 h-4 text-amber-400" />)}
+              {renderDropdown('brand', 'Brand', brands, selectedBrand, <Bed className="w-4 h-4 text-cyan-400" />)}
+              {renderDropdown('model', 'Model', availableModels, selectedModel, <Tag className="w-4 h-4 text-cyan-400" />)}
+              {renderDropdown('size', 'Size', availableSizes, selectedSize, <Ruler className="w-4 h-4 text-cyan-400" />)}
             </div>
           </div>
         </section>
@@ -264,198 +286,109 @@ function App() {
           <section className="animate-in fade-in slide-in-from-bottom-4 duration-500">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-2xl md:text-3xl font-bold text-white">
-                {selectedBrand.name} <span className="text-amber-400">{selectedModel.name}</span>
+                {selectedBrand.name} <span className="text-cyan-400">{selectedModel.name}</span>
                 <span className="text-gray-500 text-lg font-normal ml-2">— {selectedSize}</span>
               </h2>
             </div>
 
             {productData ? (
               <>
-                {/* Mattress Firm Hero Card */}
-                <div className="relative mb-8 rounded-2xl overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-r from-amber-600/20 via-amber-500/10 to-transparent"></div>
-                  <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl"></div>
-                  <div className="relative bg-gradient-to-r from-gray-900 via-gray-900/95 to-gray-900/90 border-2 border-amber-400/40 rounded-2xl p-6 md:p-8">
-                    <div className="flex items-center justify-between mb-6">
-                      <div className="flex items-center gap-3">
-                        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center">
-                          <Crown className="w-6 h-6 text-gray-900" />
-                        </div>
-                        <div>
-                          <h3 className="text-2xl font-black text-white">Mattress Firm</h3>
-                          <p className="text-amber-400 text-sm font-medium">Our Price</p>
-                        </div>
-                      </div>
-                      <div className="text-right">
-                        <div className="text-4xl md:text-5xl font-black text-amber-400">
-                          <AnimatedPrice value={productData.mfPrice} />
-                        </div>
-                        <div className="text-green-400 text-sm font-bold flex items-center justify-end gap-1">
-                          <Check size={14} /> BEST PRICE GUARANTEE
-                        </div>
-                      </div>
-                    </div>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4 border-t border-white/10">
-                      <div className="text-center">
-                        <div className="text-gray-500 text-xs uppercase tracking-wider mb-1">Financing</div>
-                        <div className="text-xl font-bold text-green-400">0% APR</div>
-                        <div className="text-gray-500 text-xs">Up to 48 months</div>
-                      </div>
-                      <div className="text-center">
-                        <div className="text-gray-500 text-xs uppercase tracking-wider mb-1">Trial</div>
-                        <div className="text-xl font-bold text-white">120 nights</div>
-                        <div className="text-gray-500 text-xs">21-night min</div>
-                      </div>
-                      <div className="text-center">
-                        <div className="text-gray-500 text-xs uppercase tracking-wider mb-1">Warranty</div>
-                        <div className="text-xl font-bold text-white">10 years</div>
-                        <div className="text-gray-500 text-xs">Full coverage</div>
-                      </div>
-                      <div className="text-center">
-                        <div className="text-gray-500 text-xs uppercase tracking-wider mb-1">Delivery</div>
-                        <div className="text-xl font-bold text-white">FREE</div>
-                        <div className="text-gray-500 text-xs">White glove</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Competitors */}
+                {/* Retailer Comparison Cards */}
                 <div className="space-y-4 mb-8">
-                  <h3 className="text-lg font-bold text-gray-400 uppercase tracking-wider mb-4">Competitor Prices</h3>
-                  {Object.entries(competitorInfo).map(([compId, info], idx) => {
-                    const compDataItem = productData.competitors[compId];
-                    const compName = info.name;
-                    
-                    if (!compDataItem) {
-                      return (
-                        <div key={compId} className="neu-inset rounded-xl overflow-hidden border border-white/5 animate-in fade-in slide-in-from-bottom-2" style={{ animationDelay: `${idx * 50}ms` }}>
-                          <div className="bg-white/5 px-6 py-4 flex items-center justify-between">
-                            <span className="text-lg font-bold text-white">{compName}</span>
-                            <span className="px-3 py-1 bg-gray-500/20 text-gray-400 text-sm font-bold rounded-full">
-                              No data
-                            </span>
-                          </div>
-                        </div>
-                      );
-                    }
-                    
-                    const isWin = compDataItem.found && compDataItem.price && productData.mfPrice && compDataItem.price > productData.mfPrice;
-                    const isTie = compDataItem.found && compDataItem.price && productData.mfPrice && compDataItem.price === productData.mfPrice;
-                    const isLose = compDataItem.found && compDataItem.price && productData.mfPrice && compDataItem.price < productData.mfPrice;
-                    const notAvailable = compDataItem.notAvailable;
-                    const priceDiff = compDataItem.price && productData.mfPrice ? compDataItem.price - productData.mfPrice : 0;
-
-                    // Card styling based on result
-                    const cardClass = isWin 
-                      ? 'bg-gradient-to-r from-green-900/40 to-green-800/20 border-green-500/40' 
-                      : isTie 
-                        ? 'bg-gradient-to-r from-blue-900/40 to-blue-800/20 border-blue-500/40'
-                        : isLose
-                          ? 'bg-gradient-to-r from-red-900/30 to-red-800/20 border-red-500/30'
-                          : 'bg-white/5 border-white/10';
-
-                    const badgeClass = isWin
-                      ? 'bg-green-500/20 text-green-400 border-green-500/40'
-                      : isTie
-                        ? 'bg-blue-500/20 text-blue-400 border-blue-500/40'
-                        : 'bg-red-500/20 text-red-400 border-red-500/40';
+                  <h3 className="text-lg font-bold text-gray-400 uppercase tracking-wider mb-4">Price Comparison</h3>
+                  {retailerPrices.map((retailer, idx) => {
+                    const policy = policies[retailer.name];
+                    const isLowest = retailer.price !== null && retailer.price === lowestPrice && !retailer.notAvailable;
+                    const priceDiff = retailer.price !== null && lowestPrice !== null ? retailer.price - lowestPrice : 0;
 
                     return (
-                      <div key={compId} className={`neu-raised rounded-xl overflow-hidden border-2 transition-all duration-300 hover:scale-[1.01] ${cardClass} animate-in fade-in slide-in-from-bottom-2`} style={{ animationDelay: `${idx * 50}ms` }}>
-                        <div className="bg-white/5 px-6 py-4 flex items-center justify-between">
-                          <div>
-                            <span className="text-lg font-bold text-white">{compName}</span>
-                            {notAvailable && (
-                              <span className="ml-3 px-3 py-1 bg-red-500/20 text-red-400 text-sm font-bold rounded-full flex items-center gap-1 inline-flex">
-                                <X size={12} /> {compDataItem.reason || "Unavailable"}
+                      <div 
+                        key={retailer.id} 
+                        className={`bg-gray-900 rounded-xl overflow-hidden border-2 transition-all duration-300 ${
+                          isLowest ? 'border-cyan-500/50 bg-cyan-900/10' : 'border-gray-700 hover:border-gray-600'
+                        }`}
+                      >
+                        {/* Header */}
+                        <div className="bg-gray-800 px-6 py-4 flex items-center justify-between">
+                          <div className="flex items-center gap-3">
+                            <span className="text-lg font-bold text-white">{retailer.name}</span>
+                            {isLowest && (
+                              <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 text-sm font-bold rounded-full border border-cyan-500/40">
+                                Lowest Price
                               </span>
                             )}
                           </div>
-                          {isWin && (
-                            <span className={`px-4 py-2 text-sm font-bold rounded-lg flex items-center gap-2 ${badgeClass} border`}>
-                              <TrendingDown size={16} /> WE BEAT THEM
-                            </span>
-                          )}
-                          {isTie && (
-                            <span className={`px-4 py-2 text-sm font-bold rounded-lg flex items-center gap-2 ${badgeClass} border`}>
-                              <Minus size={16} /> WE MATCH THEM
-                            </span>
-                          )}
-                          {isLose && (
-                            <span className={`px-4 py-2 text-sm font-bold rounded-lg flex items-center gap-2 ${badgeClass} border`}>
-                              <TrendingUp size={16} /> THEY'RE CHEAPER
+                          {retailer.notAvailable && (
+                            <span className="px-3 py-1 bg-red-500/20 text-red-400 text-sm font-bold rounded-full flex items-center gap-1">
+                              <X size={12} /> {retailer.reason || "Unavailable"}
                             </span>
                           )}
                         </div>
                         
-                        {compDataItem.found && compDataItem.price !== undefined ? (
-                          <div className="px-6 py-5">
-                            <div className="flex items-center justify-between">
+                        {/* Content */}
+                        {!retailer.notAvailable && retailer.price !== undefined ? (
+                          <div className="p-6">
+                            <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+                              {/* Price */}
                               <div>
-                                <div className="text-gray-400 text-sm mb-1">Their Price</div>
+                                <div className="text-gray-500 text-sm mb-1">Price</div>
                                 <div className="text-3xl font-black text-white">
-                                  ${compDataItem.price.toLocaleString()}
+                                  ${retailer.price.toLocaleString()}
                                 </div>
-                              </div>
-                              <div className="text-right">
                                 {priceDiff > 0 && (
-                                  <div className="text-green-400 font-bold text-lg flex items-center gap-1">
-                                    <TrendingDown size={18} /> Save ${priceDiff.toLocaleString()}
+                                  <div className="text-gray-400 text-sm mt-1">
+                                    +${priceDiff.toLocaleString()} vs lowest
                                   </div>
                                 )}
-                                {priceDiff < 0 && (
-                                  <div className="text-red-400 font-bold text-lg flex items-center gap-1">
-                                    <TrendingUp size={18} /> +${Math.abs(priceDiff).toLocaleString()}
+                                {priceDiff === 0 && isLowest && (
+                                  <div className="text-cyan-400 text-sm mt-1">
+                                    Best price
                                   </div>
                                 )}
-                                {priceDiff === 0 && (
-                                  <div className="text-blue-400 font-bold text-lg flex items-center gap-1">
-                                    <Minus size={18} /> Same price
-                                  </div>
-                                )}
+                              </div>
+
+                              {/* Delivery Time */}
+                              <div>
+                                <div className="text-gray-500 text-sm mb-1">Delivery</div>
+                                <div className="text-white font-medium">{policy?.deliveryTime || 'N/A'}</div>
+                              </div>
+
+                              {/* Delivery Fee */}
+                              <div>
+                                <div className="text-gray-500 text-sm mb-1">Delivery Fee</div>
+                                <div className="text-white font-medium">{policy?.deliveryFee || 'N/A'}</div>
+                              </div>
+
+                              {/* Trial */}
+                              <div>
+                                <div className="text-gray-500 text-sm mb-1">Trial</div>
+                                <div className="text-white font-medium">{policy?.trialPeriod || 'N/A'}</div>
+                              </div>
+
+                              {/* Warranty */}
+                              <div>
+                                <div className="text-gray-500 text-sm mb-1">Warranty</div>
+                                <div className="text-white font-medium">{policy?.warranty || 'N/A'}</div>
                               </div>
                             </div>
                           </div>
-                        ) : notAvailable ? (
+                        ) : retailer.notAvailable ? (
                           <div className="px-6 py-4 text-gray-500 text-center">
-                            This retailer doesn't carry this model
+                            This retailer does not carry this model
                           </div>
                         ) : null}
                       </div>
                     );
                   })}
                 </div>
-
-                {/* Why Buy From MF */}
-                <div className="neu-raised rounded-2xl p-6 md:p-8 border border-amber-500/20">
-                  <h3 className="text-xl font-bold text-amber-400 mb-4 flex items-center gap-2">
-                    <Crown className="w-5 h-5" /> Why Buy From Mattress Firm?
-                  </h3>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    {[
-                      { icon: '💰', text: 'Price match guarantee — we beat any competitor' },
-                      { icon: '💳', text: '0% APR financing up to 48 months' },
-                      { icon: '🚚', text: policies['Mattress Firm'].deliveryFee },
-                      { icon: '😴', text: policies['Mattress Firm'].trialPeriod },
-                      { icon: '🛡️', text: '10-year full warranty included' },
-                      { icon: '📞', text: 'Local experts — personalized service' },
-                    ].map((item, i) => (
-                      <div key={i} className="flex items-center gap-3 text-gray-300">
-                        <span className="text-xl">{item.icon}</span>
-                        <span className="font-medium">{item.text}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
               </>
             ) : (
-              <div className="neu-raised rounded-2xl p-8 border border-amber-500/20 text-center">
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-amber-500/20 flex items-center justify-center">
-                  <X className="w-8 h-8 text-amber-400" />
+              <div className="bg-gray-900 rounded-2xl p-8 border border-gray-700 text-center">
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-800 flex items-center justify-center">
+                  <X className="w-8 h-8 text-gray-500" />
                 </div>
-                <h3 className="text-xl font-bold text-amber-400 mb-2">Not Available at Mattress Firm</h3>
-                <p className="text-gray-400">This product/size combination is not carried by Mattress Firm.</p>
+                <h3 className="text-xl font-bold text-white mb-2">No Data Available</h3>
+                <p className="text-gray-400">This product/size combination data not found.</p>
               </div>
             )}
           </section>
@@ -463,25 +396,25 @@ function App() {
 
         {!productData && !(selectedBrand && selectedModel && selectedSize) && (
           <div className="text-center py-20">
-            <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-amber-500/20 to-purple-500/20 flex items-center justify-center">
-              <Bed className="w-10 h-10 text-amber-400" />
+            <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gray-800 flex items-center justify-center">
+              <Bed className="w-10 h-10 text-gray-500" />
             </div>
             <p className="text-xl text-gray-400 font-medium">Select a brand, model, and size above to compare prices</p>
           </div>
         )}
 
-        {/* Policy Comparison */}
+        {/* Policy Comparison Table */}
         <section className="mt-16">
           <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
-            <Tag className="w-6 h-6 text-amber-400" />
+            <DollarSign className="w-6 h-6 text-cyan-400" />
             Retailer Policies Comparison
           </h2>
           
-          <div className="neu-raised rounded-2xl overflow-hidden border border-white/10">
+          <div className="bg-gray-900 rounded-2xl overflow-hidden border border-gray-700">
             <div className="overflow-x-auto">
               <table className="w-full text-sm md:text-base">
                 <thead>
-                  <tr className="bg-gradient-to-r from-gray-800 to-gray-900">
+                  <tr className="bg-gray-800">
                     <th className="text-left py-4 px-6 text-gray-400 font-bold uppercase tracking-wider">Retailer</th>
                     <th className="text-left py-4 px-6 text-gray-400 font-bold uppercase tracking-wider">Delivery</th>
                     <th className="text-left py-4 px-6 text-gray-400 font-bold uppercase tracking-wider">Delivery Fee</th>
@@ -493,12 +426,12 @@ function App() {
                   {Object.entries(policies).map(([retailer, policy], index) => (
                     <tr 
                       key={retailer} 
-                      className={`border-b border-white/5 transition-colors hover:bg-white/5 ${
-                        retailer === 'Mattress Firm' ? 'bg-gradient-to-r from-amber-600/10 to-transparent' : ''
+                      className={`border-b border-gray-800 transition-colors hover:bg-gray-800/50 ${
+                        index === 0 ? 'bg-gray-800/30' : ''
                       }`}
                     >
-                      <td className={`py-4 px-6 font-bold ${retailer === 'Mattress Firm' ? 'text-amber-400 text-lg' : 'text-white'}`}>
-                        {retailer === 'Mattress Firm' && '👑 '}{retailer}
+                      <td className="py-4 px-6 font-bold text-white">
+                        {retailer}
                       </td>
                       <td className="py-4 px-6 text-gray-300">{policy.deliveryTime}</td>
                       <td className="py-4 px-6 text-gray-300">{policy.deliveryFee}</td>
@@ -514,13 +447,13 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="relative mt-16 py-8 border-t border-white/10">
+      <footer className="relative mt-16 py-8 border-t border-gray-800">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 text-gray-500">
             <RefreshCw size={14} />
             <p className="font-medium">Data refreshes daily at 6:00 AM CT</p>
           </div>
-          <p className="text-gray-600 text-sm mt-2">© 2026 Mattress Price Comparator • Built for Mattress Firm Sales</p>
+          <p className="text-gray-600 text-sm mt-2">© 2026 Mattress Price Comparator</p>
         </div>
       </footer>
     </div>
