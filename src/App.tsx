@@ -5,6 +5,9 @@ import { brands } from './data/products';
 // Import competitor data
 import competitorDataRaw from './data/competitor-data.json';
 
+// Import policies
+import policiesData from './data/policies.json';
+
 // Type definitions
 interface CompetitorResult {
   price?: number;
@@ -22,10 +25,18 @@ interface ProductData {
   brand: string;
   model: string;
   size: string;
+  mfPrice: number;
   competitors: ProductCompetitors;
 }
 
-// Competitor info
+interface PolicyData {
+  deliveryTime: string;
+  deliveryFee: string;
+  trialPeriod: string;
+  warranty: string;
+}
+
+// Competitor info - removed bbb (Bed Bath & Beyond)
 const competitorInfo: { [key: string]: { name: string } } = {
   'ashley': { name: 'Ashley Furniture' },
   'macys': { name: "Macy's" },
@@ -33,47 +44,20 @@ const competitorInfo: { [key: string]: { name: string } } = {
   'muellers': { name: "Mueller's Furniture" },
   'carol-house': { name: 'Carol House Furniture' },
   'wayfair': { name: 'Wayfair' },
-  'bbb': { name: 'Bed Bath & Beyond' },
   'jcpenney': { name: 'JCPenney' }
 };
-
-// Mattress Firm baseline prices (these should come from actual product data)
-// Using realistic MF prices for each brand/model
-const getMFBaseline = (brand: string, model: string): { price: number; financingAPR: number; financingTerm: number; warrantyYears: number; deliveryDays: number } => {
-  const baselines: { [key: string]: { price: number; financingAPR: number; financingTerm: number; warrantyYears: number; deliveryDays: number } } = {
-    // Tempur-Pedic
-    'Tempur-Pedic_ProAdapt': { price: 2499, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
-    // Purple
-    'Purple_Purple Plus': { price: 1599, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
-    // Nectar
-    'Nectar_Premier': { price: 998, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
-    // Beautyrest
-    'Beautyrest_PressureSmart': { price: 1199, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
-    // Serta
-    'Serta_Sleep Excellence': { price: 899, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
-    // Stearns & Foster
-    'Stearns & Foster_Estate': { price: 1999, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 },
-    // Sealy
-    'Sealy_Hybrid High Point': { price: 1299, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 }
-  };
-  
-  const key = `${brand}_${model}`;
-  return baselines[key] || { price: 1299, financingAPR: 0, financingTerm: 48, warrantyYears: 10, deliveryDays: 7 };
-};
-
-// Filter out Sleepy's from brands
-const filteredBrands = brands.filter(b => b.id !== 'sleepys');
 
 // Parse competitor data
 const competitorData = competitorDataRaw as { timestamp: string; products: ProductData[] };
 
-// Get competitor data for selected product
-const getCompetitorDataForProduct = (brand: string, model: string): ProductCompetitors | null => {
-  // Find matching product in data
-  const product = competitorData.products.find(p => 
-    p.brand === brand && p.model.toLowerCase().includes(model.toLowerCase().split(' ')[0])
-  );
-  return product?.competitors || null;
+// Parse policies
+const policies = policiesData as { [retailer: string]: PolicyData };
+
+// Get product data for exact brand + model + size match
+const getProductData = (brand: string, model: string, size: string): ProductData | null => {
+  return competitorData.products.find(p =>
+    p.brand === brand && p.model === model && p.size === size
+  ) || null;
 };
 
 // Format timestamp
@@ -154,9 +138,10 @@ function App() {
     </div>
   );
 
-  // Get data for selected product
-  const mfBaseline = selectedBrand && selectedModel ? getMFBaseline(selectedBrand.name, selectedModel.name) : null;
-  const compData = selectedBrand && selectedModel ? getCompetitorDataForProduct(selectedBrand.name, selectedModel.name) : null;
+  // Get data for selected product - exact match on brand + model + size
+  const productData = selectedBrand && selectedModel && selectedSize 
+    ? getProductData(selectedBrand.name, selectedModel.name, selectedSize) 
+    : null;
 
   return (
     <div className="min-h-screen pb-8">
@@ -179,14 +164,14 @@ function App() {
           <h2 className="text-lg font-semibold mb-4">Select Your Mattress</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {renderDropdown('brand', 'Brand', filteredBrands, selectedBrand)}
+            {renderDropdown('brand', 'Brand', brands, selectedBrand)}
             {renderDropdown('model', 'Model', availableModels, selectedModel)}
             {renderDropdown('size', 'Size', availableSizes, selectedSize)}
           </div>
         </section>
 
         {/* Comparison Results */}
-        {selectedBrand && selectedModel && selectedSize && mfBaseline && (
+        {selectedBrand && selectedModel && selectedSize && (
           <section>
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-lg font-semibold">
@@ -194,136 +179,147 @@ function App() {
               </h2>
             </div>
 
-            {/* Mattress Firm Baseline */}
-            <div className="bg-purple-600/20 rounded-xl p-4 mb-6 border border-purple-500/30">
-              <h3 className="font-bold text-purple-400 mb-3">Mattress Firm</h3>
-              <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-                <div>
-                  <div className="text-gray-400 text-xs">Price</div>
-                  <div className="text-xl font-bold text-purple-400">${mfBaseline.price.toLocaleString()}</div>
-                </div>
-                <div>
-                  <div className="text-gray-400 text-xs">Financing</div>
-                  <div className="text-xl font-bold text-green-400">0% APR</div>
-                </div>
-                <div>
-                  <div className="text-gray-400 text-xs">Term</div>
-                  <div className="text-xl font-bold text-white">{mfBaseline.financingTerm} mo</div>
-                </div>
-                <div>
-                  <div className="text-gray-400 text-xs">Warranty</div>
-                  <div className="text-xl font-bold text-white">{mfBaseline.warrantyYears} years</div>
-                </div>
-                <div>
-                  <div className="text-gray-400 text-xs">Delivery</div>
-                  <div className="text-xl font-bold text-white">{mfBaseline.deliveryDays} days</div>
-                </div>
-              </div>
-            </div>
-
-            {/* Competitors */}
-            <div className="space-y-4">
-              {Object.entries(competitorInfo).map(([compId, info]) => {
-                const compDataItem = compData?.[compId];
-                const compName = info.name;
-                
-                if (!compDataItem) {
-                  // No data for this competitor
-                  return (
-                    <div key={compId} className="bg-white/5 rounded-xl overflow-hidden border border-white/10">
-                      <div className="bg-white/10 px-4 py-3 flex items-center gap-3">
-                        <span className="font-semibold">{compName}</span>
-                        <span className="px-2 py-1 bg-gray-500/20 text-gray-400 text-xs font-bold rounded-full">
-                          No data available
-                        </span>
-                      </div>
+            {productData ? (
+              <>
+                {/* Mattress Firm with real data */}
+                <div className="bg-purple-600/20 rounded-xl p-4 mb-6 border border-purple-500/30">
+                  <h3 className="font-bold text-purple-400 mb-3">Mattress Firm</h3>
+                  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                    <div>
+                      <div className="text-gray-400 text-xs">Price</div>
+                      <div className="text-xl font-bold text-purple-400">${productData.mfPrice.toLocaleString()}</div>
                     </div>
-                  );
-                }
-                
-                const isWin = compDataItem.found && compDataItem.price && compDataItem.price > mfBaseline.price;
-                const isTie = compDataItem.found && compDataItem.price && compDataItem.price === mfBaseline.price;
-                const notAvailable = compDataItem.notAvailable;
-
-                return (
-                  <div key={compId} className="bg-white/5 rounded-xl overflow-hidden border border-white/10">
-                    <div className="bg-white/10 px-4 py-3 flex items-center gap-3">
-                      <span className="font-semibold">{compName}</span>
-                      {notAvailable && (
-                        <span className="px-2 py-1 bg-red-500/20 text-red-400 text-xs font-bold rounded-full flex items-center gap-1">
-                          <X size={12} /> {compDataItem.reason || "DOESN'T CARRY THIS MODEL"}
-                        </span>
-                      )}
+                    <div>
+                      <div className="text-gray-400 text-xs">Financing</div>
+                      <div className="text-xl font-bold text-green-400">{policies['Mattress Firm'].trialPeriod.includes('120') ? '0% APR' : 'Varies'}</div>
                     </div>
+                    <div>
+                      <div className="text-gray-400 text-xs">Term</div>
+                      <div className="text-xl font-bold text-white">48 mo</div>
+                    </div>
+                    <div>
+                      <div className="text-gray-400 text-xs">Warranty</div>
+                      <div className="text-xl font-bold text-white">10 years</div>
+                    </div>
+                    <div>
+                      <div className="text-gray-400 text-xs">Delivery</div>
+                      <div className="text-xl font-bold text-white">7 days</div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Competitors */}
+                <div className="space-y-4">
+                  {Object.entries(competitorInfo).map(([compId, info]) => {
+                    const compDataItem = productData.competitors[compId];
+                    const compName = info.name;
                     
-                    {compDataItem.found && compDataItem.price !== undefined ? (
-                      <div className="p-4">
-                        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-                          {/* Price */}
-                          <div className={`p-3 rounded-lg ${isWin ? 'bg-green-500/10 border border-green-500/30' : isTie ? 'bg-blue-500/10 border border-blue-500/30' : 'bg-white/5'}`}>
-                            <div className="text-gray-400 text-xs mb-1">💰 Price</div>
-                            <div className="font-bold">${compDataItem.price.toLocaleString()}</div>
-                            {isWin && (
-                              <span className="text-green-400 text-xs font-bold flex items-center gap-1 mt-1">
-                                <Check size={12} /> WE BEAT THEM
-                              </span>
-                            )}
-                            {isTie && (
-                              <span className="text-blue-400 text-xs font-bold flex items-center gap-1 mt-1">
-                                <Check size={12} /> WE MATCH THEM
-                              </span>
-                            )}
-                            {!isWin && !isTie && (
-                              <span className="text-red-400 text-xs mt-1">Higher price</span>
-                            )}
-                          </div>
-
-                          {/* Financing APR */}
-                          <div className="p-3 rounded-lg bg-white/5">
-                            <div className="text-gray-400 text-xs mb-1">💳 Financing APR</div>
-                            <div className="font-bold text-gray-300">Varies</div>
-                          </div>
-
-                          {/* Financing Term */}
-                          <div className="p-3 rounded-lg bg-white/5">
-                            <div className="text-gray-400 text-xs mb-1">📅 Term</div>
-                            <div className="font-bold text-gray-300">Varies</div>
-                          </div>
-
-                          {/* Warranty */}
-                          <div className="p-3 rounded-lg bg-white/5">
-                            <div className="text-gray-400 text-xs mb-1">🛡️ Warranty</div>
-                            <div className="font-bold text-gray-300">Varies</div>
-                          </div>
-
-                          {/* Delivery */}
-                          <div className="p-3 rounded-lg bg-white/5">
-                            <div className="text-gray-400 text-xs mb-1">🚚 Delivery</div>
-                            <div className="font-bold text-gray-300">Varies</div>
+                    if (!compDataItem) {
+                      // No data for this competitor
+                      return (
+                        <div key={compId} className="bg-white/5 rounded-xl overflow-hidden border border-white/10">
+                          <div className="bg-white/10 px-4 py-3 flex items-center gap-3">
+                            <span className="font-semibold">{compName}</span>
+                            <span className="px-2 py-1 bg-gray-500/20 text-gray-400 text-xs font-bold rounded-full">
+                              No data available
+                            </span>
                           </div>
                         </div>
-                      </div>
-                    ) : notAvailable ? (
-                      <div className="p-4 text-gray-400 text-center">
-                        This competitor does not carry this model.
-                      </div>
-                    ) : null}
-                  </div>
-                );
-              })}
-            </div>
+                      );
+                    }
+                    
+                    const isWin = compDataItem.found && compDataItem.price && productData.mfPrice && compDataItem.price > productData.mfPrice;
+                    const isTie = compDataItem.found && compDataItem.price && productData.mfPrice && compDataItem.price === productData.mfPrice;
+                    const notAvailable = compDataItem.notAvailable;
 
-            {/* Summary Footer */}
-            <div className="mt-6 p-4 bg-purple-600/20 rounded-xl border border-purple-500/30">
-              <h3 className="font-bold text-purple-400 mb-2">Why Buy From Mattress Firm?</h3>
-              <ul className="text-sm text-gray-300 space-y-1">
-                <li>• 0% APR financing available on most models</li>
-                <li>• Price match guarantee — we beat competitor prices</li>
-                <li>• Free delivery & setup on most mattresses</li>
-                <li>• 10+ year warranties on premium mattresses</li>
-                <li>• 120-night sleep trial — risk free</li>
-              </ul>
-            </div>
+                    return (
+                      <div key={compId} className="bg-white/5 rounded-xl overflow-hidden border border-white/10">
+                        <div className="bg-white/10 px-4 py-3 flex items-center gap-3">
+                          <span className="font-semibold">{compName}</span>
+                          {notAvailable && (
+                            <span className="px-2 py-1 bg-red-500/20 text-red-400 text-xs font-bold rounded-full flex items-center gap-1">
+                              <X size={12} /> {compDataItem.reason || "DOESN'T CARRY THIS MODEL"}
+                            </span>
+                          )}
+                        </div>
+                        
+                        {compDataItem.found && compDataItem.price !== undefined ? (
+                          <div className="p-4">
+                            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                              {/* Price */}
+                              <div className={`p-3 rounded-lg ${isWin ? 'bg-green-500/10 border border-green-500/30' : isTie ? 'bg-blue-500/10 border border-blue-500/30' : 'bg-white/5'}`}>
+                                <div className="text-gray-400 text-xs mb-1">💰 Price</div>
+                                <div className="font-bold">${compDataItem.price.toLocaleString()}</div>
+                                {isWin && (
+                                  <span className="text-green-400 text-xs font-bold flex items-center gap-1 mt-1">
+                                    <Check size={12} /> WE BEAT THEM
+                                  </span>
+                                )}
+                                {isTie && (
+                                  <span className="text-blue-400 text-xs font-bold flex items-center gap-1 mt-1">
+                                    <Check size={12} /> WE MATCH THEM
+                                  </span>
+                                )}
+                                {!isWin && !isTie && (
+                                  <span className="text-red-400 text-xs mt-1">Higher price</span>
+                                )}
+                              </div>
+
+                              {/* Financing APR */}
+                              <div className="p-3 rounded-lg bg-white/5">
+                                <div className="text-gray-400 text-xs mb-1">💳 Financing APR</div>
+                                <div className="font-bold text-gray-300">Varies</div>
+                              </div>
+
+                              {/* Financing Term */}
+                              <div className="p-3 rounded-lg bg-white/5">
+                                <div className="text-gray-400 text-xs mb-1">📅 Term</div>
+                                <div className="font-bold text-gray-300">Varies</div>
+                              </div>
+
+                              {/* Warranty */}
+                              <div className="p-3 rounded-lg bg-white/5">
+                                <div className="text-gray-400 text-xs mb-1">🛡️ Warranty</div>
+                                <div className="font-bold text-gray-300">Varies</div>
+                              </div>
+
+                              {/* Delivery */}
+                              <div className="p-3 rounded-lg bg-white/5">
+                                <div className="text-gray-400 text-xs mb-1">🚚 Delivery</div>
+                                <div className="font-bold text-gray-300">Varies</div>
+                              </div>
+                            </div>
+                          </div>
+                        ) : notAvailable ? (
+                          <div className="p-4 text-gray-400 text-center">
+                            This competitor does not carry this model.
+                          </div>
+                        ) : null}
+                      </div>
+                    );
+                  })}
+                </div>
+
+                {/* Summary Footer */}
+                <div className="mt-6 p-4 bg-purple-600/20 rounded-xl border border-purple-500/30">
+                  <h3 className="font-bold text-purple-400 mb-2">Why Buy From Mattress Firm?</h3>
+                  <ul className="text-sm text-gray-300 space-y-1">
+                    <li>• {policies['Mattress Firm'].financingAPR || '0% APR'} financing available on most models</li>
+                    <li>• Price match guarantee — we beat competitor prices</li>
+                    <li>• {policies['Mattress Firm'].deliveryFee}</li>
+                    <li>• {policies['Mattress Firm'].warranty}</li>
+                    <li>• {policies['Mattress Firm'].trialPeriod}</li>
+                  </ul>
+                </div>
+              </>
+            ) : (
+              <div className="bg-purple-600/20 rounded-xl p-4 mb-6 border border-purple-500/30">
+                <div className="text-center py-4">
+                  <p className="text-purple-400 font-semibold">Not available at Mattress Firm</p>
+                  <p className="text-gray-400 text-sm mt-1">This product/size combination is not carried by Mattress Firm.</p>
+                </div>
+              </div>
+            )}
           </section>
         )}
 
@@ -332,6 +328,41 @@ function App() {
             <p>Select a brand, model, and size above to compare prices</p>
           </div>
         )}
+
+        {/* Policy Comparison Section */}
+        <section className="mt-12">
+          <h2 className="text-lg font-semibold mb-4">Retailer Policies Comparison</h2>
+          
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-white/10">
+                  <th className="text-left py-3 px-4 text-gray-400 font-medium">Retailer</th>
+                  <th className="text-left py-3 px-4 text-gray-400 font-medium">Delivery Time</th>
+                  <th className="text-left py-3 px-4 text-gray-400 font-medium">Delivery Fee</th>
+                  <th className="text-left py-3 px-4 text-gray-400 font-medium">Trial Period</th>
+                  <th className="text-left py-3 px-4 text-gray-400 font-medium">Warranty</th>
+                </tr>
+              </thead>
+              <tbody>
+                {Object.entries(policies).map(([retailer, policy], index) => (
+                  <tr 
+                    key={retailer} 
+                    className={`border-b border-white/5 ${retailer === 'Mattress Firm' ? 'bg-purple-600/10' : ''}`}
+                  >
+                    <td className={`py-3 px-4 font-semibold ${retailer === 'Mattress Firm' ? 'text-purple-400' : 'text-white'}`}>
+                      {retailer === 'Mattress Firm' && '🏠 '}{retailer}
+                    </td>
+                    <td className="py-3 px-4 text-gray-300">{policy.deliveryTime}</td>
+                    <td className="py-3 px-4 text-gray-300">{policy.deliveryFee}</td>
+                    <td className="py-3 px-4 text-gray-300">{policy.trialPeriod}</td>
+                    <td className="py-3 px-4 text-gray-300">{policy.warranty}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
       </main>
 
       {/* Footer */}
