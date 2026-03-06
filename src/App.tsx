@@ -127,7 +127,7 @@ function App() {
     icon: React.ReactNode
   ) => (
     <div className="relative">
-      <label className="block text-sm font-medium text-gray-300 mb-2 flex items-center gap-2">
+      <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2 flex items-center gap-2">
         {icon}
         {label}
       </label>
@@ -139,7 +139,7 @@ function App() {
             : 'border-gray-200 hover:border-gray-300'
         }`}
       >
-        <span className={`text-lg font-medium ${selected ? 'text-white' : 'text-gray-500'}`}>
+        <span className={`text-lg font-medium ${selected ? 'text-gray-900' : 'text-gray-500'}`}>
           {selected?.name || selected || `Select ${label}`}
         </span>
         <ChevronDown className={`w-5 h-5 text-gray-400 transition-transform duration-200 ${dropdowns[key] ? 'rotate-180' : ''}`} />
@@ -161,6 +161,32 @@ function App() {
     </div>
   );
 
+
+  const renderDropdownOverlay = () => {
+    const openKey = dropdowns.brand ? 'brand' : dropdowns.model ? 'model' : dropdowns.size ? 'size' : null;
+    if (!openKey) return null;
+    const optionsMap: any = { brand: { options: brands, label: 'Brand' }, model: { options: availableModels, label: 'Model' }, size: { options: availableSizes, label: 'Size' } };
+    const { options, label } = optionsMap[openKey];
+    if (!options.length) return null;
+    return (
+      <div className="fixed inset-0 z-[100]" onClick={() => closeAllDropdowns()}>
+        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute bottom-0 left-0 right-0 max-h-[60vh] bg-white rounded-t-2xl shadow-2xl overflow-hidden" onClick={(e: any) => e.stopPropagation()}>
+          <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between">
+            <h3 className="text-lg font-bold text-gray-900">Select {label}</h3>
+            <button onClick={() => closeAllDropdowns()} className="text-gray-400 hover:text-gray-600 p-1"><X size={20} /></button>
+          </div>
+          <div className="overflow-y-auto max-h-[calc(60vh-60px)]">
+            {options.map((option: any) => (
+              <button key={openKey === 'size' ? option : option.id} onClick={() => selectOption(openKey, option)} className="w-full p-5 text-left text-lg font-medium text-gray-800 hover:bg-red-50 active:bg-red-100 transition-colors border-b border-gray-100 last:border-0">
+                {openKey === 'size' ? option : option.name}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  };
   // Get data for selected product
   const productData = selectedBrand && selectedModel && selectedSize 
     ? getProductData(selectedBrand.name, selectedModel.name, selectedSize) 
