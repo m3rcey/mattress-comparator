@@ -133,10 +133,10 @@ function App() {
       </label>
       <button
         onClick={() => toggleDropdown(key)}
-        className={`w-full min-h-[56px] p-4 bg-gray-800 border-2 rounded-xl text-left flex items-center justify-between transition-all duration-200 hover:bg-gray-750 ${
+        className={`w-full min-h-[56px] p-4 bg-neutral-900 border-2 rounded-xl text-left flex items-center justify-between transition-all duration-200 hover:bg-gray-750 ${
           dropdowns[key] 
             ? 'border-red-500 ring-2 ring-red-500/20' 
-            : 'border-gray-700 hover:border-gray-600'
+            : 'border-neutral-700 hover:border-neutral-600'
         }`}
       >
         <span className={`text-lg font-medium ${selected ? 'text-white' : 'text-gray-500'}`}>
@@ -240,7 +240,7 @@ function App() {
   }, [retailerPrices]);
 
   return (
-    <div className="min-h-screen pb-8 bg-gray-950">
+    <div className="min-h-screen pb-8 bg-black">
       {/* Background pattern */}
       <div className="fixed inset-0 opacity-[0.03] pointer-events-none" 
         style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")` }}>
@@ -249,7 +249,7 @@ function App() {
       {renderDropdownOverlay()}
 
       {/* Header */}
-      <header className="relative bg-gray-900 border-b border-gray-800 sticky top-0 z-40">
+      <header className="relative bg-black border-b border-neutral-800 sticky top-0 z-40">
         <div className="max-w-5xl mx-auto px-4 py-5">
           <div className="flex items-center justify-between">
             <div>
@@ -260,7 +260,7 @@ function App() {
                 Compare prices across retailers instantly
               </p>
             </div>
-            <div className="flex items-center gap-2 px-3 py-2 bg-gray-800 rounded-lg border border-gray-700">
+            <div className="flex items-center gap-2 px-3 py-2 bg-neutral-800 rounded-lg border border-neutral-700">
               <Clock size={14} className="text-red-500" />
               <span className="text-gray-400 text-xs font-medium">
                 {formatTimestamp(competitorData.timestamp)}
@@ -273,7 +273,7 @@ function App() {
       <main className="relative max-w-5xl mx-auto px-4 py-8">
         {/* Selection Panel */}
         <section className={`mb-10 transition-all duration-500 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-          <div className="bg-gray-900 rounded-2xl p-6 md:p-8 border border-gray-800">
+          <div className="bg-neutral-900 rounded-2xl p-6 md:p-8 border border-neutral-800">
             <h2 className="text-xl md:text-2xl font-bold text-white mb-6 flex items-center gap-3">
               <DollarSign className="w-6 h-6 text-red-500" />
               Select Your Mattress
@@ -310,12 +310,12 @@ function App() {
                     return (
                       <div 
                         key={retailer.id} 
-                        className={`bg-gray-900 rounded-xl overflow-hidden border-2 transition-all duration-300 ${
-                          isLowest ? 'border-red-500 bg-red-950/30' : 'border-gray-700 hover:border-gray-600'
+                        className={`bg-neutral-900 rounded-xl overflow-hidden border-2 transition-all duration-300 ${
+                          isLowest ? 'border-red-500 bg-red-950/30' : 'border-neutral-700 hover:border-neutral-600'
                         }`}
                       >
 
-                        <div className="bg-gray-800 px-6 py-4 flex items-center justify-between border-b border-gray-700">
+                        <div className="bg-neutral-800 px-6 py-4 flex items-center justify-between border-b border-neutral-700">
                           <div className="flex items-center gap-3">
                             <span className="text-lg font-bold text-white">{retailer.name}</span>
                             {isLowest && (
@@ -325,7 +325,7 @@ function App() {
                             )}
                           </div>
                           {retailer.notAvailable && (
-                            <span className="px-3 py-1 bg-gray-700 text-gray-400 text-sm font-bold rounded-full flex items-center gap-1">
+                            <span className="px-3 py-1 bg-neutral-700 text-neutral-400 text-sm font-bold rounded-full flex items-center gap-1">
                               <X size={12} /> {retailer.reason || "Unavailable"}
                             </span>
                           )}
@@ -389,8 +389,8 @@ function App() {
                 </div>
               </>
             ) : (
-              <div className="bg-gray-900 rounded-2xl p-8 border border-gray-800 text-center">
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-800 flex items-center justify-center">
+              <div className="bg-neutral-900 rounded-2xl p-8 border border-neutral-800 text-center">
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-neutral-800 flex items-center justify-center">
                   <X className="w-8 h-8 text-gray-500" />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-2">No Data Available</h3>
@@ -402,7 +402,7 @@ function App() {
 
         {!productData && !(selectedBrand && selectedModel && selectedSize) && (
           <div className="text-center py-20">
-            <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gray-800 flex items-center justify-center">
+            <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-neutral-800 flex items-center justify-center">
               <Bed className="w-10 h-10 text-gray-300" />
             </div>
             <p className="text-xl text-gray-500 font-medium">Select a brand, model, and size above to compare prices</p>
@@ -416,11 +416,11 @@ function App() {
             Retailer Policies Comparison
           </h2>
           
-          <div className="bg-gray-900 rounded-2xl overflow-hidden border border-gray-800">
+          <div className="bg-neutral-900 rounded-2xl overflow-hidden border border-neutral-800">
             <div className="overflow-x-auto">
               <table className="w-full text-sm md:text-base">
                 <thead>
-                  <tr className="bg-gray-800 border-b border-gray-700">
+                  <tr className="bg-neutral-800 border-b border-neutral-700">
                     <th className="text-left py-4 px-6 text-gray-500 text-xs font-bold uppercase tracking-wider">Retailer</th>
                     <th className="text-left py-4 px-6 text-gray-500 text-xs font-bold uppercase tracking-wider">Delivery</th>
                     <th className="text-left py-4 px-6 text-gray-500 text-xs font-bold uppercase tracking-wider">Delivery Fee</th>
@@ -432,7 +432,7 @@ function App() {
                   {Object.entries(policies).map(([retailer, policy], index) => (
                     <tr 
                       key={retailer} 
-                      className={`border-b border-gray-800 transition-colors hover:bg-gray-800/50 ${
+                      className={`border-b border-neutral-800 transition-colors hover:bg-neutral-800/50 ${
                         ''
                       }`}
                     >
@@ -453,7 +453,7 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="relative mt-16 py-8 border-t border-gray-800">
+      <footer className="relative mt-16 py-8 border-t border-neutral-800">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 text-gray-500">
             <RefreshCw size={14} />
