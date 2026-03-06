@@ -133,10 +133,10 @@ function App() {
       </label>
       <button
         onClick={() => toggleDropdown(key)}
-        className={`w-full min-h-[56px] p-4 bg-gray-800 border-2 rounded-xl text-left flex items-center justify-between transition-all duration-200 hover:bg-gray-750 ${
+        className={`w-full min-h-[56px] p-4 bg-white border-2 rounded-xl text-left flex items-center justify-between transition-all duration-200 hover:bg-gray-750 ${
           dropdowns[key] 
-            ? 'border-cyan-400/50 bg-gray-750' 
-            : 'border-gray-600 hover:border-gray-500'
+            ? 'border-red-500 ring-2 ring-red-500/20' 
+            : 'border-gray-200 hover:border-gray-300'
         }`}
       >
         <span className={`text-lg font-medium ${selected ? 'text-white' : 'text-gray-500'}`}>
@@ -146,12 +146,12 @@ function App() {
       </button>
       
       {dropdowns[key] && options.length > 0 && (
-        <div className="absolute z-50 w-full mt-2 bg-gray-900 border-2 border-gray-600 rounded-xl shadow-2xl max-h-72 overflow-y-auto">
+        <div className="absolute z-50 w-full mt-2 bg-white border-2 border-gray-200 rounded-xl shadow-2xl max-h-72 overflow-y-auto">
           {options.map((option, idx) => (
             <button
               key={key === 'brand' ? option.id : key === 'model' ? option.id : option}
               onClick={() => selectOption(key, option)}
-              className="w-full p-4 text-left text-lg font-medium text-gray-200 hover:bg-cyan-500/20 hover:text-white transition-colors border-b border-gray-700 last:border-0"
+              className="w-full p-4 text-left text-lg font-medium text-gray-800 hover:bg-red-50 active:bg-red-100 transition-colors border-b border-gray-100 last:border-0"
             >
               {key === 'brand' || key === 'model' ? option.name : option}
             </button>
@@ -288,7 +288,7 @@ function App() {
                           isLowest ? 'border-red-400 bg-red-50/50' : 'border-gray-200 hover:border-gray-300'
                         }`}
                       >
-      {/* Header */}
+
                         <div className="bg-gray-50 px-6 py-4 flex items-center justify-between border-b border-gray-100">
                           <div className="flex items-center gap-3">
                             <span className="text-lg font-bold text-gray-900">{retailer.name}</span>
