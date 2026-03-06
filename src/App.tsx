@@ -87,17 +87,6 @@ function App() {
     setIsLoaded(true);
   }, []);
 
-  // Close dropdowns when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setDropdowns({ brand: false, model: false, size: false });
-      }
-    };
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, []);
-
   const availableModels = useMemo(() => {
     return selectedBrand?.models || [];
   }, [selectedBrand]);
@@ -160,27 +149,18 @@ function App() {
         <ChevronDown className={`w-5 h-5 text-gray-400 transition-transform duration-200 ${dropdowns[key] ? 'rotate-180' : ''}`} />
       </button>
       
-      {/* Dropdown overlay - fixed for mobile */}
       {dropdowns[key] && options.length > 0 && (
-        <>
-          {/* Click outside to close */}
-          <div 
-            className="fixed inset-0 z-40" 
-            onClick={closeAllDropdowns}
-          />
-          {/* Dropdown options - solid opaque background */}
-          <div className="absolute z-50 w-full mt-2 bg-gray-900 border-2 border-gray-600 rounded-xl shadow-2xl max-h-72 overflow-y-auto">
-            {options.map((option, idx) => (
-              <button
-                key={key === 'brand' ? option.id : key === 'model' ? option.id : option}
-                onClick={(e) => selectOption(key, option, e)}
-                className="w-full p-4 text-left text-lg font-medium text-gray-200 hover:bg-cyan-500/20 hover:text-white transition-colors border-b border-gray-700 last:border-0"
-              >
-                {key === 'brand' || key === 'model' ? option.name : option}
-              </button>
-            ))}
-          </div>
-        </>
+        <div className="absolute z-50 w-full mt-2 bg-gray-900 border-2 border-gray-600 rounded-xl shadow-2xl max-h-72 overflow-y-auto">
+          {options.map((option, idx) => (
+            <button
+              key={key === 'brand' ? option.id : key === 'model' ? option.id : option}
+              onClick={(e) => selectOption(key, option, e)}
+              className="w-full p-4 text-left text-lg font-medium text-gray-200 hover:bg-cyan-500/20 hover:text-white transition-colors border-b border-gray-700 last:border-0"
+            >
+              {key === 'brand' || key === 'model' ? option.name : option}
+            </button>
+          ))}
+        </div>
       )}
     </div>
   );
