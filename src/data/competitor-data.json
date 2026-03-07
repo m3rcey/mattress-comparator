@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-06T12:00:00.000Z",
+  "timestamp": "2026-03-07T12:00:00.000Z",
   "products": [
     {
       "brand": "Tempur-Pedic",
@@ -511,7 +511,7 @@
       "mfPrice": 1999,
       "competitors": {
         "ashley": {
-          "price": 3998,
+          "price": 1999,
           "found": true
         },
         "macys": {
@@ -827,7 +827,7 @@
       "mfPrice": 2899,
       "competitors": {
         "ashley": {
-          "price": 5798,
+          "price": 2899,
           "found": true
         },
         "macys": {
@@ -1456,7 +1456,7 @@
       "mfPrice": 2899,
       "competitors": {
         "ashley": {
-          "price": 5798,
+          "price": 2899,
           "found": true
         },
         "macys": {
@@ -1778,7 +1778,7 @@
       "mfPrice": 2899,
       "competitors": {
         "ashley": {
-          "price": 5798,
+          "price": 2899,
           "found": true
         },
         "macys": {
@@ -2023,7 +2023,7 @@
       "mfPrice": 4199,
       "competitors": {
         "ashley": {
-          "price": 7598,
+          "price": 4199,
           "found": true
         },
         "macys": {
@@ -3034,7 +3034,7 @@
       "mfPrice": 3899,
       "competitors": {
         "ashley": {
-          "price": 7798,
+          "price": 3899,
           "found": true
         },
         "macys": {
@@ -4165,7 +4165,7 @@
       "mfPrice": 3249,
       "competitors": {
         "ashley": {
-          "price": 6498,
+          "price": 3249,
           "found": true
         },
         "macys": {
@@ -4449,7 +4449,7 @@
       "mfPrice": 3249,
       "competitors": {
         "ashley": {
-          "price": 6498,
+          "price": 3249,
           "found": true
         },
         "macys": {
@@ -4728,7 +4728,7 @@
       "mfPrice": 3649,
       "competitors": {
         "ashley": {
-          "price": 7298,
+          "price": 3649,
           "found": true
         },
         "macys": {
@@ -5643,8 +5643,9 @@
           "found": true
         },
         "costco": {
-          "price": 949,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "muellers": {
           "notAvailable": true,
@@ -5681,8 +5682,9 @@
           "found": true
         },
         "costco": {
-          "price": 1149,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "muellers": {
           "notAvailable": true,
@@ -5719,8 +5721,9 @@
           "found": true
         },
         "costco": {
-          "price": 1149,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "muellers": {
           "notAvailable": true,
@@ -5918,8 +5921,9 @@
           "found": true
         },
         "costco": {
-          "price": 999,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "muellers": {
           "price": 2199,
@@ -5955,8 +5959,9 @@
           "found": true
         },
         "costco": {
-          "price": 1199,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "muellers": {
           "price": 2799,
@@ -5992,8 +5997,9 @@
           "found": true
         },
         "costco": {
-          "price": 1199,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "muellers": {
           "price": 2799,
@@ -6152,12 +6158,11 @@
           "found": true
         },
         "costco": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2349,
+          "found": true
         },
         "muellers": {
-          "price": 2149,
+          "price": 2349,
           "found": true
         },
         "carol-house": {
@@ -6196,7 +6201,7 @@
           "found": false
         },
         "muellers": {
-          "price": 2199,
+          "price": 2399,
           "found": true
         },
         "carol-house": {
@@ -6235,7 +6240,7 @@
           "found": false
         },
         "muellers": {
-          "price": 2799,
+          "price": 2999,
           "found": true
         },
         "carol-house": {
@@ -6274,7 +6279,7 @@
           "found": false
         },
         "muellers": {
-          "price": 2799,
+          "price": 2999,
           "found": true
         },
         "carol-house": {
@@ -6300,7 +6305,7 @@
       "mfPrice": 2299,
       "competitors": {
         "ashley": {
-          "price": 4598,
+          "price": 2299,
           "found": true
         },
         "macys": {
@@ -6578,7 +6583,7 @@
       "mfPrice": 2499,
       "competitors": {
         "ashley": {
-          "price": 4998,
+          "price": 2499,
           "found": true
         },
         "macys": {
@@ -6862,7 +6867,7 @@
       "mfPrice": 2499,
       "competitors": {
         "ashley": {
-          "price": 4998,
+          "price": 2499,
           "found": true
         },
         "macys": {
@@ -7103,7 +7108,7 @@
       "mfPrice": 3699,
       "competitors": {
         "ashley": {
-          "price": 7398,
+          "price": 3699,
           "found": true
         },
         "macys": {
@@ -7382,7 +7387,7 @@
       "mfPrice": 3899,
       "competitors": {
         "ashley": {
-          "price": 7398,
+          "price": 3899,
           "found": true
         },
         "macys": {
@@ -7826,7 +7831,7 @@
       "mfPrice": 5399,
       "competitors": {
         "ashley": {
-          "price": 10798,
+          "price": 5399,
           "found": true
         },
         "macys": {
