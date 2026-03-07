@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-07T12:00:00.000Z",
+  "timestamp": "2026-03-07T18:00:00.000Z",
   "products": [
     {
       "brand": "Tempur-Pedic",
@@ -5850,7 +5850,7 @@
           "found": false
         },
         "muellers": {
-          "price": 2099,
+          "price": 2299,
           "found": true
         },
         "carol-house": {
@@ -5863,7 +5863,7 @@
           "found": true
         },
         "jcpenney": {
-          "price": 2199,
+          "price": 2299,
           "found": true
         }
       }
@@ -5888,7 +5888,7 @@
           "found": false
         },
         "muellers": {
-          "price": 2149,
+          "price": 2349,
           "found": true
         },
         "carol-house": {
@@ -5901,7 +5901,7 @@
           "found": true
         },
         "jcpenney": {
-          "price": 2399,
+          "price": 2349,
           "found": true
         }
       }
@@ -5926,7 +5926,7 @@
           "found": false
         },
         "muellers": {
-          "price": 2199,
+          "price": 2399,
           "found": true
         },
         "carol-house": {
@@ -5964,7 +5964,7 @@
           "found": false
         },
         "muellers": {
-          "price": 2799,
+          "price": 2999,
           "found": true
         },
         "carol-house": {
@@ -6002,7 +6002,7 @@
           "found": false
         },
         "muellers": {
-          "price": 2799,
+          "price": 2999,
           "found": true
         },
         "carol-house": {
@@ -6041,7 +6041,7 @@
           "found": false
         },
         "muellers": {
-          "price": 2099,
+          "price": 2299,
           "found": true
         },
         "carol-house": {
@@ -6319,7 +6319,7 @@
           "found": false
         },
         "muellers": {
-          "price": 2099,
+          "price": 2299,
           "found": true
         },
         "carol-house": {
@@ -7234,11 +7234,11 @@
       "mfPrice": 3899,
       "competitors": {
         "ashley": {
-          "price": 3699,
+          "price": 3899,
           "found": true
         },
         "macys": {
-          "price": 3699,
+          "price": 3899,
           "found": true
         },
         "costco": {
@@ -7257,11 +7257,11 @@
           "found": false
         },
         "wayfair": {
-          "price": 3699,
+          "price": 3899,
           "found": true
         },
         "jcpenney": {
-          "price": 3399,
+          "price": 3899,
           "found": true
         }
       }
@@ -7273,11 +7273,11 @@
       "mfPrice": 3999,
       "competitors": {
         "ashley": {
-          "price": 3799,
+          "price": 3999,
           "found": true
         },
         "macys": {
-          "price": 3799,
+          "price": 3999,
           "found": true
         },
         "costco": {
@@ -7286,7 +7286,7 @@
           "found": false
         },
         "muellers": {
-          "price": 3599,
+          "price": 3999,
           "found": true
         },
         "carol-house": {
@@ -7295,11 +7295,11 @@
           "found": false
         },
         "wayfair": {
-          "price": 3199,
+          "price": 3999,
           "found": true
         },
         "jcpenney": {
-          "price": 3799,
+          "price": 3999,
           "found": true
         }
       }
@@ -7311,11 +7311,11 @@
       "mfPrice": 4599,
       "competitors": {
         "ashley": {
-          "price": 4399,
+          "price": 4599,
           "found": true
         },
         "macys": {
-          "price": 4399,
+          "price": 4599,
           "found": true
         },
         "costco": {
@@ -7324,7 +7324,7 @@
           "found": false
         },
         "muellers": {
-          "price": 4199,
+          "price": 4599,
           "found": true
         },
         "carol-house": {
@@ -7333,11 +7333,11 @@
           "found": false
         },
         "wayfair": {
-          "price": 3799,
+          "price": 4599,
           "found": true
         },
         "jcpenney": {
-          "price": 4399,
+          "price": 4599,
           "found": true
         }
       }
@@ -7349,11 +7349,11 @@
       "mfPrice": 4599,
       "competitors": {
         "ashley": {
-          "price": 4399,
+          "price": 4599,
           "found": true
         },
         "macys": {
-          "price": 4399,
+          "price": 4599,
           "found": true
         },
         "costco": {
@@ -7362,7 +7362,7 @@
           "found": false
         },
         "muellers": {
-          "price": 4199,
+          "price": 4599,
           "found": true
         },
         "carol-house": {
@@ -7371,11 +7371,11 @@
           "found": false
         },
         "wayfair": {
-          "price": 3799,
+          "price": 4599,
           "found": true
         },
         "jcpenney": {
-          "price": 4399,
+          "price": 4599,
           "found": true
         }
       }
@@ -7391,7 +7391,7 @@
           "found": true
         },
         "macys": {
-          "price": 4065,
+          "price": 3899,
           "found": true
         },
         "costco": {
@@ -7400,7 +7400,7 @@
           "found": false
         },
         "muellers": {
-          "price": 3499,
+          "price": 3899,
           "found": true
         },
         "carol-house": {
@@ -8518,8 +8518,9 @@
           "found": false
         },
         "wayfair": {
-          "price": 1999,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "jcpenney": {
           "notAvailable": true,
@@ -8560,8 +8561,9 @@
           "found": false
         },
         "wayfair": {
-          "price": 2249,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "jcpenney": {
           "notAvailable": true,
@@ -8602,8 +8604,9 @@
           "found": false
         },
         "wayfair": {
-          "price": 2399,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "jcpenney": {
           "notAvailable": true,
@@ -8644,8 +8647,9 @@
           "found": false
         },
         "wayfair": {
-          "price": 2999,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "jcpenney": {
           "notAvailable": true,
@@ -8686,8 +8690,9 @@
           "found": false
         },
         "wayfair": {
-          "price": 2999,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "jcpenney": {
           "notAvailable": true,
@@ -14229,8 +14234,9 @@
           "found": false
         },
         "wayfair": {
-          "price": 999,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "jcpenney": {
           "notAvailable": true,
@@ -14270,8 +14276,9 @@
           "found": false
         },
         "wayfair": {
-          "price": 1099,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "jcpenney": {
           "notAvailable": true,
@@ -14311,8 +14318,9 @@
           "found": false
         },
         "wayfair": {
-          "price": 1199,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "jcpenney": {
           "notAvailable": true,
@@ -14352,8 +14360,9 @@
           "found": false
         },
         "wayfair": {
-          "price": 1249,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "jcpenney": {
           "notAvailable": true,
@@ -14393,8 +14402,9 @@
           "found": false
         },
         "wayfair": {
-          "price": 1499,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "jcpenney": {
           "notAvailable": true,
@@ -14434,8 +14444,9 @@
           "found": false
         },
         "wayfair": {
-          "price": 1499,
-          "found": true
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "jcpenney": {
           "notAvailable": true,
