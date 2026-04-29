@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
-import { Check, X, ChevronDown, Clock, RefreshCw, Bed, Tag, Ruler, TrendingDown, TrendingUp, Minus, DollarSign } from 'lucide-react';
+import { Check, X, ChevronDown, Clock, RefreshCw, Bed, Tag, Ruler, DollarSign, TrendingDown } from 'lucide-react';
 import { brands } from './data/products';
 
 // Import competitor data
@@ -26,6 +26,7 @@ interface ProductData {
   model: string;
   size: string;
   mfPrice: number;
+  mfSalePrice?: number;  // NEW - optional sale price
   competitors: ProductCompetitors;
 }
 
@@ -73,6 +74,9 @@ function App() {
   const [selectedModel, setSelectedModel] = useState<any>(null);
   const [selectedSize, setSelectedSize] = useState<string>('');
   const [isLoaded, setIsLoaded] = useState(false);
+  
+  // Sale price toggle state - default to ON (showing sale prices)
+  const [showSalePrice, setShowSalePrice] = useState(true);
   
   const [dropdowns, setDropdowns] = useState({
     brand: false,
@@ -192,17 +196,27 @@ function App() {
     ? getProductData(selectedBrand.name, selectedModel.name, selectedSize) 
     : null;
 
+  // Determine which MF price to use based on toggle
+  const mfDisplayPrice = productData && showSalePrice && productData.mfSalePrice 
+    ? productData.mfSalePrice 
+    : productData?.mfPrice ?? null;
+  
+  const hasSalePrice = productData && !!productData.mfSalePrice && showSalePrice;
+  const savingsAmount = productData?.mfSalePrice && productData.mfPrice 
+    ? productData.mfPrice - productData.mfSalePrice 
+    : 0;
+
   // Build retailer list with prices for comparison
   const retailerPrices = useMemo(() => {
     if (!productData) return [];
     
     const prices: { id: string; name: string; price: number | null; found: boolean; notAvailable: boolean; reason?: string }[] = [];
     
-    // Add Mattress Firm
+    // Add Mattress Firm - use display price based on toggle
     prices.push({
       id: 'mf',
       name: 'Mattress Firm',
-      price: productData.mfPrice,
+      price: mfDisplayPrice,
       found: true,
       notAvailable: false
     });
@@ -231,7 +245,7 @@ function App() {
       if (a.price === null && b.price === null) return 0;
       return (a.price ?? 0) - (b.price ?? 0);
     });
-  }, [productData]);
+  }, [productData, mfDisplayPrice]);
 
   // Find lowest price
   const lowestPrice = useMemo(() => {
@@ -299,11 +313,31 @@ function App() {
 
             {productData ? (
               <>
+                {/* Sale Price Toggle - appears when viewing a product comparison */}
+                <div className="mb-6 flex items-center gap-4 p-4 bg-neutral-900 rounded-xl border border-neutral-700">
+                  <button
+                    onClick={() => setShowSalePrice(!showSalePrice)}
+                    className={`relative w-14 h-8 rounded-full transition-all duration-200 ${
+                      showSalePrice ? 'bg-red-500' : 'bg-neutral-700'
+                    }`}
+                  >
+                    <div className={`absolute top-1 w-6 h-6 bg-white rounded-full transition-all duration-200 ${
+                      showSalePrice ? 'left-7' : 'left-1'
+                    }`} />
+                  </button>
+                  <span className="text-gray-400 font-medium">Show Sale Prices</span>
+                  {hasSalePrice && (
+                    <span className="ml-auto px-3 py-1 bg-red-500/20 text-red-400 text-sm font-bold rounded-full border border-red-500/40">
+                      Save ${savingsAmount.toLocaleString()}
+                    </span>
+                  )}
+                </div>
+
                 {/* Retailer Comparison Cards */}
                 <div className="space-y-4 mb-8">
                   <h3 className="text-lg font-bold text-gray-600 uppercase tracking-wider mb-4">Price Comparison</h3>
                   {retailerPrices.map((retailer, idx) => {
-                    const policy = policies[retailer.name] || policies[retailer.name.replace(' Furniture', '')] || policies[retailer.name.replace(' Furniture', '')];
+                    const policy = policies[retailer.name] || policies[retailer.name.replace(' Furniture', '')] || policies[retailer.name.replace(" Furniture", "")];
                     const isLowest = retailer.price !== null && retailer.price === lowestPrice && !retailer.notAvailable;
                     const priceDiff = retailer.price !== null && lowestPrice !== null ? retailer.price - lowestPrice : 0;
 
@@ -321,6 +355,11 @@ function App() {
                             {isLowest && (
                               <span className="px-3 py-1 bg-red-500/20 text-red-400 text-sm font-bold rounded-full border border-red-500/40">
                                 Lowest Price
+                              </span>
+                            )}
+                            {retailer.id === 'mf' && hasSalePrice && (
+                              <span className="px-3 py-1 bg-red-500 text-white text-sm font-bold rounded-full">
+                                SALE
                               </span>
                             )}
                           </div>
@@ -341,6 +380,12 @@ function App() {
                                 <div className="text-3xl font-black text-white">
                                   ${retailer.price.toLocaleString()}
                                 </div>
+                                {/* Show strikethrough when sale is active for MF */}
+                                {retailer.id === 'mf' && hasSalePrice && productData.mfPrice && (
+                                  <div className="text-gray-500 text-sm line-through mt-1">
+                                    Was ${productData.mfPrice.toLocaleString()}
+                                  </div>
+                                )}
                                 {priceDiff > 0 && (
                                   <div className="text-gray-400 text-sm mt-1">
                                     +${priceDiff.toLocaleString()} vs lowest

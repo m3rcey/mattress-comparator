@@ -8527,7 +8527,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2049
     },
     {
       "brand": "Purple",
@@ -8570,7 +8571,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2299
     },
     {
       "brand": "Purple",
@@ -8613,7 +8615,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2549
     },
     {
       "brand": "Purple",
@@ -8656,7 +8659,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2699
     },
     {
       "brand": "Purple",
@@ -8699,7 +8703,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2699
     },
     {
       "brand": "Purple",
@@ -8742,7 +8747,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2749
     },
     {
       "brand": "Purple",
@@ -8785,7 +8791,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3099
     },
     {
       "brand": "Purple",
@@ -8828,7 +8835,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3449
     },
     {
       "brand": "Purple",
@@ -8871,7 +8879,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3599
     },
     {
       "brand": "Purple",
@@ -8914,7 +8923,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3599
     },
     {
       "brand": "Purple",
@@ -8957,7 +8967,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3299
     },
     {
       "brand": "Purple",
@@ -9000,7 +9011,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3799
     },
     {
       "brand": "Purple",
@@ -9043,7 +9055,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4299
     },
     {
       "brand": "Purple",
@@ -9086,7 +9099,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4299
     },
     {
       "brand": "Purple",
@@ -12055,7 +12069,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 1149
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12098,7 +12113,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 1199
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12141,7 +12157,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 1199
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12184,7 +12201,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 1199
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12227,7 +12245,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 1499
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12270,7 +12289,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 1499
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12356,7 +12376,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 1449
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12399,7 +12420,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 1499
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12442,7 +12464,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 1499
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12485,7 +12508,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 1499
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12528,7 +12552,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 1949
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12571,7 +12596,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 1949
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
