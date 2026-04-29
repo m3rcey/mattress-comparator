@@ -314,20 +314,23 @@ function App() {
             {productData ? (
               <>
                 {/* Sale Price Toggle - appears when viewing a product comparison */}
-                <div className="mb-6 flex items-center gap-4 p-4 bg-neutral-900 rounded-xl border border-neutral-700">
-                  <button
-                    onClick={() => setShowSalePrice(!showSalePrice)}
-                    className={`relative w-10 h-5 rounded-full transition-all duration-200 flex-shrink-0 ${
-                      showSalePrice ? 'bg-amber-500/100' : 'bg-neutral-700'
-                    }`}
-                  >
-                    <div className={`absolute top-[2px] left-[2px] w-4 h-4 bg-white rounded-full shadow-sm transition-all duration-200 ${
-                      showSalePrice ? 'translate-x-5' : 'translate-x-0'
-                    }`} />
-                  </button>
-                  <span className="text-gray-400 font-medium">Show Sale Prices</span>
-                  {hasSalePrice && (
-                    <span className="ml-auto px-3 py-1 bg-amber-500/20 text-amber-400 text-sm font-bold rounded-full border border-amber-500/40">
+                <div className="mb-6 flex items-center gap-3 p-3 bg-neutral-900 rounded-xl border border-neutral-800">
+                  <div className="flex rounded-lg overflow-hidden border border-neutral-700">
+                    <button
+                      onClick={() => setShowSalePrice(true)}
+                      className={`px-4 py-2 text-sm font-semibold transition-colors ${
+                        showSalePrice ? 'bg-amber-500 text-black' : 'bg-neutral-800 text-gray-400'
+                      }`}
+                    >Sale</button>
+                    <button
+                      onClick={() => setShowSalePrice(false)}
+                      className={`px-4 py-2 text-sm font-semibold transition-colors ${
+                        !showSalePrice ? 'bg-amber-500 text-black' : 'bg-neutral-800 text-gray-400'
+                      }`}
+                    >Retail</button>
+                  </div>
+                  {hasSalePrice && showSalePrice && (
+                    <span className="ml-auto px-3 py-1 bg-amber-500/20 text-amber-400 text-sm font-bold rounded-full">
                       Save ${savingsAmount.toLocaleString()}
                     </span>
                   )}
