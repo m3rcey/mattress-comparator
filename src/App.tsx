@@ -317,12 +317,12 @@ function App() {
                 <div className="mb-6 flex items-center gap-4 p-4 bg-neutral-900 rounded-xl border border-neutral-700">
                   <button
                     onClick={() => setShowSalePrice(!showSalePrice)}
-                    className={`relative w-11 h-6 rounded-full transition-all duration-200 ${
+                    className={`relative w-10 h-5 rounded-full transition-all duration-200 flex-shrink-0 ${
                       showSalePrice ? 'bg-amber-500/100' : 'bg-neutral-700'
                     }`}
                   >
-                    <div className={`absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-all duration-200 ${
-                      showSalePrice ? 'left-5' : 'left-1'
+                    <div className={`absolute top-[2px] left-[2px] w-4 h-4 bg-white rounded-full shadow-sm transition-all duration-200 ${
+                      showSalePrice ? 'translate-x-5' : 'translate-x-0'
                     }`} />
                   </button>
                   <span className="text-gray-400 font-medium">Show Sale Prices</span>
