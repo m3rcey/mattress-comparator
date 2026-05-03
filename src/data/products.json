@@ -198,6 +198,17 @@
             "Cal King",
             "Split King"
           ]
+        },
+        {
+          "id": "activebreeze-13-med-hybrid-set",
+          "name": "ActiveBreeze 13\" Med Hybrid (Set)",
+          "sizes": [
+            "Queen",
+            "King",
+            "Cal King",
+            "Split King",
+            "Split Cal King"
+          ]
         }
       ]
     },

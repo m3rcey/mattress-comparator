@@ -17265,6 +17265,221 @@
           "found": false
         }
       }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "ActiveBreeze 13\" Med Hybrid (Set)",
+      "size": "Queen",
+      "mfPrice": 10448,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "ActiveBreeze 13\" Med Hybrid (Set)",
+      "size": "King",
+      "mfPrice": 14447,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "ActiveBreeze 13\" Med Hybrid (Set)",
+      "size": "Cal King",
+      "mfPrice": 14447,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "ActiveBreeze 13\" Med Hybrid (Set)",
+      "size": "Split King",
+      "mfPrice": 19546,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "ActiveBreeze 13\" Med Hybrid (Set)",
+      "size": "Split Cal King",
+      "mfPrice": 19546,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
     }
   ]
 }
