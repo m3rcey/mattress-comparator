@@ -186,6 +186,18 @@
             "Split Queen",
             "Split Head King"
           ]
+        },
+        {
+          "id": "luxeadapt-2-0-13-med-hybrid",
+          "name": "LuxeAdapt 2.0 13\" Med Hybrid",
+          "sizes": [
+            "Twin",
+            "Twin XL",
+            "Queen",
+            "King",
+            "Cal King",
+            "Split King"
+          ]
         }
       ]
     },
@@ -259,6 +271,17 @@
         {
           "id": "black-hybrid-cx-class-15-plush",
           "name": "Black Hybrid CX-Class 15\" Plush",
+          "sizes": [
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
+        },
+        {
+          "id": "series-three-16-75-plush-pt",
+          "name": "Series Three 16.75\" Plush PT",
           "sizes": [
             "Twin XL",
             "Full",
@@ -386,6 +409,47 @@
             "Split Cal King",
             "Split Queen"
           ]
+        },
+        {
+          "id": "reserve-17-firm-euro-pt",
+          "name": "Reserve 17\" Firm Euro PT",
+          "sizes": [
+            "Twin XL",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
+        },
+        {
+          "id": "reserve-17-plush-euro-pt",
+          "name": "Reserve 17\" Plush Euro PT",
+          "sizes": [
+            "Twin XL",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
+        },
+        {
+          "id": "lux-estate-16-med-euro-pt",
+          "name": "Lux Estate 16\" Med Euro PT",
+          "sizes": [
+            "Twin XL",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
+        },
+        {
+          "id": "estate-15-firm-euro-pt",
+          "name": "Estate 15\" Firm Euro PT",
+          "sizes": [
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
         }
       ]
     },
@@ -484,6 +548,26 @@
         {
           "id": "rejuvenate-ultimate-2-0",
           "name": "Rejuvenate Ultimate 2.0",
+          "sizes": [
+            "Twin XL",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
+        },
+        {
+          "id": "rejuvenate-royale-monarch",
+          "name": "Rejuvenate Royale Monarch",
+          "sizes": [
+            "Twin XL",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
+        },
+        {
+          "id": "rejuvenate-royale-crown",
+          "name": "Rejuvenate Royale Crown",
           "sizes": [
             "Twin XL",
             "Queen",

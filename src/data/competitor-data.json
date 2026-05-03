@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-07T18:00:00.000Z",
+  "timestamp": "2026-05-03T12:00:00.000Z",
   "products": [
     {
       "brand": "Tempur-Pedic",
@@ -15677,6 +15677,1562 @@
         "ashley": {
           "price": 1798,
           "found": true
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Purple",
+      "model": "Rejuvenate Royale Monarch",
+      "size": "Twin XL",
+      "mfPrice": 7499,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 6999
+    },
+    {
+      "brand": "Purple",
+      "model": "Rejuvenate Royale Monarch",
+      "size": "Queen",
+      "mfPrice": 7999,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 7499
+    },
+    {
+      "brand": "Purple",
+      "model": "Rejuvenate Royale Monarch",
+      "size": "King",
+      "mfPrice": 9499,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 7999
+    },
+    {
+      "brand": "Purple",
+      "model": "Rejuvenate Royale Monarch",
+      "size": "Cal King",
+      "mfPrice": 9499,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 7999
+    },
+    {
+      "brand": "Purple",
+      "model": "Rejuvenate Royale Crown",
+      "size": "Twin XL",
+      "mfPrice": 8499,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 7999
+    },
+    {
+      "brand": "Purple",
+      "model": "Rejuvenate Royale Crown",
+      "size": "Queen",
+      "mfPrice": 8999,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 8499
+    },
+    {
+      "brand": "Purple",
+      "model": "Rejuvenate Royale Crown",
+      "size": "King",
+      "mfPrice": 10499,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 8999
+    },
+    {
+      "brand": "Purple",
+      "model": "Rejuvenate Royale Crown",
+      "size": "Cal King",
+      "mfPrice": 10499,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 8999
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeAdapt 2.0 13\" Med Hybrid",
+      "size": "Twin",
+      "mfPrice": 4199,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeAdapt 2.0 13\" Med Hybrid",
+      "size": "Twin XL",
+      "mfPrice": 4199,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeAdapt 2.0 13\" Med Hybrid",
+      "size": "Queen",
+      "mfPrice": 4699,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeAdapt 2.0 13\" Med Hybrid",
+      "size": "King",
+      "mfPrice": 5399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeAdapt 2.0 13\" Med Hybrid",
+      "size": "Cal King",
+      "mfPrice": 5399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeAdapt 2.0 13\" Med Hybrid",
+      "size": "Split King",
+      "mfPrice": 8398,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Reserve 17\" Firm Euro PT",
+      "size": "Twin XL",
+      "mfPrice": 5399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Reserve 17\" Firm Euro PT",
+      "size": "Queen",
+      "mfPrice": 5499,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Reserve 17\" Firm Euro PT",
+      "size": "King",
+      "mfPrice": 6099,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Reserve 17\" Firm Euro PT",
+      "size": "Cal King",
+      "mfPrice": 6099,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Reserve 17\" Plush Euro PT",
+      "size": "Twin XL",
+      "mfPrice": 5399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Reserve 17\" Plush Euro PT",
+      "size": "Queen",
+      "mfPrice": 5499,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Reserve 17\" Plush Euro PT",
+      "size": "King",
+      "mfPrice": 6099,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Reserve 17\" Plush Euro PT",
+      "size": "Cal King",
+      "mfPrice": 6099,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Lux Estate 16\" Med Euro PT",
+      "size": "Twin XL",
+      "mfPrice": 3699,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Lux Estate 16\" Med Euro PT",
+      "size": "Queen",
+      "mfPrice": 3799,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Lux Estate 16\" Med Euro PT",
+      "size": "King",
+      "mfPrice": 4399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Lux Estate 16\" Med Euro PT",
+      "size": "Cal King",
+      "mfPrice": 4399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 15\" Firm Euro PT",
+      "size": "Twin XL",
+      "mfPrice": 2499,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 15\" Firm Euro PT",
+      "size": "Full",
+      "mfPrice": 2549,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 15\" Firm Euro PT",
+      "size": "Queen",
+      "mfPrice": 2599,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 15\" Firm Euro PT",
+      "size": "King",
+      "mfPrice": 3199,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 15\" Firm Euro PT",
+      "size": "Cal King",
+      "mfPrice": 3199,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 16.75\" Plush PT",
+      "size": "Twin XL",
+      "mfPrice": 3649,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 16.75\" Plush PT",
+      "size": "Full",
+      "mfPrice": 3929,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 16.75\" Plush PT",
+      "size": "Queen",
+      "mfPrice": 4199,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 16.75\" Plush PT",
+      "size": "King",
+      "mfPrice": 4899,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      }
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 16.75\" Plush PT",
+      "size": "Cal King",
+      "mfPrice": 4899,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
         },
         "macys": {
           "notAvailable": true,
