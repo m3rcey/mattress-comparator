@@ -415,6 +415,28 @@
             "King",
             "Cal King"
           ]
+        },
+        {
+          "id": "series-three-15-25-medium",
+          "name": "Series Three 15.25\" Medium",
+          "sizes": [
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
+        },
+        {
+          "id": "series-three-15-firm",
+          "name": "Series Three 15\" Firm",
+          "sizes": [
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
         }
       ]
     },

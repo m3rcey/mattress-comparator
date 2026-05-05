@@ -5871,7 +5871,8 @@
           "price": 2299,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 1999
     },
     {
       "brand": "Stearns & Foster",
@@ -5909,7 +5910,8 @@
           "price": 2349,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2049
     },
     {
       "brand": "Stearns & Foster",
@@ -5947,7 +5949,8 @@
           "price": 2399,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2099
     },
     {
       "brand": "Stearns & Foster",
@@ -5985,7 +5988,8 @@
           "price": 2999,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2699
     },
     {
       "brand": "Stearns & Foster",
@@ -6023,7 +6027,8 @@
           "price": 2999,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2699
     },
     {
       "brand": "Stearns & Foster",
@@ -6146,7 +6151,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 1999
     },
     {
       "brand": "Stearns & Foster",
@@ -6184,7 +6190,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2049
     },
     {
       "brand": "Stearns & Foster",
@@ -6223,7 +6230,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2099
     },
     {
       "brand": "Stearns & Foster",
@@ -6262,7 +6270,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2699
     },
     {
       "brand": "Stearns & Foster",
@@ -6301,7 +6310,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2699
     },
     {
       "brand": "Stearns & Foster",
@@ -6703,7 +6713,8 @@
           "price": 2499,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2199
     },
     {
       "brand": "Stearns & Foster",
@@ -6743,7 +6754,8 @@
           "price": 2549,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2249
     },
     {
       "brand": "Stearns & Foster",
@@ -6783,7 +6795,8 @@
           "price": 2599,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2299
     },
     {
       "brand": "Stearns & Foster",
@@ -6823,7 +6836,8 @@
           "price": 3199,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2899
     },
     {
       "brand": "Stearns & Foster",
@@ -6863,7 +6877,8 @@
           "price": 3199,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2899
     },
     {
       "brand": "Stearns & Foster",
@@ -7707,7 +7722,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4699
     },
     {
       "brand": "Stearns & Foster",
@@ -7747,7 +7763,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4799
     },
     {
       "brand": "Stearns & Foster",
@@ -7787,7 +7804,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -7827,7 +7845,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -16372,7 +16391,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4699
     },
     {
       "brand": "Stearns & Foster",
@@ -16415,7 +16435,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4799
     },
     {
       "brand": "Stearns & Foster",
@@ -16458,7 +16479,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -16501,7 +16523,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -17103,7 +17126,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3249
     },
     {
       "brand": "BeautyRest Black",
@@ -17146,7 +17170,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3529
     },
     {
       "brand": "BeautyRest Black",
@@ -17189,7 +17214,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3799
     },
     {
       "brand": "BeautyRest Black",
@@ -17232,7 +17258,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4599
     },
     {
       "brand": "BeautyRest Black",
@@ -17275,7 +17302,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4599
     },
     {
       "brand": "Tempur-Pedic",
@@ -21192,6 +21220,886 @@
           "found": false
         }
       }
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 15.25\" Medium",
+      "size": "Twin XL",
+      "mfPrice": 3449,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2849
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 15.25\" Medium",
+      "size": "Full",
+      "mfPrice": 3729,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 3129
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 15.25\" Medium",
+      "size": "Queen",
+      "mfPrice": 3999,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 3399
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 15.25\" Medium",
+      "size": "King",
+      "mfPrice": 4799,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 4199
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 15.25\" Medium",
+      "size": "Cal King",
+      "mfPrice": 4799,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 4199
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 15\" Firm",
+      "size": "Twin XL",
+      "mfPrice": 3449,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2849
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 15\" Firm",
+      "size": "Full",
+      "mfPrice": 3729,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 3129
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 15\" Firm",
+      "size": "Queen",
+      "mfPrice": 3999,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 3399
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 15\" Firm",
+      "size": "King",
+      "mfPrice": 4799,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 4199
+    },
+    {
+      "brand": "BeautyRest Black",
+      "model": "Series Three 15\" Firm",
+      "size": "Cal King",
+      "mfPrice": 4799,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 4199
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 15\" Plush Euro PT",
+      "size": "Twin XL",
+      "mfPrice": 2499,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2199
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 15\" Plush Euro PT",
+      "size": "Full",
+      "mfPrice": 2549,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2249
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 15\" Plush Euro PT",
+      "size": "Queen",
+      "mfPrice": 2599,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2299
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 15\" Plush Euro PT",
+      "size": "King",
+      "mfPrice": 3199,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2899
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 15\" Plush Euro PT",
+      "size": "Cal King",
+      "mfPrice": 3199,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2899
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 14.5\" Firm",
+      "size": "Twin XL",
+      "mfPrice": 2299,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1999
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 14.5\" Firm",
+      "size": "Full",
+      "mfPrice": 2349,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2049
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 14.5\" Firm",
+      "size": "Queen",
+      "mfPrice": 2399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2099
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 14.5\" Firm",
+      "size": "King",
+      "mfPrice": 2999,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2699
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 14.5\" Firm",
+      "size": "Cal King",
+      "mfPrice": 2999,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2699
     }
   ]
 }
