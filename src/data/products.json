@@ -221,6 +221,109 @@
             "Cal King",
             "Split King"
           ]
+        },
+        {
+          "id": "luxebreeze-13-firm",
+          "name": "LuxeBreeze 13\" Firm",
+          "sizes": [
+            "Twin",
+            "Twin XL",
+            "Queen",
+            "King",
+            "Cal King",
+            "Split Head King",
+            "Split King"
+          ]
+        },
+        {
+          "id": "luxebreeze-13-soft",
+          "name": "LuxeBreeze 13\" Soft",
+          "sizes": [
+            "Twin",
+            "Twin XL",
+            "Queen",
+            "King",
+            "Cal King",
+            "Split Head King",
+            "Split King"
+          ]
+        },
+        {
+          "id": "proadapt-2-0-12-medium",
+          "name": "ProAdapt 2.0 12\" Medium",
+          "sizes": [
+            "Twin",
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King",
+            "Split King"
+          ]
+        },
+        {
+          "id": "probreeze-12-med-hybrid",
+          "name": "ProBreeze 12\" Med Hybrid",
+          "sizes": [
+            "Twin",
+            "Twin XL",
+            "Queen",
+            "King",
+            "Cal King",
+            "Split King"
+          ]
+        },
+        {
+          "id": "proadapt-2-0-12-firm",
+          "name": "ProAdapt 2.0 12\" Firm",
+          "sizes": [
+            "Twin",
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King",
+            "Split King"
+          ]
+        },
+        {
+          "id": "proadapt-2-0-12-med-hybrid",
+          "name": "ProAdapt 2.0 12\" Med Hybrid",
+          "sizes": [
+            "Twin",
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King",
+            "Split King"
+          ]
+        },
+        {
+          "id": "adapt-2-0-11-med-hybrid",
+          "name": "Adapt 2.0 11\" Med Hybrid",
+          "sizes": [
+            "Twin",
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King",
+            "Split King"
+          ]
+        },
+        {
+          "id": "adapt-2-0-11-medium",
+          "name": "Adapt 2.0 11\" Medium",
+          "sizes": [
+            "Twin",
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King",
+            "Split King"
+          ]
         }
       ]
     },
