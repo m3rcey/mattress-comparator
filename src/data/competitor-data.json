@@ -17480,6 +17480,974 @@
           "found": false
         }
       }
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 14.5\" Plush",
+      "size": "Twin XL",
+      "mfPrice": 2299,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1999
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 14.5\" Plush",
+      "size": "Full",
+      "mfPrice": 2349,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2049
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 14.5\" Plush",
+      "size": "Queen",
+      "mfPrice": 2399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2099
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 14.5\" Plush",
+      "size": "King",
+      "mfPrice": 2999,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2699
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Estate 14.5\" Plush",
+      "size": "Cal King",
+      "mfPrice": 2999,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2699
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeAdapt 2.0 13\" Firm",
+      "size": "Twin",
+      "mfPrice": 4199,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 3899
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeAdapt 2.0 13\" Firm",
+      "size": "Twin XL",
+      "mfPrice": 4199,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 3899
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeAdapt 2.0 13\" Firm",
+      "size": "Queen",
+      "mfPrice": 4699,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 4399
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeAdapt 2.0 13\" Firm",
+      "size": "King",
+      "mfPrice": 5399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 5099
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeAdapt 2.0 13\" Firm",
+      "size": "Cal King",
+      "mfPrice": 5399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 5099
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeAdapt 2.0 13\" Firm",
+      "size": "Split King",
+      "mfPrice": 8398,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 7798
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Studio 14\" Medium",
+      "size": "Twin",
+      "mfPrice": 1699,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1399
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Studio 14\" Medium",
+      "size": "Twin XL",
+      "mfPrice": 1699,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1399
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Studio 14\" Medium",
+      "size": "Full",
+      "mfPrice": 1749,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1449
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Studio 14\" Medium",
+      "size": "Queen",
+      "mfPrice": 1799,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1499
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Studio 14\" Medium",
+      "size": "King",
+      "mfPrice": 2399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2099
+    },
+    {
+      "brand": "Stearns & Foster",
+      "model": "Studio 14\" Medium",
+      "size": "Cal King",
+      "mfPrice": 2399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2099
+    },
+    {
+      "brand": "Sealy Posturepedic Hybrid",
+      "model": "Sealy Posturepedic Elite Hybrid High Point II Soft",
+      "size": "Twin XL",
+      "mfPrice": 2419,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2119
+    },
+    {
+      "brand": "Sealy Posturepedic Hybrid",
+      "model": "Sealy Posturepedic Elite Hybrid High Point II Soft",
+      "size": "Full",
+      "mfPrice": 2449,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2149
+    },
+    {
+      "brand": "Sealy Posturepedic Hybrid",
+      "model": "Sealy Posturepedic Elite Hybrid High Point II Soft",
+      "size": "Queen",
+      "mfPrice": 2499,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2199
+    },
+    {
+      "brand": "Sealy Posturepedic Hybrid",
+      "model": "Sealy Posturepedic Elite Hybrid High Point II Soft",
+      "size": "King",
+      "mfPrice": 2999,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2699
+    },
+    {
+      "brand": "Sealy Posturepedic Hybrid",
+      "model": "Sealy Posturepedic Elite Hybrid High Point II Soft",
+      "size": "Cal King",
+      "mfPrice": 2999,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2699
     }
   ]
 }

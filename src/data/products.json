@@ -209,6 +209,18 @@
             "Split King",
             "Split Cal King"
           ]
+        },
+        {
+          "id": "luxeadapt-2-0-13-firm",
+          "name": "LuxeAdapt 2.0 13\" Firm",
+          "sizes": [
+            "Twin",
+            "Twin XL",
+            "Queen",
+            "King",
+            "Cal King",
+            "Split King"
+          ]
         }
       ]
     },
@@ -455,6 +467,29 @@
           "id": "estate-15-firm-euro-pt",
           "name": "Estate 15\" Firm Euro PT",
           "sizes": [
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
+        },
+        {
+          "id": "estate-14-5-plush",
+          "name": "Estate 14.5\" Plush",
+          "sizes": [
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
+        },
+        {
+          "id": "studio-14-medium",
+          "name": "Studio 14\" Medium",
+          "sizes": [
+            "Twin",
             "Twin XL",
             "Full",
             "Queen",
@@ -774,6 +809,17 @@
             "Cal King",
             "Split Cal King",
             "Split Queen"
+          ]
+        },
+        {
+          "id": "elite-hybrid-high-point-ii-soft",
+          "name": "Sealy Posturepedic Elite Hybrid High Point II Soft",
+          "sizes": [
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King"
           ]
         }
       ]
