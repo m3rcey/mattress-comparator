@@ -852,6 +852,28 @@
             "Split Cal King",
             "Split Queen"
           ]
+        },
+        {
+          "id": "elite-albany-ii-firm",
+          "name": "Sealy Posturepedic Elite Albany II Firm",
+          "sizes": [
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
+        },
+        {
+          "id": "elite-brenham-ii-med-euro-top",
+          "name": "Sealy Posturepedic Elite Brenham II Med Euro Top",
+          "sizes": [
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
         }
       ]
     },
@@ -939,6 +961,17 @@
         {
           "id": "elite-hybrid-high-point-ii-soft",
           "name": "Sealy Posturepedic Elite Hybrid High Point II Soft",
+          "sizes": [
+            "Twin XL",
+            "Full",
+            "Queen",
+            "King",
+            "Cal King"
+          ]
+        },
+        {
+          "id": "elite-hybrid-albany-ii-medium",
+          "name": "Sealy Posturepedic Elite Hybrid Albany II Medium",
           "sizes": [
             "Twin XL",
             "Full",

@@ -13235,7 +13235,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2119
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13275,7 +13276,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2149
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13315,7 +13317,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2199
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13355,7 +13358,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2699
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13395,7 +13399,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2699
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13519,7 +13524,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2119
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13559,7 +13565,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2149
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13599,7 +13606,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2199
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13639,7 +13647,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2699
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13679,7 +13688,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2699
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -22100,6 +22110,666 @@
         }
       },
       "mfSalePrice": 2699
+    },
+    {
+      "brand": "Sealy Posturepedic Hybrid",
+      "model": "Sealy Posturepedic Elite Hybrid Albany II Medium",
+      "size": "Twin XL",
+      "mfPrice": 1819,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1719
+    },
+    {
+      "brand": "Sealy Posturepedic Hybrid",
+      "model": "Sealy Posturepedic Elite Hybrid Albany II Medium",
+      "size": "Full",
+      "mfPrice": 1849,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1749
+    },
+    {
+      "brand": "Sealy Posturepedic Hybrid",
+      "model": "Sealy Posturepedic Elite Hybrid Albany II Medium",
+      "size": "Queen",
+      "mfPrice": 1899,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1799
+    },
+    {
+      "brand": "Sealy Posturepedic Hybrid",
+      "model": "Sealy Posturepedic Elite Hybrid Albany II Medium",
+      "size": "King",
+      "mfPrice": 2399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2299
+    },
+    {
+      "brand": "Sealy Posturepedic Hybrid",
+      "model": "Sealy Posturepedic Elite Hybrid Albany II Medium",
+      "size": "Cal King",
+      "mfPrice": 2399,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2299
+    },
+    {
+      "brand": "Sealy Posturepedic Innerspring",
+      "model": "Sealy Posturepedic Elite Albany II Firm",
+      "size": "Twin XL",
+      "mfPrice": 1619,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1519
+    },
+    {
+      "brand": "Sealy Posturepedic Innerspring",
+      "model": "Sealy Posturepedic Elite Albany II Firm",
+      "size": "Full",
+      "mfPrice": 1649,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1549
+    },
+    {
+      "brand": "Sealy Posturepedic Innerspring",
+      "model": "Sealy Posturepedic Elite Albany II Firm",
+      "size": "Queen",
+      "mfPrice": 1699,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1599
+    },
+    {
+      "brand": "Sealy Posturepedic Innerspring",
+      "model": "Sealy Posturepedic Elite Albany II Firm",
+      "size": "King",
+      "mfPrice": 2199,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2099
+    },
+    {
+      "brand": "Sealy Posturepedic Innerspring",
+      "model": "Sealy Posturepedic Elite Albany II Firm",
+      "size": "Cal King",
+      "mfPrice": 2199,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2099
+    },
+    {
+      "brand": "Sealy Posturepedic Innerspring",
+      "model": "Sealy Posturepedic Elite Brenham II Med Euro Top",
+      "size": "Twin XL",
+      "mfPrice": 2119,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1919
+    },
+    {
+      "brand": "Sealy Posturepedic Innerspring",
+      "model": "Sealy Posturepedic Elite Brenham II Med Euro Top",
+      "size": "Full",
+      "mfPrice": 2149,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1949
+    },
+    {
+      "brand": "Sealy Posturepedic Innerspring",
+      "model": "Sealy Posturepedic Elite Brenham II Med Euro Top",
+      "size": "Queen",
+      "mfPrice": 2199,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 1999
+    },
+    {
+      "brand": "Sealy Posturepedic Innerspring",
+      "model": "Sealy Posturepedic Elite Brenham II Med Euro Top",
+      "size": "King",
+      "mfPrice": 2699,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2499
+    },
+    {
+      "brand": "Sealy Posturepedic Innerspring",
+      "model": "Sealy Posturepedic Elite Brenham II Med Euro Top",
+      "size": "Cal King",
+      "mfPrice": 2699,
+      "competitors": {
+        "ashley": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        }
+      },
+      "mfSalePrice": 2499
     }
   ]
 }
