@@ -3714,7 +3714,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4899
+      "salePrice": 4899
     },
     {
       "brand": "Tempur-Pedic",
@@ -3754,7 +3754,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 5399
+      "salePrice": 5399
     },
     {
       "brand": "Tempur-Pedic",
@@ -3794,7 +3794,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 6099
+      "salePrice": 6099
     },
     {
       "brand": "Tempur-Pedic",
@@ -3834,7 +3834,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 6099
+      "salePrice": 6099
     },
     {
       "brand": "Tempur-Pedic",
@@ -3961,7 +3961,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 10098
+      "salePrice": 10098
     },
     {
       "brand": "BeautyRest Black",
@@ -3970,11 +3970,11 @@
       "mfPrice": 3449,
       "competitors": {
         "ashley": {
-          "price": 3249,
+          "price": 3449,
           "found": true
         },
         "macys": {
-          "price": 3249,
+          "price": 3449,
           "found": true
         },
         "costco": {
@@ -3993,7 +3993,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 3649,
+          "price": 3449,
           "found": true
         },
         "jcpenney": {
@@ -4002,7 +4002,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2849
+      "salePrice": 2849
     },
     {
       "brand": "BeautyRest Black",
@@ -4011,11 +4011,11 @@
       "mfPrice": 3729,
       "competitors": {
         "ashley": {
-          "price": 3529,
+          "price": 3729,
           "found": true
         },
         "macys": {
-          "price": 3529,
+          "price": 3729,
           "found": true
         },
         "costco": {
@@ -4034,7 +4034,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 3929,
+          "price": 3729,
           "found": true
         },
         "jcpenney": {
@@ -4043,7 +4043,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3129
+      "salePrice": 3129
     },
     {
       "brand": "BeautyRest Black",
@@ -4052,11 +4052,11 @@
       "mfPrice": 3999,
       "competitors": {
         "ashley": {
-          "price": 3799,
+          "price": 3999,
           "found": true
         },
         "macys": {
-          "price": 3799,
+          "price": 3999,
           "found": true
         },
         "costco": {
@@ -4075,7 +4075,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 4199,
+          "price": 3999,
           "found": true
         },
         "jcpenney": {
@@ -4084,7 +4084,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3399
+      "salePrice": 3399
     },
     {
       "brand": "BeautyRest Black",
@@ -4093,11 +4093,11 @@
       "mfPrice": 4799,
       "competitors": {
         "ashley": {
-          "price": 4499,
+          "price": 4799,
           "found": true
         },
         "macys": {
-          "price": 4499,
+          "price": 4799,
           "found": true
         },
         "costco": {
@@ -4116,7 +4116,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 4899,
+          "price": 4799,
           "found": true
         },
         "jcpenney": {
@@ -4125,7 +4125,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4199
+      "salePrice": 4199
     },
     {
       "brand": "BeautyRest Black",
@@ -4134,11 +4134,11 @@
       "mfPrice": 4799,
       "competitors": {
         "ashley": {
-          "price": 4499,
+          "price": 4799,
           "found": true
         },
         "macys": {
-          "price": 4499,
+          "price": 4799,
           "found": true
         },
         "costco": {
@@ -4157,7 +4157,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 4899,
+          "price": 4799,
           "found": true
         },
         "jcpenney": {
@@ -4166,7 +4166,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4199
+      "salePrice": 4199
     },
     {
       "brand": "BeautyRest Black",
@@ -4259,11 +4259,11 @@
       "mfPrice": 3449,
       "competitors": {
         "ashley": {
-          "price": 3249,
+          "price": 3449,
           "found": true
         },
         "macys": {
-          "price": 3249,
+          "price": 3449,
           "found": true
         },
         "costco": {
@@ -4282,7 +4282,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 3249,
+          "price": 3449,
           "found": true
         },
         "jcpenney": {
@@ -4291,7 +4291,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2849
+      "salePrice": 2849
     },
     {
       "brand": "BeautyRest Black",
@@ -4300,11 +4300,11 @@
       "mfPrice": 3729,
       "competitors": {
         "ashley": {
-          "price": 3529,
+          "price": 3729,
           "found": true
         },
         "macys": {
-          "price": 3529,
+          "price": 3729,
           "found": true
         },
         "costco": {
@@ -4323,7 +4323,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 3529,
+          "price": 3729,
           "found": true
         },
         "jcpenney": {
@@ -4332,7 +4332,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3129
+      "salePrice": 3129
     },
     {
       "brand": "BeautyRest Black",
@@ -4341,11 +4341,11 @@
       "mfPrice": 3999,
       "competitors": {
         "ashley": {
-          "price": 3799,
+          "price": 3999,
           "found": true
         },
         "macys": {
-          "price": 3799,
+          "price": 3999,
           "found": true
         },
         "costco": {
@@ -4364,7 +4364,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 3799,
+          "price": 3999,
           "found": true
         },
         "jcpenney": {
@@ -4373,7 +4373,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3399
+      "salePrice": 3399
     },
     {
       "brand": "BeautyRest Black",
@@ -4382,11 +4382,11 @@
       "mfPrice": 4799,
       "competitors": {
         "ashley": {
-          "price": 4499,
+          "price": 4799,
           "found": true
         },
         "macys": {
-          "price": 4499,
+          "price": 4799,
           "found": true
         },
         "costco": {
@@ -4405,7 +4405,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 4499,
+          "price": 4799,
           "found": true
         },
         "jcpenney": {
@@ -4414,7 +4414,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4199
+      "salePrice": 4199
     },
     {
       "brand": "BeautyRest Black",
@@ -4423,11 +4423,11 @@
       "mfPrice": 4799,
       "competitors": {
         "ashley": {
-          "price": 4499,
+          "price": 4799,
           "found": true
         },
         "macys": {
-          "price": 4499,
+          "price": 4799,
           "found": true
         },
         "costco": {
@@ -4446,7 +4446,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 4499,
+          "price": 4799,
           "found": true
         },
         "jcpenney": {
@@ -4455,7 +4455,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4199
+      "salePrice": 4199
     },
     {
       "brand": "BeautyRest Black",
@@ -4548,11 +4548,11 @@
       "mfPrice": 3849,
       "competitors": {
         "ashley": {
-          "price": 3649,
+          "price": 3849,
           "found": true
         },
         "macys": {
-          "price": 3649,
+          "price": 3849,
           "found": true
         },
         "costco": {
@@ -4571,15 +4571,15 @@
           "found": false
         },
         "wayfair": {
-          "price": 3649,
+          "price": 3849,
           "found": true
         },
         "jcpenney": {
-          "price": 6700,
+          "price": 3849,
           "found": true
         }
       },
-      "mfSalePrice": 3249
+      "salePrice": 3249
     },
     {
       "brand": "BeautyRest Black",
@@ -4588,11 +4588,11 @@
       "mfPrice": 4129,
       "competitors": {
         "ashley": {
-          "price": 3929,
+          "price": 4129,
           "found": true
         },
         "macys": {
-          "price": 3929,
+          "price": 4129,
           "found": true
         },
         "costco": {
@@ -4611,15 +4611,15 @@
           "found": false
         },
         "wayfair": {
-          "price": 3929,
+          "price": 4129,
           "found": true
         },
         "jcpenney": {
-          "price": 7200,
+          "price": 4129,
           "found": true
         }
       },
-      "mfSalePrice": 3529
+      "salePrice": 3529
     },
     {
       "brand": "BeautyRest Black",
@@ -4628,11 +4628,11 @@
       "mfPrice": 4399,
       "competitors": {
         "ashley": {
-          "price": 4199,
+          "price": 4399,
           "found": true
         },
         "macys": {
-          "price": 4199,
+          "price": 4399,
           "found": true
         },
         "costco": {
@@ -4651,15 +4651,15 @@
           "found": false
         },
         "wayfair": {
-          "price": 4199,
+          "price": 4399,
           "found": true
         },
         "jcpenney": {
-          "price": 7700,
+          "price": 4399,
           "found": true
         }
       },
-      "mfSalePrice": 3799
+      "salePrice": 3799
     },
     {
       "brand": "BeautyRest Black",
@@ -4668,11 +4668,11 @@
       "mfPrice": 5199,
       "competitors": {
         "ashley": {
-          "price": 4899,
+          "price": 5199,
           "found": true
         },
         "macys": {
-          "price": 4899,
+          "price": 5199,
           "found": true
         },
         "costco": {
@@ -4691,15 +4691,15 @@
           "found": false
         },
         "wayfair": {
-          "price": 4899,
+          "price": 5199,
           "found": true
         },
         "jcpenney": {
-          "price": 8950,
+          "price": 5199,
           "found": true
         }
       },
-      "mfSalePrice": 4599
+      "salePrice": 4599
     },
     {
       "brand": "BeautyRest Black",
@@ -4708,11 +4708,11 @@
       "mfPrice": 5199,
       "competitors": {
         "ashley": {
-          "price": 4899,
+          "price": 5199,
           "found": true
         },
         "macys": {
-          "price": 4899,
+          "price": 5199,
           "found": true
         },
         "costco": {
@@ -4731,15 +4731,15 @@
           "found": false
         },
         "wayfair": {
-          "price": 4899,
+          "price": 5199,
           "found": true
         },
         "jcpenney": {
-          "price": 8950,
+          "price": 5199,
           "found": true
         }
       },
-      "mfSalePrice": 4599
+      "salePrice": 4599
     },
     {
       "brand": "BeautyRest Black",
@@ -5569,7 +5569,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 1399
+      "salePrice": 1399
     },
     {
       "brand": "Stearns & Foster",
@@ -5609,7 +5609,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 1399
+      "salePrice": 1399
     },
     {
       "brand": "Stearns & Foster",
@@ -5649,7 +5649,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 1449
+      "salePrice": 1449
     },
     {
       "brand": "Stearns & Foster",
@@ -5689,7 +5689,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 1499
+      "salePrice": 1499
     },
     {
       "brand": "Stearns & Foster",
@@ -5729,7 +5729,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2099
+      "salePrice": 2099
     },
     {
       "brand": "Stearns & Foster",
@@ -5769,7 +5769,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2099
+      "salePrice": 2099
     },
     {
       "brand": "Stearns & Foster",
@@ -5893,7 +5893,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 1999
+      "salePrice": 1999
     },
     {
       "brand": "Stearns & Foster",
@@ -5932,7 +5932,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2049
+      "salePrice": 2049
     },
     {
       "brand": "Stearns & Foster",
@@ -5971,7 +5971,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2099
+      "salePrice": 2099
     },
     {
       "brand": "Stearns & Foster",
@@ -6010,7 +6010,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Stearns & Foster",
@@ -6049,7 +6049,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Stearns & Foster",
@@ -6173,7 +6173,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1999
+      "salePrice": 1999
     },
     {
       "brand": "Stearns & Foster",
@@ -6212,7 +6212,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2049
+      "salePrice": 2049
     },
     {
       "brand": "Stearns & Foster",
@@ -6252,7 +6252,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2099
+      "salePrice": 2099
     },
     {
       "brand": "Stearns & Foster",
@@ -6292,7 +6292,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Stearns & Foster",
@@ -6332,7 +6332,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Stearns & Foster",
@@ -6455,7 +6455,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2199
+      "salePrice": 2199
     },
     {
       "brand": "Stearns & Foster",
@@ -6495,7 +6495,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2249
+      "salePrice": 2249
     },
     {
       "brand": "Stearns & Foster",
@@ -6535,7 +6535,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2299
+      "salePrice": 2299
     },
     {
       "brand": "Stearns & Foster",
@@ -6575,7 +6575,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2899
+      "salePrice": 2899
     },
     {
       "brand": "Stearns & Foster",
@@ -6615,7 +6615,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2899
+      "salePrice": 2899
     },
     {
       "brand": "Stearns & Foster",
@@ -6740,7 +6740,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2199
+      "salePrice": 2199
     },
     {
       "brand": "Stearns & Foster",
@@ -6781,7 +6781,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2249
+      "salePrice": 2249
     },
     {
       "brand": "Stearns & Foster",
@@ -6822,7 +6822,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2299
+      "salePrice": 2299
     },
     {
       "brand": "Stearns & Foster",
@@ -6863,7 +6863,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2899
+      "salePrice": 2899
     },
     {
       "brand": "Stearns & Foster",
@@ -6904,7 +6904,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 2899
+      "salePrice": 2899
     },
     {
       "brand": "Stearns & Foster",
@@ -7029,7 +7029,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 3299
+      "salePrice": 3299
     },
     {
       "brand": "Stearns & Foster",
@@ -7069,7 +7069,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 3399
+      "salePrice": 3399
     },
     {
       "brand": "Stearns & Foster",
@@ -7109,7 +7109,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 3999
+      "salePrice": 3999
     },
     {
       "brand": "Stearns & Foster",
@@ -7149,7 +7149,7 @@
           "found": true
         }
       },
-      "mfSalePrice": 3999
+      "salePrice": 3999
     },
     {
       "brand": "Stearns & Foster",
@@ -7509,7 +7509,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4699
+      "salePrice": 4699
     },
     {
       "brand": "Stearns & Foster",
@@ -7593,7 +7593,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4799
+      "salePrice": 4799
     },
     {
       "brand": "Stearns & Foster",
@@ -7634,7 +7634,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 5399
+      "salePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -7675,7 +7675,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 5399
+      "salePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -7757,7 +7757,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4699
+      "salePrice": 4699
     },
     {
       "brand": "Stearns & Foster",
@@ -7798,7 +7798,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4799
+      "salePrice": 4799
     },
     {
       "brand": "Stearns & Foster",
@@ -7839,7 +7839,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 5399
+      "salePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -7880,7 +7880,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 5399
+      "salePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -8586,7 +8586,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2049
+      "salePrice": 2049
     },
     {
       "brand": "Purple",
@@ -8630,7 +8630,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2299
+      "salePrice": 2299
     },
     {
       "brand": "Purple",
@@ -8674,7 +8674,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2549
+      "salePrice": 2549
     },
     {
       "brand": "Purple",
@@ -8718,7 +8718,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Purple",
@@ -8762,7 +8762,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Purple",
@@ -8806,7 +8806,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2749
+      "salePrice": 2749
     },
     {
       "brand": "Purple",
@@ -8850,7 +8850,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3099
+      "salePrice": 3099
     },
     {
       "brand": "Purple",
@@ -8894,7 +8894,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3449
+      "salePrice": 3449
     },
     {
       "brand": "Purple",
@@ -8938,7 +8938,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3599
+      "salePrice": 3599
     },
     {
       "brand": "Purple",
@@ -8982,7 +8982,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3599
+      "salePrice": 3599
     },
     {
       "brand": "Purple",
@@ -9026,7 +9026,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3299
+      "salePrice": 3299
     },
     {
       "brand": "Purple",
@@ -9070,7 +9070,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3799
+      "salePrice": 3799
     },
     {
       "brand": "Purple",
@@ -9114,7 +9114,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4299
+      "salePrice": 4299
     },
     {
       "brand": "Purple",
@@ -9158,7 +9158,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4299
+      "salePrice": 4299
     },
     {
       "brand": "Purple",
@@ -11590,7 +11590,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 1519
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -11632,7 +11633,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 1549
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -11674,7 +11676,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 1599
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -11716,7 +11719,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2099
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -11758,7 +11762,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2099
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -12128,7 +12133,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1149
+      "salePrice": 1149
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12172,7 +12177,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1199
+      "salePrice": 1199
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12216,7 +12221,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1199
+      "salePrice": 1199
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12260,7 +12265,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1199
+      "salePrice": 1199
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12304,7 +12309,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1499
+      "salePrice": 1499
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12348,7 +12353,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1499
+      "salePrice": 1499
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12435,7 +12440,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1449
+      "salePrice": 1449
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12479,7 +12484,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1499
+      "salePrice": 1499
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12523,7 +12528,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1499
+      "salePrice": 1499
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12567,7 +12572,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1499
+      "salePrice": 1499
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12611,7 +12616,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1949
+      "salePrice": 1949
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12655,7 +12660,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1949
+      "salePrice": 1949
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12738,13 +12743,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 1719
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
       "model": "Sealy Posturepedic Elite Hybrid Albany II Medium",
       "size": "Full",
-      "mfPrice": 1819,
+      "mfPrice": 1849,
       "competitors": {
         "ashley": {
           "price": 1849,
@@ -12778,7 +12784,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 1749
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12818,7 +12825,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 1799
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12858,7 +12866,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2299
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -12898,7 +12907,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2299
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13270,7 +13280,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2119
+      "salePrice": 2119
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13311,7 +13321,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2149
+      "salePrice": 2149
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13352,7 +13362,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2199
+      "salePrice": 2199
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13393,7 +13403,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13434,7 +13444,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13559,7 +13569,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2119
+      "salePrice": 2119
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13600,7 +13610,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2149
+      "salePrice": 2149
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13641,7 +13651,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2199
+      "salePrice": 2199
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13682,7 +13692,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -13723,7 +13733,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -15820,7 +15830,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 6999
+      "salePrice": 6999
     },
     {
       "brand": "Purple",
@@ -15864,7 +15874,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 7499
+      "salePrice": 7499
     },
     {
       "brand": "Purple",
@@ -15908,7 +15918,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 7999
+      "salePrice": 7999
     },
     {
       "brand": "Purple",
@@ -15952,7 +15962,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 7999
+      "salePrice": 7999
     },
     {
       "brand": "Purple",
@@ -15996,7 +16006,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 7999
+      "salePrice": 7999
     },
     {
       "brand": "Purple",
@@ -16040,7 +16050,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 8499
+      "salePrice": 8499
     },
     {
       "brand": "Purple",
@@ -16084,7 +16094,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 8999
+      "salePrice": 8999
     },
     {
       "brand": "Purple",
@@ -16128,7 +16138,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 8999
+      "salePrice": 8999
     },
     {
       "brand": "Tempur-Pedic",
@@ -16172,7 +16182,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3899
+      "salePrice": 3899
     },
     {
       "brand": "Tempur-Pedic",
@@ -16216,7 +16226,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3899
+      "salePrice": 3899
     },
     {
       "brand": "Tempur-Pedic",
@@ -16260,7 +16270,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4399
+      "salePrice": 4399
     },
     {
       "brand": "Tempur-Pedic",
@@ -16304,7 +16314,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 5099
+      "salePrice": 5099
     },
     {
       "brand": "Tempur-Pedic",
@@ -16348,7 +16358,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 5099
+      "salePrice": 5099
     },
     {
       "brand": "Tempur-Pedic",
@@ -16392,7 +16402,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 7798
+      "salePrice": 7798
     },
     {
       "brand": "Stearns & Foster",
@@ -16436,7 +16446,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4699
+      "salePrice": 4699
     },
     {
       "brand": "Stearns & Foster",
@@ -16480,7 +16490,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4799
+      "salePrice": 4799
     },
     {
       "brand": "Stearns & Foster",
@@ -16524,7 +16534,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 5399
+      "salePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -16568,7 +16578,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 5399
+      "salePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -16612,7 +16622,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4699
+      "salePrice": 4699
     },
     {
       "brand": "Stearns & Foster",
@@ -16656,7 +16666,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4799
+      "salePrice": 4799
     },
     {
       "brand": "Stearns & Foster",
@@ -16700,7 +16710,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 5399
+      "salePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -16744,7 +16754,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 5399
+      "salePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -16788,7 +16798,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3299
+      "salePrice": 3299
     },
     {
       "brand": "Stearns & Foster",
@@ -16832,7 +16842,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3399
+      "salePrice": 3399
     },
     {
       "brand": "Stearns & Foster",
@@ -16876,7 +16886,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3999
+      "salePrice": 3999
     },
     {
       "brand": "Stearns & Foster",
@@ -16920,7 +16930,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3999
+      "salePrice": 3999
     },
     {
       "brand": "Stearns & Foster",
@@ -16964,7 +16974,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2199
+      "salePrice": 2199
     },
     {
       "brand": "Stearns & Foster",
@@ -17008,7 +17018,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2249
+      "salePrice": 2249
     },
     {
       "brand": "Stearns & Foster",
@@ -17052,7 +17062,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2299
+      "salePrice": 2299
     },
     {
       "brand": "Stearns & Foster",
@@ -17096,7 +17106,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2899
+      "salePrice": 2899
     },
     {
       "brand": "Stearns & Foster",
@@ -17140,7 +17150,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2899
+      "salePrice": 2899
     },
     {
       "brand": "BeautyRest Black",
@@ -17184,7 +17194,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3249
+      "salePrice": 3249
     },
     {
       "brand": "BeautyRest Black",
@@ -17228,7 +17238,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3529
+      "salePrice": 3529
     },
     {
       "brand": "BeautyRest Black",
@@ -17272,7 +17282,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3799
+      "salePrice": 3799
     },
     {
       "brand": "BeautyRest Black",
@@ -17316,7 +17326,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4599
+      "salePrice": 4599
     },
     {
       "brand": "BeautyRest Black",
@@ -17360,7 +17370,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4599
+      "salePrice": 4599
     },
     {
       "brand": "Tempur-Pedic",
@@ -17404,7 +17414,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 9948
+      "salePrice": 9948
     },
     {
       "brand": "Tempur-Pedic",
@@ -17448,7 +17458,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 13747
+      "salePrice": 13747
     },
     {
       "brand": "Tempur-Pedic",
@@ -17492,7 +17502,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 13747
+      "salePrice": 13747
     },
     {
       "brand": "Tempur-Pedic",
@@ -17536,7 +17546,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 18546
+      "salePrice": 18546
     },
     {
       "brand": "Tempur-Pedic",
@@ -17580,7 +17590,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 18546
+      "salePrice": 18546
     },
     {
       "brand": "Stearns & Foster",
@@ -17624,7 +17634,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1999
+      "salePrice": 1999
     },
     {
       "brand": "Stearns & Foster",
@@ -17668,7 +17678,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2049
+      "salePrice": 2049
     },
     {
       "brand": "Stearns & Foster",
@@ -17712,7 +17722,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2099
+      "salePrice": 2099
     },
     {
       "brand": "Stearns & Foster",
@@ -17756,7 +17766,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Stearns & Foster",
@@ -17800,7 +17810,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Tempur-Pedic",
@@ -17844,7 +17854,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3899
+      "salePrice": 3899
     },
     {
       "brand": "Tempur-Pedic",
@@ -17888,7 +17898,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3899
+      "salePrice": 3899
     },
     {
       "brand": "Tempur-Pedic",
@@ -17932,7 +17942,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4399
+      "salePrice": 4399
     },
     {
       "brand": "Tempur-Pedic",
@@ -17976,7 +17986,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 5099
+      "salePrice": 5099
     },
     {
       "brand": "Tempur-Pedic",
@@ -18020,7 +18030,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 5099
+      "salePrice": 5099
     },
     {
       "brand": "Tempur-Pedic",
@@ -18064,7 +18074,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 7798
+      "salePrice": 7798
     },
     {
       "brand": "Stearns & Foster",
@@ -18108,7 +18118,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1399
+      "salePrice": 1399
     },
     {
       "brand": "Stearns & Foster",
@@ -18152,7 +18162,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1399
+      "salePrice": 1399
     },
     {
       "brand": "Stearns & Foster",
@@ -18196,7 +18206,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1449
+      "salePrice": 1449
     },
     {
       "brand": "Stearns & Foster",
@@ -18240,7 +18250,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1499
+      "salePrice": 1499
     },
     {
       "brand": "Stearns & Foster",
@@ -18284,7 +18294,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2099
+      "salePrice": 2099
     },
     {
       "brand": "Stearns & Foster",
@@ -18328,7 +18338,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2099
+      "salePrice": 2099
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -18372,7 +18382,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2119
+      "salePrice": 2119
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -18416,7 +18426,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2149
+      "salePrice": 2149
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -18460,7 +18470,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2199
+      "salePrice": 2199
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -18504,7 +18514,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -18548,14 +18558,13 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Med Hybrid",
       "size": "Twin",
       "mfPrice": 5199,
-      "mfSalePrice": 4899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -18592,14 +18601,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 4899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Med Hybrid",
       "size": "Twin XL",
       "mfPrice": 5199,
-      "mfSalePrice": 4899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -18636,14 +18645,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 4899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Med Hybrid",
       "size": "Queen",
       "mfPrice": 5699,
-      "mfSalePrice": 5399,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -18680,14 +18689,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 5399
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Med Hybrid",
       "size": "King",
       "mfPrice": 6399,
-      "mfSalePrice": 6099,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -18724,14 +18733,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 6099
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Med Hybrid",
       "size": "Cal King",
       "mfPrice": 6399,
-      "mfSalePrice": 6099,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -18768,14 +18777,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 6099
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Med Hybrid",
       "size": "Split Head King",
       "mfPrice": 10398,
-      "mfSalePrice": 10098,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -18812,14 +18821,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 10098
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Med Hybrid",
       "size": "Split King",
       "mfPrice": 10398,
-      "mfSalePrice": 9798,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -18856,14 +18865,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 9798
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Firm",
       "size": "Twin",
       "mfPrice": 5199,
-      "mfSalePrice": 4899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -18900,14 +18909,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 4899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Firm",
       "size": "Twin XL",
       "mfPrice": 5199,
-      "mfSalePrice": 4899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -18944,14 +18953,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 4899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Firm",
       "size": "Queen",
       "mfPrice": 5699,
-      "mfSalePrice": 5399,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -18988,14 +18997,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 5399
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Firm",
       "size": "King",
       "mfPrice": 6399,
-      "mfSalePrice": 6099,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19032,14 +19041,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 6099
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Firm",
       "size": "Cal King",
       "mfPrice": 6399,
-      "mfSalePrice": 6099,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19076,14 +19085,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 6099
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Firm",
       "size": "Split Head King",
       "mfPrice": 10398,
-      "mfSalePrice": 10098,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19120,14 +19129,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 10098
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Firm",
       "size": "Split King",
       "mfPrice": 10398,
-      "mfSalePrice": 9798,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19164,14 +19173,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 9798
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Soft",
       "size": "Twin",
       "mfPrice": 5199,
-      "mfSalePrice": 4899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19208,14 +19217,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 4899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Soft",
       "size": "Twin XL",
       "mfPrice": 5199,
-      "mfSalePrice": 4899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19252,14 +19261,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 4899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Soft",
       "size": "Queen",
       "mfPrice": 5699,
-      "mfSalePrice": 5399,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19296,14 +19305,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 5399
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Soft",
       "size": "King",
       "mfPrice": 6399,
-      "mfSalePrice": 6099,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19340,14 +19349,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 6099
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Soft",
       "size": "Cal King",
       "mfPrice": 6399,
-      "mfSalePrice": 6099,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19384,14 +19393,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 6099
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Soft",
       "size": "Split Head King",
       "mfPrice": 10398,
-      "mfSalePrice": 10098,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19428,14 +19437,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 10098
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Soft",
       "size": "Split King",
       "mfPrice": 10398,
-      "mfSalePrice": 9798,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19472,14 +19481,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 9798
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Medium",
       "size": "Twin",
       "mfPrice": 2899,
-      "mfSalePrice": 2699,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19516,14 +19525,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2699
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Medium",
       "size": "Twin XL",
       "mfPrice": 2899,
-      "mfSalePrice": 2699,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19560,14 +19569,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2699
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Medium",
       "size": "Full",
       "mfPrice": 3249,
-      "mfSalePrice": 3049,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19604,14 +19613,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3049
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Medium",
       "size": "Queen",
       "mfPrice": 3399,
-      "mfSalePrice": 3199,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19648,14 +19657,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3199
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Medium",
       "size": "King",
       "mfPrice": 4099,
-      "mfSalePrice": 3899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19692,14 +19701,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Medium",
       "size": "Cal King",
       "mfPrice": 4099,
-      "mfSalePrice": 3899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19736,14 +19745,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Medium",
       "size": "Split King",
       "mfPrice": 5798,
-      "mfSalePrice": 5398,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19780,14 +19789,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 5398
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProBreeze 12\" Med Hybrid",
       "size": "Twin",
       "mfPrice": 3899,
-      "mfSalePrice": 3599,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19824,14 +19833,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3599
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProBreeze 12\" Med Hybrid",
       "size": "Twin XL",
       "mfPrice": 3899,
-      "mfSalePrice": 3599,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19868,14 +19877,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3599
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProBreeze 12\" Med Hybrid",
       "size": "Queen",
       "mfPrice": 4399,
-      "mfSalePrice": 4099,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19912,14 +19921,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 4099
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProBreeze 12\" Med Hybrid",
       "size": "King",
       "mfPrice": 5099,
-      "mfSalePrice": 4799,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -19956,14 +19965,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 4799
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProBreeze 12\" Med Hybrid",
       "size": "Cal King",
       "mfPrice": 5099,
-      "mfSalePrice": 4799,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20000,14 +20009,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 4799
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProBreeze 12\" Med Hybrid",
       "size": "Split King",
       "mfPrice": 7798,
-      "mfSalePrice": 7198,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20044,14 +20053,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 7198
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Firm",
       "size": "Twin",
       "mfPrice": 2899,
-      "mfSalePrice": 2699,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20088,14 +20097,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2699
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Firm",
       "size": "Twin XL",
       "mfPrice": 2899,
-      "mfSalePrice": 2699,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20132,14 +20141,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2699
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Firm",
       "size": "Full",
       "mfPrice": 3249,
-      "mfSalePrice": 3049,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20176,14 +20185,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3049
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Firm",
       "size": "Queen",
       "mfPrice": 3399,
-      "mfSalePrice": 3199,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20220,14 +20229,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3199
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Firm",
       "size": "King",
       "mfPrice": 4099,
-      "mfSalePrice": 3899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20264,14 +20273,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Firm",
       "size": "Cal King",
       "mfPrice": 4099,
-      "mfSalePrice": 3899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20308,14 +20317,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Firm",
       "size": "Split King",
       "mfPrice": 5798,
-      "mfSalePrice": 5398,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20352,14 +20361,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 5398
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Med Hybrid",
       "size": "Twin",
       "mfPrice": 2899,
-      "mfSalePrice": 2699,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20396,14 +20405,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2699
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Med Hybrid",
       "size": "Twin XL",
       "mfPrice": 2899,
-      "mfSalePrice": 2699,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20440,14 +20449,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2699
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Med Hybrid",
       "size": "Full",
       "mfPrice": 3249,
-      "mfSalePrice": 3049,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20484,14 +20493,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3049
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Med Hybrid",
       "size": "Queen",
       "mfPrice": 3399,
-      "mfSalePrice": 3199,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20528,14 +20537,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3199
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Med Hybrid",
       "size": "King",
       "mfPrice": 4099,
-      "mfSalePrice": 3899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20572,14 +20581,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Med Hybrid",
       "size": "Cal King",
       "mfPrice": 4099,
-      "mfSalePrice": 3899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20616,14 +20625,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "ProAdapt 2.0 12\" Med Hybrid",
       "size": "Split King",
       "mfPrice": 5798,
-      "mfSalePrice": 5398,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20660,14 +20669,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 5398
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Med Hybrid",
       "size": "Twin",
       "mfPrice": 1999,
-      "mfSalePrice": 1899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20704,14 +20713,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 1899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Med Hybrid",
       "size": "Twin XL",
       "mfPrice": 1999,
-      "mfSalePrice": 1899,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20748,14 +20757,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 1899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Med Hybrid",
       "size": "Full",
       "mfPrice": 2349,
-      "mfSalePrice": 2249,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20792,14 +20801,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2249
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Med Hybrid",
       "size": "Queen",
       "mfPrice": 2499,
-      "mfSalePrice": 2399,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20836,14 +20845,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2399
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Med Hybrid",
       "size": "King",
       "mfPrice": 3199,
-      "mfSalePrice": 3099,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20880,14 +20889,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3099
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Med Hybrid",
       "size": "Cal King",
       "mfPrice": 3199,
-      "mfSalePrice": 3099,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20924,14 +20933,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3099
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Med Hybrid",
       "size": "Split King",
       "mfPrice": 3998,
-      "mfSalePrice": 3798,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -20968,14 +20977,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3798
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Medium",
       "size": "Twin",
       "mfPrice": 1699,
-      "mfSalePrice": 1599,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -21012,14 +21021,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 1599
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Medium",
       "size": "Twin XL",
       "mfPrice": 1699,
-      "mfSalePrice": 1599,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -21056,14 +21065,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 1599
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Medium",
       "size": "Full",
       "mfPrice": 2049,
-      "mfSalePrice": 1949,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -21100,14 +21109,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 1949
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Medium",
       "size": "Queen",
       "mfPrice": 2199,
-      "mfSalePrice": 2099,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -21144,14 +21153,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2099
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Medium",
       "size": "King",
       "mfPrice": 2899,
-      "mfSalePrice": 2799,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -21188,14 +21197,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2799
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Medium",
       "size": "Cal King",
       "mfPrice": 2899,
-      "mfSalePrice": 2799,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -21232,14 +21241,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 2799
     },
     {
       "brand": "Tempur-Pedic",
       "model": "Adapt 2.0 11\" Medium",
       "size": "Split King",
       "mfPrice": 3398,
-      "mfSalePrice": 3198,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -21276,7 +21285,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3198
     },
     {
       "brand": "BeautyRest Black",
@@ -21320,7 +21330,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2849
+      "salePrice": 2849
     },
     {
       "brand": "BeautyRest Black",
@@ -21364,7 +21374,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3129
+      "salePrice": 3129
     },
     {
       "brand": "BeautyRest Black",
@@ -21408,7 +21418,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3399
+      "salePrice": 3399
     },
     {
       "brand": "BeautyRest Black",
@@ -21452,7 +21462,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4199
+      "salePrice": 4199
     },
     {
       "brand": "BeautyRest Black",
@@ -21496,7 +21506,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4199
+      "salePrice": 4199
     },
     {
       "brand": "BeautyRest Black",
@@ -21540,7 +21550,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2849
+      "salePrice": 2849
     },
     {
       "brand": "BeautyRest Black",
@@ -21584,7 +21594,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3129
+      "salePrice": 3129
     },
     {
       "brand": "BeautyRest Black",
@@ -21628,7 +21638,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 3399
+      "salePrice": 3399
     },
     {
       "brand": "BeautyRest Black",
@@ -21672,7 +21682,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4199
+      "salePrice": 4199
     },
     {
       "brand": "BeautyRest Black",
@@ -21716,7 +21726,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 4199
+      "salePrice": 4199
     },
     {
       "brand": "Stearns & Foster",
@@ -21760,7 +21770,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2199
+      "salePrice": 2199
     },
     {
       "brand": "Stearns & Foster",
@@ -21804,7 +21814,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2249
+      "salePrice": 2249
     },
     {
       "brand": "Stearns & Foster",
@@ -21848,7 +21858,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2299
+      "salePrice": 2299
     },
     {
       "brand": "Stearns & Foster",
@@ -21892,7 +21902,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2899
+      "salePrice": 2899
     },
     {
       "brand": "Stearns & Foster",
@@ -21936,7 +21946,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2899
+      "salePrice": 2899
     },
     {
       "brand": "Stearns & Foster",
@@ -21980,7 +21990,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1999
+      "salePrice": 1999
     },
     {
       "brand": "Stearns & Foster",
@@ -22024,7 +22034,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2049
+      "salePrice": 2049
     },
     {
       "brand": "Stearns & Foster",
@@ -22068,7 +22078,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2099
+      "salePrice": 2099
     },
     {
       "brand": "Stearns & Foster",
@@ -22112,7 +22122,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Stearns & Foster",
@@ -22156,7 +22166,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2699
+      "salePrice": 2699
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -22200,7 +22210,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1719
+      "salePrice": 1719
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -22244,7 +22254,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1749
+      "salePrice": 1749
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -22288,7 +22298,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1799
+      "salePrice": 1799
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -22332,7 +22342,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2299
+      "salePrice": 2299
     },
     {
       "brand": "Sealy Posturepedic Hybrid",
@@ -22376,7 +22386,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2299
+      "salePrice": 2299
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -22420,7 +22430,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1519
+      "salePrice": 1519
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -22464,7 +22474,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1549
+      "salePrice": 1549
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -22508,7 +22518,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1599
+      "salePrice": 1599
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -22552,7 +22562,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2099
+      "salePrice": 2099
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -22596,7 +22606,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2099
+      "salePrice": 2099
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -22640,7 +22650,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1919
+      "salePrice": 1919
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -22684,7 +22694,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1949
+      "salePrice": 1949
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -22728,7 +22738,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 1999
+      "salePrice": 1999
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -22772,7 +22782,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2499
+      "salePrice": 2499
     },
     {
       "brand": "Sealy Posturepedic Innerspring",
@@ -22816,7 +22826,7 @@
           "found": false
         }
       },
-      "mfSalePrice": 2499
+      "salePrice": 2499
     }
   ]
 }

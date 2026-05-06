@@ -26,7 +26,7 @@ interface ProductData {
   model: string;
   size: string;
   mfPrice: number;
-  mfSalePrice?: number;  // NEW - optional sale price
+  salePrice?: number;  // NEW - optional sale price
   competitors: ProductCompetitors;
 }
 
@@ -197,13 +197,13 @@ function App() {
     : null;
 
   // Determine which MF price to use based on toggle
-  const mfDisplayPrice = productData && showSalePrice && productData.mfSalePrice 
-    ? productData.mfSalePrice 
+  const mfDisplayPrice = productData && showSalePrice && productData.salePrice 
+    ? productData.salePrice 
     : productData?.mfPrice ?? null;
   
-  const hasSalePrice = productData && !!productData.mfSalePrice && showSalePrice;
-  const savingsAmount = productData?.mfSalePrice && productData.mfPrice 
-    ? productData.mfPrice - productData.mfSalePrice 
+  const hasSalePrice = productData && !!productData.salePrice && showSalePrice;
+  const savingsAmount = productData?.salePrice && productData.mfPrice 
+    ? productData.mfPrice - productData.salePrice 
     : 0;
 
   // Build retailer list with prices for comparison
