@@ -366,7 +366,7 @@ function App() {
                                 Lowest Price
                               </span>
                             )}
-                            {hasSalePrice && (
+                            {hasSalePrice && !retailer.notAvailable && retailer.price !== null && (
                               <span className="px-3 py-1 bg-amber-500/100 text-white text-sm font-bold rounded-full">
                                 SALE
                               </span>
