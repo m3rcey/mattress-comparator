@@ -76,7 +76,7 @@ function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   
   // Sale price toggle state - default to ON (showing sale prices)
-  const [showSalePrice, setShowSalePrice] = useState(true);
+  const [showSalePrice, setShowSalePrice] = useState(false);
   
   const [dropdowns, setDropdowns] = useState({
     brand: false,

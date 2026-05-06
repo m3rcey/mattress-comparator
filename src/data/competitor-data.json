@@ -3967,7 +3967,7 @@
       "brand": "BeautyRest Black",
       "model": "Series Three Medium",
       "size": "Twin XL",
-      "mfPrice": 3249,
+      "mfPrice": 3449,
       "competitors": {
         "ashley": {
           "price": 3249,
@@ -4001,13 +4001,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2849
     },
     {
       "brand": "BeautyRest Black",
       "model": "Series Three Medium",
       "size": "Full",
-      "mfPrice": 3529,
+      "mfPrice": 3729,
       "competitors": {
         "ashley": {
           "price": 3529,
@@ -4041,13 +4042,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3129
     },
     {
       "brand": "BeautyRest Black",
       "model": "Series Three Medium",
       "size": "Queen",
-      "mfPrice": 3799,
+      "mfPrice": 3999,
       "competitors": {
         "ashley": {
           "price": 3799,
@@ -4081,13 +4083,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3399
     },
     {
       "brand": "BeautyRest Black",
       "model": "Series Three Medium",
       "size": "King",
-      "mfPrice": 4499,
+      "mfPrice": 4799,
       "competitors": {
         "ashley": {
           "price": 4499,
@@ -4121,13 +4124,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4199
     },
     {
       "brand": "BeautyRest Black",
       "model": "Series Three Medium",
       "size": "Cal King",
-      "mfPrice": 4499,
+      "mfPrice": 4799,
       "competitors": {
         "ashley": {
           "price": 4499,
@@ -4161,7 +4165,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4199
     },
     {
       "brand": "BeautyRest Black",
@@ -4251,7 +4256,7 @@
       "brand": "BeautyRest Black",
       "model": "Series Three Firm",
       "size": "Twin XL",
-      "mfPrice": 3249,
+      "mfPrice": 3449,
       "competitors": {
         "ashley": {
           "price": 3249,
@@ -4285,13 +4290,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2849
     },
     {
       "brand": "BeautyRest Black",
       "model": "Series Three Firm",
       "size": "Full",
-      "mfPrice": 3529,
+      "mfPrice": 3729,
       "competitors": {
         "ashley": {
           "price": 3529,
@@ -4325,13 +4331,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3129
     },
     {
       "brand": "BeautyRest Black",
       "model": "Series Three Firm",
       "size": "Queen",
-      "mfPrice": 3799,
+      "mfPrice": 3999,
       "competitors": {
         "ashley": {
           "price": 3799,
@@ -4365,13 +4372,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3399
     },
     {
       "brand": "BeautyRest Black",
       "model": "Series Three Firm",
       "size": "King",
-      "mfPrice": 4499,
+      "mfPrice": 4799,
       "competitors": {
         "ashley": {
           "price": 4499,
@@ -4405,13 +4413,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4199
     },
     {
       "brand": "BeautyRest Black",
       "model": "Series Three Firm",
       "size": "Cal King",
-      "mfPrice": 4499,
+      "mfPrice": 4799,
       "competitors": {
         "ashley": {
           "price": 4499,
@@ -4445,7 +4454,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4199
     },
     {
       "brand": "BeautyRest Black",
@@ -4535,7 +4545,7 @@
       "brand": "BeautyRest Black",
       "model": "Series Three Plush Pillow Top",
       "size": "Twin XL",
-      "mfPrice": 3649,
+      "mfPrice": 3849,
       "competitors": {
         "ashley": {
           "price": 3649,
@@ -4568,13 +4578,14 @@
           "price": 6700,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 3249
     },
     {
       "brand": "BeautyRest Black",
       "model": "Series Three Plush Pillow Top",
       "size": "Full",
-      "mfPrice": 3929,
+      "mfPrice": 4129,
       "competitors": {
         "ashley": {
           "price": 3929,
@@ -4607,13 +4618,14 @@
           "price": 7200,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 3529
     },
     {
       "brand": "BeautyRest Black",
       "model": "Series Three Plush Pillow Top",
       "size": "Queen",
-      "mfPrice": 4199,
+      "mfPrice": 4399,
       "competitors": {
         "ashley": {
           "price": 4199,
@@ -4646,13 +4658,14 @@
           "price": 7700,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 3799
     },
     {
       "brand": "BeautyRest Black",
       "model": "Series Three Plush Pillow Top",
       "size": "King",
-      "mfPrice": 4899,
+      "mfPrice": 5199,
       "competitors": {
         "ashley": {
           "price": 4899,
@@ -4685,13 +4698,14 @@
           "price": 8950,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 4599
     },
     {
       "brand": "BeautyRest Black",
       "model": "Series Three Plush Pillow Top",
       "size": "Cal King",
-      "mfPrice": 4899,
+      "mfPrice": 5199,
       "competitors": {
         "ashley": {
           "price": 4899,
@@ -4724,7 +4738,8 @@
           "price": 8950,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 4599
     },
     {
       "brand": "BeautyRest Black",
@@ -5553,7 +5568,8 @@
           "price": 1699,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 1399
     },
     {
       "brand": "Stearns & Foster",
@@ -5592,7 +5608,8 @@
           "price": 1699,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 1399
     },
     {
       "brand": "Stearns & Foster",
@@ -5631,7 +5648,8 @@
           "price": 1749,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 1449
     },
     {
       "brand": "Stearns & Foster",
@@ -5670,7 +5688,8 @@
           "price": 1799,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 1499
     },
     {
       "brand": "Stearns & Foster",
@@ -5709,7 +5728,8 @@
           "price": 2399,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2099
     },
     {
       "brand": "Stearns & Foster",
@@ -5748,7 +5768,8 @@
           "price": 2399,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2099
     },
     {
       "brand": "Stearns & Foster",
@@ -6433,7 +6454,8 @@
           "price": 2499,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2199
     },
     {
       "brand": "Stearns & Foster",
@@ -6472,7 +6494,8 @@
           "price": 2549,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2249
     },
     {
       "brand": "Stearns & Foster",
@@ -6511,7 +6534,8 @@
           "price": 2599,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2299
     },
     {
       "brand": "Stearns & Foster",
@@ -6550,7 +6574,8 @@
           "price": 3199,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2899
     },
     {
       "brand": "Stearns & Foster",
@@ -6589,7 +6614,8 @@
           "price": 3199,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 2899
     },
     {
       "brand": "Stearns & Foster",
@@ -7002,7 +7028,8 @@
           "price": 3399,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 3299
     },
     {
       "brand": "Stearns & Foster",
@@ -7041,7 +7068,8 @@
           "price": 3799,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 3399
     },
     {
       "brand": "Stearns & Foster",
@@ -7080,7 +7108,8 @@
           "price": 4399,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 3999
     },
     {
       "brand": "Stearns & Foster",
@@ -7119,7 +7148,8 @@
           "price": 4399,
           "found": true
         }
-      }
+      },
+      "mfSalePrice": 3999
     },
     {
       "brand": "Stearns & Foster",
@@ -7478,7 +7508,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4699
     },
     {
       "brand": "Stearns & Foster",
@@ -7561,7 +7592,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4799
     },
     {
       "brand": "Stearns & Foster",
@@ -7601,7 +7633,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -7641,7 +7674,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -16577,7 +16611,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4699
     },
     {
       "brand": "Stearns & Foster",
@@ -16620,7 +16655,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 4799
     },
     {
       "brand": "Stearns & Foster",
@@ -16663,7 +16699,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -16706,7 +16743,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 5399
     },
     {
       "brand": "Stearns & Foster",
@@ -16749,7 +16787,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3299
     },
     {
       "brand": "Stearns & Foster",
@@ -16792,7 +16831,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3399
     },
     {
       "brand": "Stearns & Foster",
@@ -16835,7 +16875,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3999
     },
     {
       "brand": "Stearns & Foster",
@@ -16878,7 +16919,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 3999
     },
     {
       "brand": "Stearns & Foster",
@@ -16921,7 +16963,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2199
     },
     {
       "brand": "Stearns & Foster",
@@ -16964,7 +17007,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2249
     },
     {
       "brand": "Stearns & Foster",
@@ -17007,7 +17051,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2299
     },
     {
       "brand": "Stearns & Foster",
@@ -17050,7 +17095,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2899
     },
     {
       "brand": "Stearns & Foster",
@@ -17093,13 +17139,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "mfSalePrice": 2899
     },
     {
       "brand": "BeautyRest Black",
       "model": "Series Three 16.75\" Plush PT",
       "size": "Twin XL",
-      "mfPrice": 3649,
+      "mfPrice": 3849,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -17143,7 +17190,7 @@
       "brand": "BeautyRest Black",
       "model": "Series Three 16.75\" Plush PT",
       "size": "Full",
-      "mfPrice": 3929,
+      "mfPrice": 4129,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -17187,7 +17234,7 @@
       "brand": "BeautyRest Black",
       "model": "Series Three 16.75\" Plush PT",
       "size": "Queen",
-      "mfPrice": 4199,
+      "mfPrice": 4399,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -17231,7 +17278,7 @@
       "brand": "BeautyRest Black",
       "model": "Series Three 16.75\" Plush PT",
       "size": "King",
-      "mfPrice": 4899,
+      "mfPrice": 5199,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -17275,7 +17322,7 @@
       "brand": "BeautyRest Black",
       "model": "Series Three 16.75\" Plush PT",
       "size": "Cal King",
-      "mfPrice": 4899,
+      "mfPrice": 5199,
       "competitors": {
         "ashley": {
           "notAvailable": true,
