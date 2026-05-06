@@ -210,25 +210,31 @@ function App() {
   const retailerPrices = useMemo(() => {
     if (!productData) return [];
     
-    const prices: { id: string; name: string; price: number | null; found: boolean; notAvailable: boolean; reason?: string }[] = [];
+    const prices: { id: string; name: string; price: number | null; retailPrice?: number | null; found: boolean; notAvailable: boolean; reason?: string }[] = [];
     
     // Add Mattress Firm - use display price based on toggle
     prices.push({
       id: 'mf',
       name: 'Mattress Firm',
       price: mfDisplayPrice,
+      retailPrice: productData.mfPrice,
       found: true,
       notAvailable: false
     });
     
-    // Add other retailers
+    // Add other retailers - use sale price when toggle is on
     Object.entries(productData.competitors).forEach(([compId, compData]) => {
       const retailer = allRetailers.find(r => r.id === compId);
       if (retailer) {
+        const retailPrice = compData.price ?? null;
+        const displayPrice = showSalePrice && productData.salePrice && retailPrice
+          ? productData.salePrice
+          : retailPrice;
         prices.push({
           id: compId,
           name: retailer.name,
-          price: compData.price ?? null,
+          price: displayPrice,
+          retailPrice: retailPrice,
           found: compData.found ?? false,
           notAvailable: compData.notAvailable ?? false,
           reason: compData.reason
@@ -245,7 +251,7 @@ function App() {
       if (a.price === null && b.price === null) return 0;
       return (a.price ?? 0) - (b.price ?? 0);
     });
-  }, [productData, mfDisplayPrice]);
+  }, [productData, mfDisplayPrice, showSalePrice]);
 
   // Find lowest price
   const lowestPrice = useMemo(() => {
@@ -360,7 +366,7 @@ function App() {
                                 Lowest Price
                               </span>
                             )}
-                            {retailer.id === 'mf' && hasSalePrice && (
+                            {hasSalePrice && (
                               <span className="px-3 py-1 bg-amber-500/100 text-white text-sm font-bold rounded-full">
                                 SALE
                               </span>
@@ -383,10 +389,10 @@ function App() {
                                 <div className="text-3xl font-black text-white">
                                   ${retailer.price.toLocaleString()}
                                 </div>
-                                {/* Show strikethrough when sale is active for MF */}
-                                {retailer.id === 'mf' && hasSalePrice && productData.mfPrice && (
+                                {/* Show strikethrough when sale is active */}
+                                {hasSalePrice && retailer.retailPrice && (
                                   <div className="text-gray-500 text-sm line-through mt-1">
-                                    Was ${productData.mfPrice.toLocaleString()}
+                                    Was ${retailer.retailPrice.toLocaleString()}
                                   </div>
                                 )}
                                 {priceDiff > 0 && (
