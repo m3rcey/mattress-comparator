@@ -46,7 +46,9 @@ const allRetailers = [
   { id: 'muellers', name: "Mueller's Furniture" },
   { id: 'carol-house', name: 'Carol House Furniture' },
   { id: 'wayfair', name: 'Wayfair' },
-  { id: 'jcpenney', name: 'JCPenney' }
+  { id: 'jcpenney', name: 'JCPenney' },
+  { id: 'mattress-dogzzz', name: 'Mattress Dogzzz' },
+  { id: 'slumberland', name: 'Slumberland' }
 ];
 
 // Parse competitor data

@@ -46,5 +46,17 @@
     "deliveryFee": "Varies; haul-away $25",
     "trialPeriod": "120 days",
     "warranty": "Manufacturer; 5-yr plan available"
+  },
+  "Mattress Dogzzz": {
+    "deliveryTime": "Varies",
+    "deliveryFee": "Varies",
+    "trialPeriod": "Varies",
+    "warranty": "Manufacturer warranty"
+  },
+  "Slumberland": {
+    "deliveryTime": "Varies",
+    "deliveryFee": "Varies",
+    "trialPeriod": "Varies",
+    "warranty": "Manufacturer warranty"
   }
 }
