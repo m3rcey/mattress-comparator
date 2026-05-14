@@ -1099,7 +1099,7 @@
       "mfPrice": 4199,
       "competitors": {
         "ashley": {
-          "price": 3799,
+          "price": 4199,
           "found": true
         },
         "macys": {
@@ -1150,7 +1150,7 @@
       "mfPrice": 4699,
       "competitors": {
         "ashley": {
-          "price": 4299,
+          "price": 4699,
           "found": true
         },
         "macys": {
@@ -1201,7 +1201,7 @@
       "mfPrice": 5399,
       "competitors": {
         "ashley": {
-          "price": 4999,
+          "price": 5399,
           "found": true
         },
         "macys": {
@@ -1252,7 +1252,7 @@
       "mfPrice": 5399,
       "competitors": {
         "ashley": {
-          "price": 4999,
+          "price": 5399,
           "found": true
         },
         "macys": {
@@ -1351,7 +1351,7 @@
       "brand": "Tempur-Pedic",
       "model": "LuxeAdapt 13\" Soft",
       "size": "Twin",
-      "mfPrice": null,
+      "mfPrice": 4199,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -1398,13 +1398,14 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3899
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeAdapt 13\" Soft",
       "size": "Twin XL",
-      "mfPrice": 3699,
+      "mfPrice": 4199,
       "competitors": {
         "ashley": {
           "notAvailable": true,
@@ -1449,7 +1450,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 3899
     },
     {
       "brand": "Tempur-Pedic",
@@ -1507,10 +1509,10 @@
       "brand": "Tempur-Pedic",
       "model": "LuxeAdapt 13\" Soft",
       "size": "Queen",
-      "mfPrice": 4199,
+      "mfPrice": 4699,
       "competitors": {
         "ashley": {
-          "price": 4299,
+          "price": 4699,
           "found": true
         },
         "macys": {
@@ -1551,16 +1553,17 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 4399
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeAdapt 13\" Soft",
       "size": "King",
-      "mfPrice": 4899,
+      "mfPrice": 5399,
       "competitors": {
         "ashley": {
-          "price": 4999,
+          "price": 5399,
           "found": true
         },
         "macys": {
@@ -1601,16 +1604,17 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 5099
     },
     {
       "brand": "Tempur-Pedic",
       "model": "LuxeAdapt 13\" Soft",
       "size": "Cal King",
-      "mfPrice": null,
+      "mfPrice": 5399,
       "competitors": {
         "ashley": {
-          "price": 41000,
+          "price": 5399,
           "found": true
         },
         "macys": {
@@ -1651,7 +1655,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 5099
     },
     {
       "brand": "Tempur-Pedic",
@@ -1959,7 +1964,7 @@
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Med Hybrid",
       "size": "Split Cal King",
-      "mfPrice": 5199,
+      "mfPrice": 10398,
       "competitors": {
         "ashley": {
           "price": 10398,
@@ -1976,7 +1981,7 @@
           "found": false
         },
         "muellers": {
-          "price": 5199,
+          "price": 10398,
           "found": true
         },
         "carol-house": {
@@ -2004,7 +2009,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 9798
     },
     {
       "brand": "BeautyRest Black",
@@ -2679,7 +2685,7 @@
           "found": false
         },
         "macys": {
-          "price": 4199,
+          "price": 4649,
           "found": true
         },
         "costco": {
@@ -2702,7 +2708,7 @@
           "found": true
         },
         "jcpenney": {
-          "price": 8200,
+          "price": 4649,
           "found": true
         },
         "mattress-dogzzz": {
@@ -2729,7 +2735,7 @@
           "found": false
         },
         "macys": {
-          "price": 4199,
+          "price": 4929,
           "found": true
         },
         "costco": {
@@ -2752,7 +2758,7 @@
           "found": true
         },
         "jcpenney": {
-          "price": 8650,
+          "price": 4929,
           "found": true
         },
         "mattress-dogzzz": {
@@ -2779,7 +2785,7 @@
           "found": false
         },
         "macys": {
-          "price": 4699,
+          "price": 5299,
           "found": true
         },
         "costco": {
@@ -2802,7 +2808,7 @@
           "found": true
         },
         "jcpenney": {
-          "price": 9350,
+          "price": 5299,
           "found": true
         },
         "mattress-dogzzz": {
@@ -2829,7 +2835,7 @@
           "found": false
         },
         "macys": {
-          "price": 5999,
+          "price": 6199,
           "found": true
         },
         "costco": {
@@ -2852,7 +2858,7 @@
           "found": true
         },
         "jcpenney": {
-          "price": 10000,
+          "price": 6199,
           "found": true
         },
         "mattress-dogzzz": {
@@ -2879,7 +2885,7 @@
           "found": false
         },
         "macys": {
-          "price": 5999,
+          "price": 6199,
           "found": true
         },
         "costco": {
@@ -2902,7 +2908,7 @@
           "found": true
         },
         "jcpenney": {
-          "price": 10000,
+          "price": 6199,
           "found": true
         },
         "mattress-dogzzz": {
@@ -2982,7 +2988,7 @@
           "found": false
         },
         "macys": {
-          "price": 3249,
+          "price": 3049,
           "found": true
         },
         "costco": {
@@ -3034,7 +3040,7 @@
           "found": false
         },
         "macys": {
-          "price": 3249,
+          "price": 3329,
           "found": true
         },
         "costco": {
@@ -3086,7 +3092,7 @@
           "found": false
         },
         "macys": {
-          "price": 3699,
+          "price": 3599,
           "found": true
         },
         "costco": {
@@ -3138,7 +3144,7 @@
           "found": false
         },
         "macys": {
-          "price": 4799,
+          "price": 4299,
           "found": true
         },
         "costco": {
@@ -3190,7 +3196,7 @@
           "found": false
         },
         "macys": {
-          "price": 4799,
+          "price": 4299,
           "found": true
         },
         "costco": {
@@ -4200,7 +4206,7 @@
       "mfPrice": 2299,
       "competitors": {
         "ashley": {
-          "price": 4598,
+          "price": 2299,
           "found": true
         },
         "macys": {
@@ -4505,7 +4511,7 @@
           "found": true
         },
         "macys": {
-          "price": 3065,
+          "price": 2499,
           "found": true
         },
         "costco": {
@@ -4556,7 +4562,7 @@
           "found": true
         },
         "macys": {
-          "price": 3899,
+          "price": 3699,
           "found": true
         },
         "costco": {
@@ -4579,7 +4585,7 @@
           "found": true
         },
         "jcpenney": {
-          "price": 3399,
+          "price": 3699,
           "found": true
         },
         "mattress-dogzzz": {
@@ -4606,7 +4612,7 @@
           "found": true
         },
         "macys": {
-          "price": 3999,
+          "price": 3799,
           "found": true
         },
         "costco": {
@@ -4656,7 +4662,7 @@
           "found": true
         },
         "macys": {
-          "price": 4599,
+          "price": 4399,
           "found": true
         },
         "costco": {
@@ -4706,7 +4712,7 @@
           "found": true
         },
         "macys": {
-          "price": 4599,
+          "price": 4399,
           "found": true
         },
         "costco": {
@@ -5122,7 +5128,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 6099,
+          "price": 5399,
           "found": true
         },
         "jcpenney": {
@@ -5308,7 +5314,7 @@
           "found": true
         },
         "macys": {
-          "price": 5765,
+          "price": 5399,
           "found": true
         },
         "costco": {
@@ -5406,7 +5412,7 @@
       "mfPrice": 999,
       "competitors": {
         "ashley": {
-          "price": 699,
+          "price": 999,
           "found": true
         },
         "macys": {
@@ -5457,7 +5463,7 @@
       "mfPrice": 1099,
       "competitors": {
         "ashley": {
-          "price": 799,
+          "price": 1099,
           "found": true
         },
         "macys": {
@@ -5508,7 +5514,7 @@
       "mfPrice": 1399,
       "competitors": {
         "ashley": {
-          "price": 1099,
+          "price": 1399,
           "found": true
         },
         "macys": {
@@ -5610,7 +5616,7 @@
       "mfPrice": 1999,
       "competitors": {
         "ashley": {
-          "price": 1699,
+          "price": 1999,
           "found": true
         },
         "macys": {
@@ -5661,7 +5667,7 @@
       "mfPrice": 1999,
       "competitors": {
         "ashley": {
-          "price": 1699,
+          "price": 1999,
           "found": true
         },
         "macys": {
@@ -5712,7 +5718,7 @@
       "mfPrice": 1499,
       "competitors": {
         "ashley": {
-          "price": 1099,
+          "price": 1499,
           "found": true
         },
         "macys": {
@@ -5763,7 +5769,7 @@
       "mfPrice": 1599,
       "competitors": {
         "ashley": {
-          "price": 1199,
+          "price": 1599,
           "found": true
         },
         "macys": {
@@ -5814,7 +5820,7 @@
       "mfPrice": 1799,
       "competitors": {
         "ashley": {
-          "price": 1399,
+          "price": 1799,
           "found": true
         },
         "macys": {
@@ -5865,7 +5871,7 @@
       "mfPrice": 1899,
       "competitors": {
         "ashley": {
-          "price": 1399,
+          "price": 1899,
           "found": true
         },
         "macys": {
@@ -5916,7 +5922,7 @@
       "mfPrice": 2399,
       "competitors": {
         "ashley": {
-          "price": 1999,
+          "price": 2399,
           "found": true
         },
         "macys": {
@@ -11444,7 +11450,7 @@
       "mfPrice": 699,
       "competitors": {
         "ashley": {
-          "price": 349,
+          "price": 699,
           "found": true
         },
         "macys": {
@@ -11468,7 +11474,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 349,
+          "price": 699,
           "found": true
         },
         "jcpenney": {
@@ -11519,7 +11525,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 549,
+          "price": 899,
           "found": true
         },
         "jcpenney": {
@@ -11545,7 +11551,7 @@
       "mfPrice": 949,
       "competitors": {
         "ashley": {
-          "price": 599,
+          "price": 949,
           "found": true
         },
         "macys": {
@@ -11569,7 +11575,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 599,
+          "price": 949,
           "found": true
         },
         "jcpenney": {
@@ -11595,7 +11601,7 @@
       "mfPrice": 1099,
       "competitors": {
         "ashley": {
-          "price": 649,
+          "price": 1099,
           "found": true
         },
         "macys": {
@@ -11619,7 +11625,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 649,
+          "price": 1099,
           "found": true
         },
         "jcpenney": {
@@ -11645,7 +11651,7 @@
       "mfPrice": 1399,
       "competitors": {
         "ashley": {
-          "price": 849,
+          "price": 1399,
           "found": true
         },
         "macys": {
@@ -11669,7 +11675,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 849,
+          "price": 1399,
           "found": true
         },
         "jcpenney": {
@@ -11720,7 +11726,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 849,
+          "price": 1399,
           "found": true
         },
         "jcpenney": {
@@ -11771,7 +11777,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 549,
+          "price": 1049,
           "found": true
         },
         "jcpenney": {
@@ -11822,7 +11828,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 749,
+          "price": 1199,
           "found": true
         },
         "jcpenney": {
@@ -11873,7 +11879,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 899,
+          "price": 1349,
           "found": true
         },
         "jcpenney": {
@@ -11924,7 +11930,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 949,
+          "price": 1499,
           "found": true
         },
         "jcpenney": {
@@ -11975,7 +11981,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 1099,
+          "price": 1799,
           "found": true
         },
         "jcpenney": {
@@ -12026,7 +12032,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 1099,
+          "price": 1799,
           "found": true
         },
         "jcpenney": {
@@ -13537,7 +13543,7 @@
       "mfPrice": 949,
       "competitors": {
         "ashley": {
-          "price": 899,
+          "price": 949,
           "found": true
         },
         "macys": {
@@ -13561,7 +13567,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 899,
+          "price": 949,
           "found": true
         },
         "jcpenney": {
@@ -13588,7 +13594,7 @@
       "mfPrice": 949,
       "competitors": {
         "ashley": {
-          "price": 899,
+          "price": 949,
           "found": true
         },
         "macys": {
@@ -13612,7 +13618,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 899,
+          "price": 949,
           "found": true
         },
         "jcpenney": {
@@ -13639,7 +13645,7 @@
       "mfPrice": 1049,
       "competitors": {
         "ashley": {
-          "price": 999,
+          "price": 1049,
           "found": true
         },
         "macys": {
@@ -13663,7 +13669,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 999,
+          "price": 1049,
           "found": true
         },
         "jcpenney": {
@@ -13690,11 +13696,11 @@
       "mfPrice": 1049,
       "competitors": {
         "ashley": {
-          "price": 999,
+          "price": 1049,
           "found": true
         },
         "macys": {
-          "price": 999,
+          "price": 1049,
           "found": true
         },
         "costco": {
@@ -13713,7 +13719,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 999,
+          "price": 1049,
           "found": true
         },
         "jcpenney": {
@@ -13740,11 +13746,11 @@
       "mfPrice": 1599,
       "competitors": {
         "ashley": {
-          "price": 1499,
+          "price": 1599,
           "found": true
         },
         "macys": {
-          "price": 1499,
+          "price": 1599,
           "found": true
         },
         "costco": {
@@ -13763,7 +13769,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 1499,
+          "price": 1599,
           "found": true
         },
         "jcpenney": {
@@ -13790,7 +13796,7 @@
       "mfPrice": 1599,
       "competitors": {
         "ashley": {
-          "price": 1499,
+          "price": 1599,
           "found": true
         },
         "macys": {
@@ -13814,7 +13820,7 @@
           "found": false
         },
         "wayfair": {
-          "price": 1499,
+          "price": 1599,
           "found": true
         },
         "jcpenney": {
@@ -16923,7 +16929,7 @@
       "mfPrice": 4199,
       "competitors": {
         "ashley": {
-          "price": 3799,
+          "price": 4199,
           "found": true
         },
         "macys": {
@@ -16974,7 +16980,7 @@
       "mfPrice": 4699,
       "competitors": {
         "ashley": {
-          "price": 4299,
+          "price": 4699,
           "found": true
         },
         "macys": {
@@ -17025,7 +17031,7 @@
       "mfPrice": 5399,
       "competitors": {
         "ashley": {
-          "price": 4999,
+          "price": 5399,
           "found": true
         },
         "macys": {
@@ -17076,7 +17082,7 @@
       "mfPrice": 5399,
       "competitors": {
         "ashley": {
-          "price": 4999,
+          "price": 5399,
           "found": true
         },
         "macys": {
@@ -17175,7 +17181,7 @@
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Firm",
       "size": "Split Cal King",
-      "mfPrice": 5199,
+      "mfPrice": 10398,
       "competitors": {
         "ashley": {
           "price": 10398,
@@ -17192,7 +17198,7 @@
           "found": false
         },
         "muellers": {
-          "price": 5199,
+          "price": 10398,
           "found": true
         },
         "carol-house": {
@@ -17220,7 +17226,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 9798
     },
     {
       "brand": "Tempur-Pedic",
@@ -17334,7 +17341,7 @@
       "brand": "Tempur-Pedic",
       "model": "LuxeBreeze 13\" Soft",
       "size": "Split Cal King",
-      "mfPrice": 5199,
+      "mfPrice": 10398,
       "competitors": {
         "ashley": {
           "price": 10398,
@@ -17351,7 +17358,7 @@
           "found": false
         },
         "muellers": {
-          "price": 5199,
+          "price": 10398,
           "found": true
         },
         "carol-house": {
@@ -17379,7 +17386,8 @@
           "reason": "Doesn't carry this size",
           "found": false
         }
-      }
+      },
+      "salePrice": 9798
     },
     {
       "brand": "Tempur-Pedic",
@@ -18100,7 +18108,7 @@
       "mfPrice": 2299,
       "competitors": {
         "ashley": {
-          "price": 4598,
+          "price": 2299,
           "found": true
         },
         "macys": {
@@ -18405,7 +18413,7 @@
           "found": true
         },
         "macys": {
-          "price": 3065,
+          "price": 2499,
           "found": true
         },
         "costco": {
