@@ -39,14 +39,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         }
       },
       "salePrice": 1599
@@ -89,14 +87,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         }
       },
       "salePrice": 1599
@@ -139,14 +135,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2049,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2049,
+          "found": true
         }
       },
       "salePrice": 1949
@@ -189,14 +183,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2199,
+          "found": true
         }
       },
       "salePrice": 2099
@@ -239,14 +231,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       },
       "salePrice": 2799
@@ -289,14 +279,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       },
       "salePrice": 2799
@@ -341,14 +329,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         }
       }
     },
@@ -389,14 +375,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1999,
+          "found": true
         }
       },
       "salePrice": 1899
@@ -438,14 +422,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1999,
+          "found": true
         }
       },
       "salePrice": 1899
@@ -487,14 +469,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2349,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2349,
+          "found": true
         }
       },
       "salePrice": 2249
@@ -536,14 +516,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         }
       },
       "salePrice": 2399
@@ -585,14 +563,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3199,
+          "found": true
         }
       },
       "salePrice": 3099
@@ -634,14 +610,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3199,
+          "found": true
         }
       },
       "salePrice": 3099
@@ -685,14 +659,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1999,
+          "found": true
         }
       }
     },
@@ -785,14 +757,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -834,14 +804,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -883,14 +851,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3249,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3249,
+          "found": true
         }
       },
       "salePrice": 3049
@@ -932,14 +898,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3399,
+          "found": true
         }
       },
       "salePrice": 3199
@@ -981,14 +945,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         }
       },
       "salePrice": 3899
@@ -1030,14 +992,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         }
       },
       "salePrice": 3899
@@ -1081,14 +1041,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       }
     },
@@ -1131,14 +1089,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         }
       },
       "salePrice": 3899
@@ -1182,14 +1138,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4699,
+          "found": true
         }
       },
       "salePrice": 4399
@@ -1233,14 +1187,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         }
       },
       "salePrice": 5099
@@ -1284,14 +1236,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         }
       },
       "salePrice": 5099
@@ -1336,14 +1286,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         }
       }
     },
@@ -1389,14 +1337,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         }
       },
       "salePrice": 3899
@@ -1441,14 +1387,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         }
       },
       "salePrice": 3899
@@ -1544,14 +1488,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4699,
+          "found": true
         }
       },
       "salePrice": 4399
@@ -1595,14 +1537,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         }
       },
       "salePrice": 5099
@@ -1646,14 +1586,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         }
       },
       "salePrice": 5099
@@ -1747,14 +1685,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3899,
+          "found": true
         }
       },
       "salePrice": 3599
@@ -1797,14 +1733,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4399,
+          "found": true
         }
       },
       "salePrice": 4099
@@ -1847,14 +1781,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5099,
+          "found": true
         }
       },
       "salePrice": 4799
@@ -1897,14 +1829,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5099,
+          "found": true
         }
       },
       "salePrice": 4799
@@ -1949,14 +1879,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3899,
+          "found": true
         }
       }
     },
@@ -2000,14 +1928,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         }
       },
       "salePrice": 9798
@@ -2051,14 +1977,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3449,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3449,
+          "found": true
         }
       },
       "salePrice": 2849
@@ -2102,14 +2026,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3729,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3729,
+          "found": true
         }
       },
       "salePrice": 3129
@@ -2153,14 +2075,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3999,
+          "found": true
         }
       },
       "salePrice": 3399
@@ -2204,14 +2124,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         }
       },
       "salePrice": 4199
@@ -2255,14 +2173,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         }
       },
       "salePrice": 4199
@@ -2308,14 +2224,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3249,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3249,
+          "found": true
         }
       }
     },
@@ -2409,14 +2323,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3849,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3849,
+          "found": true
         }
       },
       "salePrice": 3249
@@ -2459,14 +2371,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4129,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4129,
+          "found": true
         }
       },
       "salePrice": 3529
@@ -2509,14 +2419,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4399,
+          "found": true
         }
       },
       "salePrice": 3799
@@ -2559,14 +2467,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         }
       },
       "salePrice": 4599
@@ -2609,14 +2515,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         }
       },
       "salePrice": 4599
@@ -2662,14 +2566,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3649,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3649,
+          "found": true
         }
       }
     },
@@ -2712,14 +2614,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4649,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4649,
+          "found": true
         }
       }
     },
@@ -2762,14 +2662,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4929,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4929,
+          "found": true
         }
       }
     },
@@ -2812,14 +2710,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5299,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5299,
+          "found": true
         }
       }
     },
@@ -2862,14 +2758,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 6199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 6199,
+          "found": true
         }
       }
     },
@@ -2912,14 +2806,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 6199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 6199,
+          "found": true
         }
       }
     },
@@ -2965,14 +2857,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4649,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4649,
+          "found": true
         }
       }
     },
@@ -3017,14 +2907,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3049,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3049,
+          "found": true
         }
       }
     },
@@ -3069,14 +2957,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3329,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3329,
+          "found": true
         }
       }
     },
@@ -3121,14 +3007,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3599,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3599,
+          "found": true
         }
       }
     },
@@ -3173,14 +3057,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4299,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4299,
+          "found": true
         }
       }
     },
@@ -3225,14 +3107,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4299,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4299,
+          "found": true
         }
       }
     },
@@ -3278,14 +3158,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3049,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3049,
+          "found": true
         }
       }
     },
@@ -3592,9 +3470,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         }
       },
       "salePrice": 1399
@@ -3642,9 +3519,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         }
       },
       "salePrice": 1399
@@ -3692,9 +3568,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1749,
+          "found": true
         }
       },
       "salePrice": 1449
@@ -3742,9 +3617,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1799,
+          "found": true
         }
       },
       "salePrice": 1499
@@ -3792,9 +3666,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2399,
+          "found": true
         }
       },
       "salePrice": 2099
@@ -3842,9 +3715,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2399,
+          "found": true
         }
       },
       "salePrice": 2099
@@ -3896,9 +3768,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         }
       }
     },
@@ -3996,9 +3867,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2299,
+          "found": true
         }
       },
       "salePrice": 1999
@@ -4045,9 +3915,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2349,
+          "found": true
         }
       },
       "salePrice": 2049
@@ -4094,9 +3963,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2399,
+          "found": true
         }
       },
       "salePrice": 2099
@@ -4143,9 +4011,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2999,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -4192,9 +4059,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2999,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -4244,9 +4110,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2299,
+          "found": true
         }
       }
     },
@@ -4293,9 +4158,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         }
       },
       "salePrice": 2199
@@ -4343,9 +4207,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2549,
+          "found": true
         }
       },
       "salePrice": 2249
@@ -4393,9 +4256,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2599,
+          "found": true
         }
       },
       "salePrice": 2299
@@ -4443,9 +4305,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3199,
+          "found": true
         }
       },
       "salePrice": 2899
@@ -4493,9 +4354,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3199,
+          "found": true
         }
       },
       "salePrice": 2899
@@ -4545,9 +4405,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         }
       }
     },
@@ -4594,9 +4453,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3699,
+          "found": true
         }
       },
       "salePrice": 3299
@@ -4644,9 +4502,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3799,
+          "found": true
         }
       },
       "salePrice": 3399
@@ -4694,9 +4551,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4399,
+          "found": true
         }
       },
       "salePrice": 3999
@@ -4744,9 +4600,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4399,
+          "found": true
         }
       },
       "salePrice": 3999
@@ -4797,9 +4652,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3699,
+          "found": true
         }
       }
     },
@@ -4898,9 +4752,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3899,
+          "found": true
         }
       }
     },
@@ -4946,9 +4799,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3999,
+          "found": true
         }
       }
     },
@@ -4994,9 +4846,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4599,
+          "found": true
         }
       }
     },
@@ -5042,9 +4893,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4599,
+          "found": true
         }
       }
     },
@@ -5092,9 +4942,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3899,
+          "found": true
         }
       }
     },
@@ -5142,9 +4991,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         }
       },
       "salePrice": 4699
@@ -5245,9 +5093,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 6099,
+          "found": true
         }
       },
       "salePrice": 5399
@@ -5296,9 +5143,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 6099,
+          "found": true
         }
       },
       "salePrice": 5399
@@ -5348,9 +5194,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         }
       }
     },
@@ -5398,9 +5243,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5499,
+          "found": true
         }
       },
       "salePrice": 4799
@@ -7756,14 +7600,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 599,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 599,
+          "found": true
         }
       }
     },
@@ -7808,14 +7650,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 699,
+          "found": true
         }
       }
     },
@@ -7860,14 +7700,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 749,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 749,
+          "found": true
         }
       }
     },
@@ -7912,14 +7750,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 799,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 799,
+          "found": true
         }
       }
     },
@@ -7964,14 +7800,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 999,
+          "found": true
         }
       }
     },
@@ -8016,14 +7850,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 999,
+          "found": true
         }
       }
     },
@@ -8069,14 +7901,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 699,
+          "found": true
         }
       }
     },
@@ -8122,14 +7952,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1299,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1299,
+          "found": true
         }
       }
     },
@@ -8175,14 +8003,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1399,
+          "found": true
         }
       }
     },
@@ -8228,14 +8054,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1399,
+          "found": true
         }
       }
     },
@@ -8281,14 +8105,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1499,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1499,
+          "found": true
         }
       }
     },
@@ -8334,14 +8156,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1999,
+          "found": true
         }
       }
     },
@@ -8387,14 +8207,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1999,
+          "found": true
         }
       }
     },
@@ -8440,14 +8258,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 799,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 799,
+          "found": true
         }
       }
     },
@@ -8493,14 +8309,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 919,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 919,
+          "found": true
         }
       }
     },
@@ -8546,14 +8360,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1049,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1049,
+          "found": true
         }
       }
     },
@@ -8599,14 +8411,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1199,
+          "found": true
         }
       }
     },
@@ -8652,14 +8462,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         }
       }
     },
@@ -8705,14 +8513,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         }
       }
     },
@@ -8758,14 +8564,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 919,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 919,
+          "found": true
         }
       }
     },
@@ -8811,14 +8615,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1199,
+          "found": true
         }
       }
     },
@@ -8864,14 +8666,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1319,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1319,
+          "found": true
         }
       }
     },
@@ -8917,14 +8717,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1449,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1449,
+          "found": true
         }
       }
     },
@@ -8970,14 +8768,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2099,
+          "found": true
         }
       }
     },
@@ -9023,14 +8819,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2099,
+          "found": true
         }
       }
     },
@@ -9076,14 +8870,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1319,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1319,
+          "found": true
         }
       }
     },
@@ -9129,14 +8921,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1499,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1499,
+          "found": true
         }
       }
     },
@@ -9182,14 +8972,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1749,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1749,
+          "found": true
         }
       }
     },
@@ -9235,14 +9023,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1949,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1949,
+          "found": true
         }
       }
     },
@@ -9288,14 +9074,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2649,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2649,
+          "found": true
         }
       }
     },
@@ -9341,14 +9125,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2649,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2649,
+          "found": true
         }
       }
     },
@@ -9393,14 +9175,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1619,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1619,
+          "found": true
         }
       },
       "salePrice": 1519
@@ -9446,14 +9226,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1649,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1649,
+          "found": true
         }
       },
       "salePrice": 1549
@@ -9499,14 +9277,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         }
       },
       "salePrice": 1599
@@ -9552,14 +9328,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2199,
+          "found": true
         }
       },
       "salePrice": 2099
@@ -9605,14 +9379,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2199,
+          "found": true
         }
       },
       "salePrice": 2099
@@ -9658,14 +9430,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1619,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1619,
+          "found": true
         }
       }
     },
@@ -9708,14 +9478,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1919,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1919,
+          "found": true
         }
       }
     },
@@ -9758,14 +9526,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1949,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1949,
+          "found": true
         }
       }
     },
@@ -9808,14 +9574,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1999,
+          "found": true
         }
       }
     },
@@ -9858,14 +9622,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         }
       }
     },
@@ -9908,14 +9670,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         }
       }
     },
@@ -9960,14 +9720,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1919,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1919,
+          "found": true
         }
       }
     },
@@ -10065,14 +9823,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1199,
+          "found": true
         }
       },
       "salePrice": 1149
@@ -10119,14 +9875,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1319,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1319,
+          "found": true
         }
       },
       "salePrice": 1199
@@ -10173,14 +9927,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1449,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1449,
+          "found": true
         }
       },
       "salePrice": 1199
@@ -10227,14 +9979,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1499,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1499,
+          "found": true
         }
       },
       "salePrice": 1199
@@ -10281,14 +10031,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2099,
+          "found": true
         }
       },
       "salePrice": 1499
@@ -10335,14 +10083,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2099,
+          "found": true
         }
       },
       "salePrice": 1499
@@ -10389,14 +10135,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1319,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1319,
+          "found": true
         }
       }
     },
@@ -10442,14 +10186,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1499,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1499,
+          "found": true
         }
       },
       "salePrice": 1449
@@ -10496,14 +10238,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1619,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1619,
+          "found": true
         }
       },
       "salePrice": 1499
@@ -10550,14 +10290,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1749,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1749,
+          "found": true
         }
       },
       "salePrice": 1499
@@ -10604,14 +10342,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1949,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1949,
+          "found": true
         }
       },
       "salePrice": 1499
@@ -10658,14 +10394,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2649,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2649,
+          "found": true
         }
       },
       "salePrice": 1949
@@ -10712,14 +10446,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2649,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2649,
+          "found": true
         }
       },
       "salePrice": 1949
@@ -10766,14 +10498,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1619,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1619,
+          "found": true
         }
       }
     },
@@ -10816,14 +10546,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1819,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1819,
+          "found": true
         }
       },
       "salePrice": 1719
@@ -10867,14 +10595,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1849,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1849,
+          "found": true
         }
       },
       "salePrice": 1749
@@ -10918,14 +10644,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1899,
+          "found": true
         }
       },
       "salePrice": 1799
@@ -10969,14 +10693,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2399,
+          "found": true
         }
       },
       "salePrice": 2299
@@ -11020,14 +10742,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2399,
+          "found": true
         }
       },
       "salePrice": 2299
@@ -11073,14 +10793,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1819,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1819,
+          "found": true
         }
       }
     },
@@ -11177,14 +10895,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2419,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2419,
+          "found": true
         }
       }
     },
@@ -11227,14 +10943,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2419,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2419,
+          "found": true
         }
       },
       "salePrice": 2119
@@ -11278,14 +10992,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2449,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2449,
+          "found": true
         }
       },
       "salePrice": 2149
@@ -11329,14 +11041,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         }
       },
       "salePrice": 2199
@@ -11380,14 +11090,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2999,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -11431,14 +11139,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2999,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -11482,9 +11188,8 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 699,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -11533,9 +11238,8 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 899,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -11583,9 +11287,8 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 949,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -11633,9 +11336,8 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1099,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -11683,9 +11385,8 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1399,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -11734,9 +11435,8 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1399,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -11785,9 +11485,8 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1049,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -11836,9 +11535,8 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1199,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -11887,9 +11585,8 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1349,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -11938,9 +11635,8 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1499,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -11989,9 +11685,8 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1799,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -12040,9 +11735,8 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1799,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -12092,9 +11786,8 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1499,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -12144,9 +11837,8 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1649,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -12196,9 +11888,8 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1799,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -12248,9 +11939,8 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1949,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -12300,9 +11990,8 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2249,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -12352,9 +12041,8 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2249,
+          "found": true
         },
         "slumberland": {
           "notAvailable": true,
@@ -14366,14 +14054,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10448,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10448,
+          "found": true
         }
       },
       "salePrice": 9948
@@ -14420,14 +14106,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 14447,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 14447,
+          "found": true
         }
       },
       "salePrice": 13747
@@ -14474,14 +14158,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 14447,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 14447,
+          "found": true
         }
       },
       "salePrice": 13747
@@ -14528,14 +14210,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 19546,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 19546,
+          "found": true
         }
       },
       "salePrice": 18546
@@ -14582,14 +14262,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 19546,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 19546,
+          "found": true
         }
       },
       "salePrice": 18546
@@ -14636,14 +14314,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         }
       },
       "salePrice": 4899
@@ -14690,14 +14366,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         }
       },
       "salePrice": 9798
@@ -14744,14 +14418,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3899,
+          "found": true
         }
       },
       "salePrice": 3599
@@ -14798,14 +14470,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 7798,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 7798,
+          "found": true
         }
       },
       "salePrice": 7198
@@ -14852,14 +14522,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2119,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2119,
+          "found": true
         }
       },
       "salePrice": 1919
@@ -14906,14 +14574,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2149,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2149,
+          "found": true
         }
       },
       "salePrice": 1949
@@ -14960,14 +14626,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2199,
+          "found": true
         }
       },
       "salePrice": 1999
@@ -15014,14 +14678,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2699,
+          "found": true
         }
       },
       "salePrice": 2499
@@ -15068,14 +14730,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2699,
+          "found": true
         }
       },
       "salePrice": 2499
@@ -15123,14 +14783,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3849,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3849,
+          "found": true
         }
       }
     },
@@ -15177,14 +14835,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4129,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4129,
+          "found": true
         }
       }
     },
@@ -15231,14 +14887,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4399,
+          "found": true
         }
       }
     },
@@ -15285,14 +14939,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         }
       }
     },
@@ -15339,14 +14991,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         }
       }
     },
@@ -15393,14 +15043,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3449,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3449,
+          "found": true
         }
       }
     },
@@ -15447,14 +15095,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3729,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3729,
+          "found": true
         }
       }
     },
@@ -15501,14 +15147,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3999,
+          "found": true
         }
       }
     },
@@ -15555,14 +15199,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         }
       }
     },
@@ -15609,14 +15251,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         }
       }
     },
@@ -15663,14 +15303,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3449,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3449,
+          "found": true
         }
       }
     },
@@ -15717,14 +15355,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3729,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3729,
+          "found": true
         }
       }
     },
@@ -15771,14 +15407,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3999,
+          "found": true
         }
       }
     },
@@ -15825,14 +15459,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         }
       }
     },
@@ -15879,14 +15511,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         }
       }
     },
@@ -15927,14 +15557,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -15976,14 +15604,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -16025,14 +15651,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3249,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3249,
+          "found": true
         }
       },
       "salePrice": 3049
@@ -16074,14 +15698,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3399,
+          "found": true
         }
       },
       "salePrice": 3199
@@ -16123,14 +15745,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         }
       },
       "salePrice": 3899
@@ -16172,14 +15792,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         }
       },
       "salePrice": 3899
@@ -16223,14 +15841,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       }
     },
@@ -16271,14 +15887,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -16320,14 +15934,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -16369,14 +15981,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3249,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3249,
+          "found": true
         }
       },
       "salePrice": 3049
@@ -16418,14 +16028,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3399,
+          "found": true
         }
       },
       "salePrice": 3199
@@ -16467,14 +16075,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         }
       },
       "salePrice": 3899
@@ -16516,14 +16122,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         }
       },
       "salePrice": 3899
@@ -16567,14 +16171,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       }
     },
@@ -16615,14 +16217,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -16664,14 +16264,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -16713,14 +16311,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3249,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3249,
+          "found": true
         }
       },
       "salePrice": 3049
@@ -16762,14 +16358,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3399,
+          "found": true
         }
       },
       "salePrice": 3199
@@ -16811,14 +16405,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         }
       },
       "salePrice": 3899
@@ -16860,14 +16452,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4099,
+          "found": true
         }
       },
       "salePrice": 3899
@@ -16911,14 +16501,12 @@
           "found": true
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2899,
+          "found": true
         }
       }
     },
@@ -16961,14 +16549,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         }
       },
       "salePrice": 3899
@@ -17012,14 +16598,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4699,
+          "found": true
         }
       },
       "salePrice": 4399
@@ -17063,14 +16647,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         }
       },
       "salePrice": 5099
@@ -17114,14 +16696,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5399,
+          "found": true
         }
       },
       "salePrice": 5099
@@ -17166,14 +16746,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         }
       }
     },
@@ -17217,14 +16795,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         }
       },
       "salePrice": 9798
@@ -17271,14 +16847,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         }
       },
       "salePrice": 4899
@@ -17325,14 +16899,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         }
       },
       "salePrice": 9798
@@ -17377,14 +16949,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         }
       },
       "salePrice": 9798
@@ -17431,14 +17001,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         }
       },
       "salePrice": 4899
@@ -17485,14 +17053,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         }
       },
       "salePrice": 9798
@@ -17536,14 +17102,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3449,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3449,
+          "found": true
         }
       },
       "salePrice": 2849
@@ -17587,14 +17151,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3729,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3729,
+          "found": true
         }
       },
       "salePrice": 3129
@@ -17638,14 +17200,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3999,
+          "found": true
         }
       },
       "salePrice": 3399
@@ -17689,14 +17249,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         }
       },
       "salePrice": 4199
@@ -17740,14 +17298,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4799,
+          "found": true
         }
       },
       "salePrice": 4199
@@ -17793,14 +17349,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3249,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3249,
+          "found": true
         }
       }
     },
@@ -17898,9 +17452,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2299,
+          "found": true
         }
       },
       "salePrice": 1999
@@ -17947,9 +17500,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2349,
+          "found": true
         }
       },
       "salePrice": 2049
@@ -17996,9 +17548,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2399,
+          "found": true
         }
       },
       "salePrice": 2099
@@ -18045,9 +17596,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2999,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -18094,9 +17644,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2999,
+          "found": true
         }
       },
       "salePrice": 2699
@@ -18146,9 +17695,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2299,
+          "found": true
         }
       }
     },
@@ -18195,9 +17743,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         }
       },
       "salePrice": 2199
@@ -18245,9 +17792,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2549,
+          "found": true
         }
       },
       "salePrice": 2249
@@ -18295,9 +17841,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2599,
+          "found": true
         }
       },
       "salePrice": 2299
@@ -18345,9 +17890,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3199,
+          "found": true
         }
       },
       "salePrice": 2899
@@ -18395,9 +17939,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3199,
+          "found": true
         }
       },
       "salePrice": 2899
@@ -18447,9 +17990,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         }
       }
     },
@@ -18496,9 +18038,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         }
       },
       "salePrice": 1399
@@ -18546,9 +18087,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         }
       },
       "salePrice": 1399
@@ -18596,9 +18136,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1749,
+          "found": true
         }
       },
       "salePrice": 1449
@@ -18646,9 +18185,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1799,
+          "found": true
         }
       },
       "salePrice": 1499
@@ -18696,9 +18234,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2399,
+          "found": true
         }
       },
       "salePrice": 2099
@@ -18746,9 +18283,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2399,
+          "found": true
         }
       },
       "salePrice": 2099
@@ -18800,9 +18336,8 @@
           "found": false
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 1699,
+          "found": true
         }
       }
     },
@@ -18901,14 +18436,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2419,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2419,
+          "found": true
         }
       }
     },
@@ -18955,14 +18488,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2449,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2449,
+          "found": true
         }
       }
     },
@@ -19009,14 +18540,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2499,
+          "found": true
         }
       }
     },
@@ -19063,14 +18592,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2999,
+          "found": true
         }
       }
     },
@@ -19117,14 +18644,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2999,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 2999,
+          "found": true
         }
       }
     },
@@ -19170,14 +18695,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 4199,
+          "found": true
         }
       },
       "salePrice": 3899
@@ -19224,14 +18747,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 8398,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 8398,
+          "found": true
         }
       },
       "salePrice": 7798
@@ -19274,14 +18795,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5199,
+          "found": true
         }
       },
       "salePrice": 4899
@@ -19324,14 +18843,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5699,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5699,
+          "found": true
         }
       },
       "salePrice": 5399
@@ -19374,14 +18891,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 6399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 6399,
+          "found": true
         }
       },
       "salePrice": 6099
@@ -19424,14 +18939,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 6399,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 6399,
+          "found": true
         }
       },
       "salePrice": 6099
@@ -19478,14 +18991,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 10398,
+          "found": true
         }
       },
       "salePrice": 10098
@@ -19532,14 +19043,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5798,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 5798,
+          "found": true
         }
       },
       "salePrice": 5398
@@ -19586,14 +19095,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3998,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3998,
+          "found": true
         }
       },
       "salePrice": 3798
@@ -19640,14 +19147,12 @@
           "found": false
         },
         "mattress-dogzzz": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3398,
+          "found": true
         },
         "slumberland": {
-          "notAvailable": true,
-          "reason": "Doesn't carry this size",
-          "found": false
+          "price": 3398,
+          "found": true
         }
       },
       "salePrice": 3198

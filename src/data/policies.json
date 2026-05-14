@@ -48,15 +48,15 @@
     "warranty": "Manufacturer; 5-yr plan available"
   },
   "Mattress Dogzzz": {
-    "deliveryTime": "Varies",
-    "deliveryFee": "Varies",
-    "trialPeriod": "Varies",
+    "deliveryTime": "2-3 weeks",
+    "deliveryFee": "Free over $999 (select brands)",
+    "trialPeriod": "90 days (exchange only; $99 fee; no refunds)",
     "warranty": "Manufacturer warranty"
   },
   "Slumberland": {
-    "deliveryTime": "Varies",
-    "deliveryFee": "Varies",
-    "trialPeriod": "Varies",
-    "warranty": "Manufacturer warranty"
+    "deliveryTime": "1-5 days near hub; 1-2 weeks standard",
+    "deliveryFee": "Free doorstep in local zones; white-glove $149+",
+    "trialPeriod": "365 nights (30-night min; exchange only; $199 fee; no refunds)",
+    "warranty": "Manufacturer warranty; free service first 90 days"
   }
 }
