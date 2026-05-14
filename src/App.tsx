@@ -40,15 +40,15 @@ interface PolicyData {
 // All competitor IDs including Mattress Firm
 const allRetailers = [
   { id: 'mf', name: 'Mattress Firm' },
+  { id: 'muellers', name: "Mueller's Furniture" },
+  { id: 'mattress-dogzzz', name: 'Mattress Dogzzz' },
   { id: 'ashley', name: 'Ashley Furniture' },
   { id: 'macys', name: "Macy's" },
+  { id: 'slumberland', name: 'Slumberland' },
   { id: 'costco', name: 'Costco' },
-  { id: 'muellers', name: "Mueller's Furniture" },
   { id: 'carol-house', name: 'Carol House Furniture' },
   { id: 'wayfair', name: 'Wayfair' },
-  { id: 'jcpenney', name: 'JCPenney' },
-  { id: 'mattress-dogzzz', name: 'Mattress Dogzzz' },
-  { id: 'slumberland', name: 'Slumberland' }
+  { id: 'jcpenney', name: 'JCPenney' }
 ];
 
 // Parse competitor data
@@ -244,14 +244,12 @@ function App() {
       }
     });
     
-    // Sort by price (lowest first), unavailable at end
+    // Sort by fixed retailer order
+    const retailerOrder = ['mf', 'muellers', 'mattress-dogzzz', 'ashley', 'macys', 'slumberland', 'costco', 'carol-house', 'wayfair', 'jcpenney'];
     return prices.sort((a, b) => {
-      if (a.notAvailable && !b.notAvailable) return 1;
-      if (!a.notAvailable && b.notAvailable) return -1;
-      if (a.price === null && b.price !== null) return 1;
-      if (a.price !== null && b.price === null) return -1;
-      if (a.price === null && b.price === null) return 0;
-      return (a.price ?? 0) - (b.price ?? 0);
+      const aIdx = retailerOrder.indexOf(a.id);
+      const bIdx = retailerOrder.indexOf(b.id);
+      return (aIdx === -1 ? 999 : aIdx) - (bIdx === -1 ? 999 : bIdx);
     });
   }, [productData, mfDisplayPrice, showSalePrice]);
 
