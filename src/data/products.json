@@ -146,7 +146,12 @@
           "sizes": [
             "Split Cal King",
             "Twin",
-            "Split King"
+            "Split King",
+            "Twin XL",
+            "Queen",
+            "King",
+            "Cal King",
+            "Split Head King"
           ]
         },
         {
@@ -180,7 +185,12 @@
           "sizes": [
             "Split Cal King",
             "Twin",
-            "Split King"
+            "Split King",
+            "Twin XL",
+            "Queen",
+            "King",
+            "Cal King",
+            "Split Head King"
           ]
         },
         {

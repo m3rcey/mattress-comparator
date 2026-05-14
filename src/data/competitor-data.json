@@ -19156,6 +19156,506 @@
         }
       },
       "salePrice": 3198
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeBreeze 13\" Med Hybrid",
+      "size": "Twin XL",
+      "mfPrice": 5199,
+      "salePrice": 4899,
+      "competitors": {
+        "ashley": {
+          "price": 5199,
+          "found": true
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "price": 5199,
+          "found": true
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "mattress-dogzzz": {
+          "price": 5199,
+          "found": true
+        },
+        "slumberland": {
+          "price": 5199,
+          "found": true
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeBreeze 13\" Med Hybrid",
+      "size": "Queen",
+      "mfPrice": 5699,
+      "salePrice": 5399,
+      "competitors": {
+        "ashley": {
+          "price": 5699,
+          "found": true
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "price": 5699,
+          "found": true
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "mattress-dogzzz": {
+          "price": 5699,
+          "found": true
+        },
+        "slumberland": {
+          "price": 5699,
+          "found": true
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeBreeze 13\" Med Hybrid",
+      "size": "King",
+      "mfPrice": 6399,
+      "salePrice": 6099,
+      "competitors": {
+        "ashley": {
+          "price": 6399,
+          "found": true
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "price": 6399,
+          "found": true
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "mattress-dogzzz": {
+          "price": 6399,
+          "found": true
+        },
+        "slumberland": {
+          "price": 6399,
+          "found": true
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeBreeze 13\" Med Hybrid",
+      "size": "Cal King",
+      "mfPrice": 6399,
+      "salePrice": 6099,
+      "competitors": {
+        "ashley": {
+          "price": 6399,
+          "found": true
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "price": 6399,
+          "found": true
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "mattress-dogzzz": {
+          "price": 6399,
+          "found": true
+        },
+        "slumberland": {
+          "price": 6399,
+          "found": true
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeBreeze 13\" Med Hybrid",
+      "size": "Split Head King",
+      "mfPrice": 10398,
+      "salePrice": 10098,
+      "competitors": {
+        "ashley": {
+          "price": 10398,
+          "found": true
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "price": 10398,
+          "found": true
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "mattress-dogzzz": {
+          "price": 10398,
+          "found": true
+        },
+        "slumberland": {
+          "price": 10398,
+          "found": true
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeBreeze 13\" Soft",
+      "size": "Twin XL",
+      "mfPrice": 5199,
+      "salePrice": 4899,
+      "competitors": {
+        "ashley": {
+          "price": 5199,
+          "found": true
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "price": 5199,
+          "found": true
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "mattress-dogzzz": {
+          "price": 5199,
+          "found": true
+        },
+        "slumberland": {
+          "price": 5199,
+          "found": true
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeBreeze 13\" Soft",
+      "size": "Queen",
+      "mfPrice": 5699,
+      "salePrice": 5399,
+      "competitors": {
+        "ashley": {
+          "price": 5699,
+          "found": true
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "price": 5699,
+          "found": true
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "mattress-dogzzz": {
+          "price": 5699,
+          "found": true
+        },
+        "slumberland": {
+          "price": 5699,
+          "found": true
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeBreeze 13\" Soft",
+      "size": "King",
+      "mfPrice": 6399,
+      "salePrice": 6099,
+      "competitors": {
+        "ashley": {
+          "price": 6399,
+          "found": true
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "price": 6399,
+          "found": true
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "mattress-dogzzz": {
+          "price": 6399,
+          "found": true
+        },
+        "slumberland": {
+          "price": 6399,
+          "found": true
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeBreeze 13\" Soft",
+      "size": "Cal King",
+      "mfPrice": 6399,
+      "salePrice": 6099,
+      "competitors": {
+        "ashley": {
+          "price": 6399,
+          "found": true
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "price": 6399,
+          "found": true
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "mattress-dogzzz": {
+          "price": 6399,
+          "found": true
+        },
+        "slumberland": {
+          "price": 6399,
+          "found": true
+        }
+      }
+    },
+    {
+      "brand": "Tempur-Pedic",
+      "model": "LuxeBreeze 13\" Soft",
+      "size": "Split Head King",
+      "mfPrice": 10398,
+      "salePrice": 10098,
+      "competitors": {
+        "ashley": {
+          "price": 10398,
+          "found": true
+        },
+        "macys": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "costco": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "muellers": {
+          "price": 10398,
+          "found": true
+        },
+        "carol-house": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "wayfair": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "jcpenney": {
+          "notAvailable": true,
+          "reason": "Doesn't carry this size",
+          "found": false
+        },
+        "mattress-dogzzz": {
+          "price": 10398,
+          "found": true
+        },
+        "slumberland": {
+          "price": 10398,
+          "found": true
+        }
+      }
     }
   ]
 }
