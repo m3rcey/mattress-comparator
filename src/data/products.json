@@ -14,7 +14,8 @@
             "Queen",
             "King",
             "Cal King",
-            "Split Cal King"
+            "Split Cal King",
+            "Split King"
           ]
         },
         {
@@ -28,7 +29,8 @@
             "King",
             "Cal King",
             "Split Cal King",
-            "Split Queen"
+            "Split Queen",
+            "Split King"
           ]
         },
         {
@@ -41,8 +43,7 @@
             "Queen",
             "King",
             "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Split Cal King"
           ]
         },
         {
@@ -56,7 +57,7 @@
             "King",
             "Cal King",
             "Split Cal King",
-            "Split Queen"
+            "Split King"
           ]
         },
         {
@@ -69,8 +70,7 @@
             "Queen",
             "King",
             "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Split Cal King"
           ]
         },
         {
@@ -83,8 +83,7 @@
             "Queen",
             "King",
             "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Split Cal King"
           ]
         },
         {
@@ -107,7 +106,8 @@
             "King",
             "Cal King",
             "Split Cal King",
-            "Split Queen"
+            "Twin",
+            "Split King"
           ]
         },
         {
@@ -120,8 +120,7 @@
             "Queen",
             "King",
             "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Split Cal King"
           ]
         },
         {
@@ -131,71 +130,22 @@
             "Twin XL",
             "Queen",
             "King",
-            "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Cal King"
           ]
         },
         {
           "id": "probreeze-12-med-hybrid-2-0",
           "name": "ProBreeze 12\" Med Hybrid 2.0",
           "sizes": [
-            "Twin XL",
-            "Queen",
-            "King",
-            "Cal King",
-            "Split Cal King",
-            "Split Queen"
-          ]
-        },
-        {
-          "id": "luxebreeze-13-firm-2-0",
-          "name": "LuxeBreeze 13\" Firm 2.0",
-          "sizes": [
-            "Twin XL",
-            "Queen",
-            "King",
-            "Cal King",
-            "Split Cal King",
-            "Split Queen",
-            "Split Head King"
-          ]
-        },
-        {
-          "id": "luxebreeze-13-soft-2-0",
-          "name": "LuxeBreeze 13\" Soft 2.0",
-          "sizes": [
-            "Twin",
-            "Twin XL",
-            "Queen",
-            "King",
-            "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Split Cal King"
           ]
         },
         {
           "id": "luxebreeze-13-med-hybrid",
           "name": "LuxeBreeze 13\" Med Hybrid",
           "sizes": [
-            "Twin XL",
-            "Queen",
-            "King",
-            "Cal King",
             "Split Cal King",
-            "Split Queen",
-            "Split Head King"
-          ]
-        },
-        {
-          "id": "luxeadapt-2-0-13-med-hybrid",
-          "name": "LuxeAdapt 2.0 13\" Med Hybrid",
-          "sizes": [
             "Twin",
-            "Twin XL",
-            "Queen",
-            "King",
-            "Cal King",
             "Split King"
           ]
         },
@@ -211,53 +161,25 @@
           ]
         },
         {
-          "id": "luxeadapt-2-0-13-firm",
-          "name": "LuxeAdapt 2.0 13\" Firm",
-          "sizes": [
-            "Twin",
-            "Twin XL",
-            "Queen",
-            "King",
-            "Cal King",
-            "Split King"
-          ]
-        },
-        {
           "id": "luxebreeze-13-firm",
           "name": "LuxeBreeze 13\" Firm",
           "sizes": [
+            "Split Cal King",
             "Twin",
+            "Split King",
             "Twin XL",
             "Queen",
             "King",
             "Cal King",
-            "Split Head King",
-            "Split King"
+            "Split Head King"
           ]
         },
         {
           "id": "luxebreeze-13-soft",
           "name": "LuxeBreeze 13\" Soft",
           "sizes": [
+            "Split Cal King",
             "Twin",
-            "Twin XL",
-            "Queen",
-            "King",
-            "Cal King",
-            "Split Head King",
-            "Split King"
-          ]
-        },
-        {
-          "id": "proadapt-2-0-12-medium",
-          "name": "ProAdapt 2.0 12\" Medium",
-          "sizes": [
-            "Twin",
-            "Twin XL",
-            "Full",
-            "Queen",
-            "King",
-            "Cal King",
             "Split King"
           ]
         },
@@ -266,62 +188,6 @@
           "name": "ProBreeze 12\" Med Hybrid",
           "sizes": [
             "Twin",
-            "Twin XL",
-            "Queen",
-            "King",
-            "Cal King",
-            "Split King"
-          ]
-        },
-        {
-          "id": "proadapt-2-0-12-firm",
-          "name": "ProAdapt 2.0 12\" Firm",
-          "sizes": [
-            "Twin",
-            "Twin XL",
-            "Full",
-            "Queen",
-            "King",
-            "Cal King",
-            "Split King"
-          ]
-        },
-        {
-          "id": "proadapt-2-0-12-med-hybrid",
-          "name": "ProAdapt 2.0 12\" Med Hybrid",
-          "sizes": [
-            "Twin",
-            "Twin XL",
-            "Full",
-            "Queen",
-            "King",
-            "Cal King",
-            "Split King"
-          ]
-        },
-        {
-          "id": "adapt-2-0-11-med-hybrid",
-          "name": "Adapt 2.0 11\" Med Hybrid",
-          "sizes": [
-            "Twin",
-            "Twin XL",
-            "Full",
-            "Queen",
-            "King",
-            "Cal King",
-            "Split King"
-          ]
-        },
-        {
-          "id": "adapt-2-0-11-medium",
-          "name": "Adapt 2.0 11\" Medium",
-          "sizes": [
-            "Twin",
-            "Twin XL",
-            "Full",
-            "Queen",
-            "King",
-            "Cal King",
             "Split King"
           ]
         }
@@ -366,8 +232,7 @@
             "Queen",
             "King",
             "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Split Cal King"
           ]
         },
         {
@@ -467,8 +332,7 @@
             "Queen",
             "King",
             "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Split Cal King"
           ]
         },
         {
@@ -480,8 +344,7 @@
             "Queen",
             "King",
             "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Split Cal King"
           ]
         },
         {
@@ -500,14 +363,12 @@
           "id": "estate-15-plush-euro-pt",
           "name": "Estate 15\" Plush Euro PT",
           "sizes": [
-            "Twin",
             "Twin XL",
             "Full",
             "Queen",
             "King",
             "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Split Cal King"
           ]
         },
         {
@@ -518,8 +379,7 @@
             "Queen",
             "King",
             "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Split Cal King"
           ]
         },
         {
@@ -540,7 +400,6 @@
           "sizes": [
             "Twin XL",
             "Full",
-            "Queen",
             "King",
             "Cal King",
             "Split Cal King"
@@ -550,12 +409,7 @@
           "id": "reserve-17-firm-euro-pt",
           "name": "Reserve 17\" Firm Euro PT",
           "sizes": [
-            "Twin XL",
-            "Queen",
-            "King",
-            "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Queen"
           ]
         },
         {
@@ -567,7 +421,9 @@
             "Full",
             "Queen",
             "King",
-            "Cal King"
+            "Cal King",
+            "Split Cal King",
+            "Split Queen"
           ]
         }
       ]
@@ -757,7 +613,6 @@
             "Twin",
             "Twin XL",
             "Full",
-            "Queen",
             "King",
             "Cal King",
             "Split Cal King"
@@ -768,12 +623,10 @@
           "name": "Sealy Posturepedic Pro Lacey II Medium ET",
           "sizes": [
             "Twin",
-            "Twin XL",
             "Full",
             "Queen",
             "King",
-            "Cal King",
-            "Split Cal King"
+            "Cal King"
           ]
         },
         {
@@ -861,11 +714,6 @@
           "id": "sealy-posturepedic-elite-hybrid-high-point-ii-firm",
           "name": "Sealy Posturepedic Elite Hybrid High Point II Firm",
           "sizes": [
-            "Twin XL",
-            "Full",
-            "Queen",
-            "King",
-            "Cal King",
             "Split Cal King"
           ]
         },
@@ -877,9 +725,7 @@
             "Full",
             "Queen",
             "King",
-            "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Cal King"
           ]
         },
         {
@@ -890,9 +736,7 @@
             "Full",
             "Queen",
             "King",
-            "Cal King",
-            "Split Cal King",
-            "Split Queen"
+            "Cal King"
           ]
         }
       ]
