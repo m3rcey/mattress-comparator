@@ -2,13 +2,13 @@
   "Mattress Firm": {
     "deliveryTime": "Next-day; 2-7 days standard",
     "deliveryFee": "FREE incl. white-glove",
-    "trialPeriod": "120 nights (21-night min)",
+    "trialPeriod": "120 nights; full refund; no protector required",
     "warranty": "Manufacturer warranty; assists claims"
   },
   "Ashley": {
     "deliveryTime": "1-4 weeks; varies by location",
     "deliveryFee": "$69-$149; free promos available",
-    "trialPeriod": "30 days (Ashley brand only)",
+    "trialPeriod": "30 days (Ashley brand only); exchange only",
     "warranty": "10-yr Ashley; mfr for others"
   },
   "Macy's": {
@@ -20,43 +20,43 @@
   "Costco": {
     "deliveryTime": "3-7 days (boxed)",
     "deliveryFee": "FREE (members only)",
-    "trialPeriod": "Unlimited satisfaction guarantee",
+    "trialPeriod": "Unlimited; full refund",
     "warranty": "Manufacturer warranty"
   },
   "Mueller's": {
     "deliveryTime": "1-2 weeks; St. Louis only",
     "deliveryFee": "Fee applies; call store",
-    "trialPeriod": "Select models only",
+    "trialPeriod": "Select models only; call store",
     "warranty": "Manufacturer + protection plan"
   },
   "Carol House": {
     "deliveryTime": "1-3 weeks; St. Louis only",
     "deliveryFee": "Fee applies; call store",
-    "trialPeriod": "Unspecified",
+    "trialPeriod": "Unspecified; call store",
     "warranty": "Manufacturer warranty"
   },
   "Wayfair": {
     "deliveryTime": "1-5 days (boxed)",
     "deliveryFee": "FREE; haul-away $10-$25",
-    "trialPeriod": "100 nights (30-night min)",
+    "trialPeriod": "100 nights (30-night min); full refund",
     "warranty": "Manufacturer warranty"
   },
   "JCPenney": {
     "deliveryTime": "1-3 weeks; scheduled truck",
     "deliveryFee": "Varies; haul-away $25",
-    "trialPeriod": "120 days",
+    "trialPeriod": "120 days; exchange only",
     "warranty": "Manufacturer; 5-yr plan available"
   },
   "Mattress Dogzzz": {
     "deliveryTime": "2-3 weeks",
     "deliveryFee": "Free over $999 (select brands)",
-    "trialPeriod": "90 days (exchange only; $99 fee; no refunds)",
+    "trialPeriod": "90 days; exchange only; $99 fee; protector required",
     "warranty": "Manufacturer warranty"
   },
   "Slumberland": {
     "deliveryTime": "1-5 days near hub; 1-2 weeks standard",
     "deliveryFee": "Free doorstep in local zones; white-glove $149+",
-    "trialPeriod": "365 nights (30-night min; exchange only; $199 fee; no refunds)",
+    "trialPeriod": "365 nights (30-night min); exchange only; $199 fee; protector required",
     "warranty": "Manufacturer warranty; free service first 90 days"
   }
 }
